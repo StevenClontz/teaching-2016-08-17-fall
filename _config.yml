@@ -6,9 +6,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Cal 2
+title:            MA 126
 tagline:          'Notes, problems, and videos'
-description:      'Notes, problems, and videos for your Calculus 2 course.'
+description:      'Notes, problems, and videos for your Fall 2016 Calculus 2 course.'
 url:              https://stevenclontz.github.io/teaching-2016-08-17-fall/
 baseurl:          /teaching-2016-08-17-fall/
 
