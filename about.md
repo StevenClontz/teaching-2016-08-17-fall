@@ -1,30 +1,59 @@
 ---
 layout: page
-title: About
+title: About and Syllabus
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Please read this page carefully, as it explains how this course will
+be run, and functions as your course syllabus.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Instructor Information
 
-There are currently two themes built on Poole:
+* Name: Prof. S. Clontz
+* Email: <sclontz@southalabama.edu>
+* Office: ILB 314
+* Office Hours: by appointment
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Course Information
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+* Semester: Fall 2016
+* Title: Calculus II
+* Sections:
+    * MA 126-101
+    * MA 126-104
+* Room:
+    * ILB 350 (101)
+    * ILB 465 (104)
+* Times:
+    * MWF 9:05am, T 8:25am (101)
+    * MWF 12:20pm, T 12:30pm (104)
+* Final Exam Date/Time:
+    * Monday, Dec 5, 8:00am (101)
+    * Monday, Dec 5, 1:00pm (104)
 
-## Setup
+## Course Description
 
-Some fun facts about the setup of this project include:
+Upon the successful completion of the course a student will be able to:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+* Define, compute, and interpret a definite integral.
+* State, explain, and apply the fundamental theorem of calculus.
+* Perform techniques of integration, including u-substitution, integration by
+  parts, decomposition into partial fractions, and trigonometric substitution.
+* Recognize and compute improper integrals.
+* Apply integrals to concepts such as area, volume, arc length, mass, work,
+  and energy.
+* Manipulate infinite sequences and series.
+* Apply tests of convergence and divergence.
+* Find the interval of convergence for power series, manipulate power series
+  within their intervals of convergence, and represent analytic functions as a
+  Taylor series.
+* Describe plane curves in terms of parametric equations and polar
+  coordinates.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+This course will adopt a *"flipped classroom"* model. Students are expected
+to watch online lectures covering course material on their own time. Students
+will then be given assignments to complete in groups during the scheduled
+course times, with the assistance of the instructor. Put another way, you
+watch the lectures at home, and then do your "homework" during class when you
+can ask me questions.
 
-Thanks for reading!
+## Grading
