@@ -39,29 +39,17 @@ be run, and functions as your course syllabus.
 
 ## Course Description
 
-Upon the successful completion of the course a student will be able to:
-
-* Define, compute, and interpret a definite integral.
-* State, explain, and apply the fundamental theorem of calculus.
-* Perform techniques of integration, including u-substitution, integration by
-  parts, decomposition into partial fractions, and trigonometric substitution.
-* Recognize and compute improper integrals.
-* Apply integrals to concepts such as area, volume, arc length, mass, work,
-  and energy.
-* Manipulate infinite sequences and series.
-* Apply tests of convergence and divergence.
-* Find the interval of convergence for power series, manipulate power series
-  within their intervals of convergence, and represent analytic functions as a
-  Taylor series.
-* Describe plane curves in terms of parametric equations and polar
-  coordinates.
+This course expands upon the concepts of limits, derivatives, and integrals
+introduced in Calculus 1. In addition to developing advanced techniques
+for computing and applying integrals, the ultimate goal of the course is
+to introduce the *power series*, an "infinite polynomial" which can be used
+to express a wide class of differentiable functions.
 
 This course will adopt a *"flipped classroom"* model. Students are expected
 to watch online lectures covering course material on their own time. Students
 will then be given assignments to complete in groups during the scheduled
 course times, with the assistance of the instructor. Put another way, you
-watch the lectures at home, and then do your "homework" during class when you
-can ask me questions.
+watch the lectures at home, and then do your "homework" during class.
 
 ## Grading
 
