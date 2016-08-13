@@ -1,45 +1,73 @@
 ---
 layout: page
-title: "Part 2: Integration Techniques"
+title: "Part 2: Advanced Integration Techniques"
 ---
 
-## 1.1 Logarithms and Exponential Functions
+## 2.1 Integration by Substitution
 
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 7.1
+    - 5.5, 5.6
 
-### 1.1.1 The Natural Logarithm
+### 2.1.1 Substitution and the Chain Rule
 
-### 1.1.2 The Natural Number and Natural Exponential Function
+### 2.1.2 Substitution in Definite Integrals
 
-### 1.1.3 General Logarithms and Exponential Functions
-
-
-
-## 1.2 Trigonometric Functions
-
-#### Textbook References
-
-- University Calculus: Early Transcendentals (3rd Ed)
-    - (none)
-
-### 1.2.1 Sine and Cosine
-
-### 1.2.2 Geometric Properties
+### 2.1.3 Antiderivatives of Trigonometric Functions
 
 
 
-## 1.3 Hyperbolic Functions
+## 2.2 Integration by Parts
 
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 7.3
+    - 8.1
 
-### 1.3.1 Hyperbolic Sine and Cosine
+### 2.2.1 Parts and the Product Rule
 
-### 1.3.2 Other Hyperbolic Functions
+### 2.2.2 Integrating Definite Integrals by Parts
 
-### 1.3.3 Derivatives and Integrals of Hyperbolic Functions
+### 2.2.3 Antiderivatives of Logarithms
+
+
+
+## 2.3 Trigonometric Integrals
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 8.2
+
+### 2.3.1 Trigonometric Identities
+
+### 2.3.2 Integrating Products of Sine and Cosine
+
+### 2.3.3 Integrating Products of Secant and Tangent
+
+
+
+## 2.4 Trigonometric Substitution
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 8.3
+
+### 2.4.1 Pythagorean Forms
+
+### 2.4.2 Trigonometric Substitution
+
+
+
+## 2.5 Integrating with Partial Fractions
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 8.4
+
+### 2.5.1 Rational Functions and Partial Fractions
+
+### 2.5.2 Integrating Partial Fractions

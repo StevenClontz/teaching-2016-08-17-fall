@@ -3,18 +3,16 @@ layout: page
 title: "Part 3: Applications of Integrals"
 ---
 
-## 1.1 Logarithms and Exponential Functions
+## 3.1 Area Between Curves
 
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 7.1
+    - 5.6
 
-### 1.1.1 The Natural Logarithm
+### 3.1.1 Areas between Functions of \\(x\\)
 
-### 1.1.2 The Natural Number and Natural Exponential Function
-
-### 1.1.3 General Logarithms and Exponential Functions
+### 3.1.2 Areas between Functions of \\(y\\)
 
 
 
