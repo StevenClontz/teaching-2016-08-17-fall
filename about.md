@@ -94,6 +94,9 @@ Participation (150 points) is possible without 100% attendance.
 However, students may not count more than 150 Participation points toward
 their overall grade.
 
+Note that students earning less than 50 Participation points
+(1/3 of the maximum) will automatically receive a failing grade of F*.
+
 ## Quizzes
 
 At the end of most class periods, the instructor will pose an exit
