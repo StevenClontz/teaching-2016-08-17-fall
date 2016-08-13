@@ -3,6 +3,8 @@ layout: page
 title: "Part 1: Functions Defined by Derivatives and Integrals"
 ---
 
+---
+
 ## 1.1 Logarithms and Exponential Functions
 
 #### Textbook References
@@ -18,6 +20,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 
 
+---
+
 ## 1.2 Trigonometric Functions
 
 #### Textbook References
@@ -30,6 +34,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 ### 1.2.2 Geometric Properties
 
 
+
+---
 
 ## 1.3 Hyperbolic Functions
 

@@ -3,6 +3,8 @@ layout: page
 title: "Part 2: Advanced Integration Techniques"
 ---
 
+---
+
 ## 2.1 Integration by Substitution
 
 #### Textbook References
@@ -17,6 +19,8 @@ title: "Part 2: Advanced Integration Techniques"
 ### 2.1.3 Antiderivatives of Trigonometric Functions
 
 
+
+---
 
 ## 2.2 Integration by Parts
 
@@ -33,6 +37,8 @@ title: "Part 2: Advanced Integration Techniques"
 
 
 
+---
+
 ## 2.3 Trigonometric Integrals
 
 #### Textbook References
@@ -48,6 +54,8 @@ title: "Part 2: Advanced Integration Techniques"
 
 
 
+---
+
 ## 2.4 Trigonometric Substitution
 
 #### Textbook References
@@ -60,6 +68,8 @@ title: "Part 2: Advanced Integration Techniques"
 ### 2.4.2 Trigonometric Substitution
 
 
+
+---
 
 ## 2.5 Integrating with Partial Fractions
 

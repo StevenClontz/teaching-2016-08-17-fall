@@ -3,6 +3,8 @@ layout: page
 title: "Part 3: Applications of Integrals"
 ---
 
+---
+
 ## 3.1 Area Between Curves
 
 #### Textbook References
@@ -14,30 +16,92 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.1.2 Areas between Functions of \\(y\\)
 
+---
 
-
-## 1.2 Trigonometric Functions
-
-#### Textbook References
-
-- University Calculus: Early Transcendentals (3rd Ed)
-    - (none)
-
-### 1.2.1 Sine and Cosine
-
-### 1.2.2 Geometric Properties
-
-
-
-## 1.3 Hyperbolic Functions
+## 3.2 Volumes by Cross-Sectioning
 
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 7.3
+    - 6.1
 
-### 1.3.1 Hyperbolic Sine and Cosine
+### 3.2.1 Defining Volume with Integrals
 
-### 1.3.2 Other Hyperbolic Functions
+### 3.2.2 Circular Cross-Sections
 
-### 1.3.3 Derivatives and Integrals of Hyperbolic Functions
+
+
+---
+
+## 3.3 The Washer Method
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 6.1
+
+### 3.3.1 Rotation about Horizontal Axes
+
+### 3.3.2 Rotation about Vertical Axes
+
+
+
+---
+
+## 3.4 The Cylindrical Shell Method
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 6.2
+
+### 3.4.1 Rotation about Vertical Axes
+
+### 3.4.2 Rotation about Horizontal Axes
+
+
+
+
+---
+
+## 3.5 Arclength of Planar Curves
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 6.3
+
+### 3.5.1 The Arclength Formula
+
+
+
+
+---
+
+## 3.6 Surface Areas of Revolution
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 6.4
+
+### 3.6.1 The Frustum Method
+
+### 3.6.2 Formulas for Horizontal and Vertical Revolutions
+
+
+
+
+
+---
+
+## 3.7 Work
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 6.5
+
+### 3.7.1 Work by a Constant Force
+
+### 3.7.2 Work by a Variable Force
