@@ -3,43 +3,51 @@ layout: page
 title: "Part 4: Parametric Equations and Polar Coordiantes"
 ---
 
-## 1.1 Logarithms and Exponential Functions
+---
+
+## 4.1 Planar Parametrizations
 
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 7.1
+    - 10.1
 
-### 1.1.1 The Natural Logarithm
+### 4.1.1 Parametric Equations
 
-### 1.1.2 The Natural Number and Natural Exponential Function
+### 4.1.2 Parametrizing Curves Defined by Functions
 
-### 1.1.3 General Logarithms and Exponential Functions
-
-
-
-## 1.2 Trigonometric Functions
-
-#### Textbook References
-
-- University Calculus: Early Transcendentals (3rd Ed)
-    - (none)
-
-### 1.2.1 Sine and Cosine
-
-### 1.2.2 Geometric Properties
+### 4.1.3 Parametrizing Lines
 
 
 
-## 1.3 Hyperbolic Functions
+---
+
+## 4.2 Applications of Parametrizations
 
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 7.3
+    - 10.2, 6.3, 6.4
 
-### 1.3.1 Hyperbolic Sine and Cosine
+### 4.2.1 Parametric Formula for \\(dy/dx\\)
 
-### 1.3.2 Other Hyperbolic Functions
+### 4.2.2 Arclength
 
-### 1.3.3 Derivatives and Integrals of Hyperbolic Functions
+### 4.2.3 Surface Areas of Revolution
+
+
+
+---
+
+## 4.3 Polar Coordinates
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - 10.3
+
+### 4.3.1 Definition of Polar Coordinates
+
+### 4.3.2 Equations Relating Polar and Cartesian Coordinates
+
+### 4.3.3 Graphs of Polar Equations

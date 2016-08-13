@@ -61,47 +61,15 @@ title: "Part 3: Applications of Integrals"
 
 
 
-
 ---
 
-## 3.5 Arclength of Planar Curves
-
-#### Textbook References
-
-- University Calculus: Early Transcendentals (3rd Ed)
-    - 6.3
-
-### 3.5.1 The Arclength Formula
-
-
-
-
----
-
-## 3.6 Surface Areas of Revolution
-
-#### Textbook References
-
-- University Calculus: Early Transcendentals (3rd Ed)
-    - 6.4
-
-### 3.6.1 The Frustum Method
-
-### 3.6.2 Formulas for Horizontal and Vertical Revolutions
-
-
-
-
-
----
-
-## 3.7 Work
+## 3.5 Work
 
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
     - 6.5
 
-### 3.7.1 Work by a Constant Force
+### 3.5.1 Work by a Constant Force
 
-### 3.7.2 Work by a Variable Force
+### 3.5.2 Work by a Variable Force
