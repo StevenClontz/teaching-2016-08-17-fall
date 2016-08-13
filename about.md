@@ -161,7 +161,8 @@ Grades will be confidentially posted via USAonline.
 
 Problems on exams will not require the use of a calculator; however,
 the instructor will provide simple four-function calculators to
-assist with arithmetic. Otherwise, electronics are allowed to be used
+assist with arithmetic. No other electronics are allowed during exams.
+Otherwise, electronics are allowed to be used
 during class, provided they do not disrupt others or otherwise negatively
 affect participation.
 
