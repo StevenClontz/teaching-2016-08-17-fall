@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Part 1: Functions Defined by Derivatives and Integrals"
+title: "Part 2: Integration Techniques"
 ---
 
 ## 1.1 Logarithms and Exponential Functions

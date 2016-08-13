@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Part 1: Functions Defined by Derivatives and Integrals"
+title: "Part 4: Parametric Equations and Polar Coordiantes"
 ---
 
 ## 1.1 Logarithms and Exponential Functions

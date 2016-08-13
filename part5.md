@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Part 1: Functions Defined by Derivatives and Integrals"
+title: "Part 5: Sequences and Series"
 ---
 
 ## 1.1 Logarithms and Exponential Functions
