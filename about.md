@@ -141,10 +141,12 @@ excused absence.
 
 ## Accommodations
 
-Students seeking accommodations are encouraged to contact
+If you have a specific disability that qualifies you for academic
+accommodations, please notify the instructor and provide
+certification from
 [Student Disability Services](http://www.southalabama.edu/departments/sds/index.html).
-Please contact the instructor as soon as possible if SDS has approved
-any accommodations so that arrangements can be made.
+SDS is located at 320 Alumni
+Circle, Educational Services Building, Suite 19 (460-7212).
 
 ## Academic Honesty
 
