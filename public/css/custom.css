@@ -1,3 +1,7 @@
+.sidebar {
+  font-size: 16px;
+}
+
 .sidebar-nav-item {
   line-height: 1.5;
   margin-bottom: 0.5em;
