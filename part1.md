@@ -12,7 +12,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 7.1
+    - 7.1 (review: 1.5,1.6)
 
 ### 1.1.1 The Natural Logarithm
 
@@ -25,6 +25,10 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
   Use the definition \\( \ln x=\int_1^x \frac{1}{t}\,dt \\)
   to prove the property \\( \ln(ax) = \ln a + \ln x \\) for
   \\(a,x>0\\). (Hint: start by showing that the derivatives are the same.)
+- This allows us to define an indefinite integral for \\(1/x\\):
+  \\(\int\frac{1}{x}\,dx=\ln|x|+C\\). (Note the absolute value.)
+- **Example.**
+  Find \\(\int \frac{3}{x^2}-\frac{2}{x}+1+4x^2\,dx\\).
 
 ### 1.1.2 The Natural Number and Natural Exponential Function
 
@@ -55,7 +59,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 - **Example.**
   Use the definitions
   \\( \log_b x = \frac{\ln x}{\ln b} \\) and \\(b^x = \exp(x\ln b)\\)
-  to prove the property \\( x = \log_b(b^x) \\).
+  to prove the property \\( x = \log_b(b^x) \\). (That is,
+  \\(\log_b x\\) and \\(b^x\\) are inverse functions.)
 
 ### Exercises for 1.1
 
@@ -65,10 +70,13 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     to prove the property \\( \ln(x^p) = p\ln x \\) for \\(x>0\\)
     and \\(p\in\mathbb Q\\). (Hint:
     start by showing that the derivatives are the same.)
-3.  We saw that \\(\frac{d}{dx}[e^x]=e^x\\).
+3.  Find \\(\int \frac{6}{x^3}+\frac{2}{x}-3x\,dx\\).
+4.  Find \\(\int \frac{6x^4-x^2+4}{2x^3}\,dx\\).
+5.  We saw that \\(\frac{d}{dx}[e^x]=e^x\\).
     Describe infinitely many other functions \\(f(x)\\) such that
     \\(f'(x)=f(x)\\).
-4.  Find formulas for the derivatives of \\( \log_b x \\) and
+6.  Find \\(\frac{d}{dx}[\frac{1}{x}+3e^x]\\).
+6.  Find formulas for the derivatives of \\( \log_b x \\) and
     \\( a^x \\).
 
 
@@ -80,7 +88,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 #### Textbook References
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - (none)
+    - none (review: 1.3)
 
 ### 1.2.1 Sine and Cosine
 
