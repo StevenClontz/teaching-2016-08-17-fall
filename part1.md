@@ -25,7 +25,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
   Use the definition \\( \ln x=\int_1^x \frac{1}{t}\,dt \\)
   to prove the property \\( \ln(ax) = \ln a + \ln x \\) for
   \\(a,x>0\\). (Hint: start by showing that the derivatives are the same.)
-- This allows us to define an indefinite integral for \\(1/x\\):
+- This allows us to express an indefinite integral for \\(1/x\\):
   \\(\int\frac{1}{x}\,dx=\ln|x|+C\\). (Note the absolute value.)
 - **Example.**
   Find \\(\int \frac{3}{x^2}-\frac{2}{x}+1+4x^2\,dx\\).
