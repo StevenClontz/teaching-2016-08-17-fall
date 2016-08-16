@@ -3,7 +3,7 @@ layout: page
 title: "Part 1: Functions Defined by Derivatives and Integrals"
 ---
 
-*(note: all videos are temporary placeholders)*
+**(note: all videos are temporary placeholders, do not watch yet)**
 
 ---
 

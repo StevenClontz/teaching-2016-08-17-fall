@@ -3,6 +3,10 @@ layout: page
 title: "Part 0: Calculus 1 Review"
 ---
 
+(Need a refresher on something? Try [Paul's Online Math Notes][paul].)
+
+[paul]: http://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx
+
 ### Review Exercises
 
 1.  Prove that \\(\lim_{x\to 0} x^3\cos(\frac{1}{x})=0\\).
