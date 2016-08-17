@@ -20,6 +20,6 @@ title: "Part 0: Calculus 1 Review"
 5.  Compute the derivative \\(f'(x)\\) of \\(f(x)=\frac{1-x}{4+x^2}\\).
 6.  Compute the derivative \\(f'(x)\\) of \\(f(x)=e^{3x+x^3}\\).
 7.  Find all antiderivatives of \\(f(x)=2x^3-5x^4\\).
-8.  Compute \\(\frac{d}{dx}[\int_1^{x^2} \frac{dx}{1+x^2}]\\).
+8.  Compute \\(\frac{d}{dx}[\int_1^{x^2} \frac{dt}{1+t^2}]\\).
 9.  Evaluate \\(\int_0^{\pi/2} 3\sin x \, dx \\).
 10. State the Fundamental Theorem of Calculus (any form).
