@@ -68,7 +68,9 @@ Letter grades are assigned as follows:
 - C: between 700 and 799 points
 - D: between 650 and 699 points
 - F: 649 or less points
-- F*: less than 50 Participation points (overrules above assignments)
+- F: less than 50 Participation points (overrules above assignments)
+- F*: stop attending class before end of semester
+  (assigned by university, overrules above assignments)
 
 ## Participation
 
