@@ -20,7 +20,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 - Using integrals, we may rigorously define a logarithm.
 - \\( \ln x=\int_1^x \frac{1}{t}\,dt \\) for all \\(x>0\\)
-- \\( \frac{d}{dx}[\ln x] = \frac{1}{x} \\)
+- \\( \frac{d}{dx}[\ln x] = \frac{1}{x} \\) and \\(\ln 1 = 0\\)
 - **Example.**
   Use the definition \\( \ln x=\int_1^x \frac{1}{t}\,dt \\)
   to prove the property \\( \ln(ax) = \ln a + \ln x \\) for
@@ -65,17 +65,15 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 ### Exercises for 1.1
 
 1.  Use the definition \\( \ln x=\int_1^x \frac{1}{t}\,dt \\)
-    to prove that \\( \ln 1 = 0 \\).
-2.  Use the definition \\( \ln x=\int_1^x \frac{1}{t}\,dt \\)
     to prove the property \\( \ln(x^p) = p\ln x \\) for \\(x>0\\)
-    and \\(p\in\mathbb Q\\). (Hint:
-    start by showing that the derivatives are the same.)
-3.  Find \\(\int \frac{6}{x^3}+\frac{2}{x}-3x\,dx\\).
-4.  Find \\(\int \frac{6x^4-x^2+4}{2x^3}\,dx\\).
-5.  We saw that \\(\frac{d}{dx}[e^x]=e^x\\).
+    and \\(p\in\mathbb Q\\). (Hint: start by showing that both sides share
+    the same derivative.)
+2.  Find \\(\int \frac{6}{x^3}+\frac{2}{x}-3x\,dx\\).
+3.  Find \\(\int \frac{6x^4-x^2+4}{2x^3}\,dx\\).
+4.  We saw that \\(\frac{d}{dx}[e^x]=e^x\\).
     Describe infinitely many other functions \\(f(x)\\) such that
     \\(f'(x)=f(x)\\).
-6.  Find \\(\frac{d}{dx}[\frac{1}{x}+3e^x]\\).
+5.  Find \\(\frac{d}{dx}[\frac{1}{x}+3e^x]\\).
 6.  Find formulas for the derivatives of \\( \log_b x \\) and
     \\( a^x \\).
 
@@ -92,7 +90,32 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.2.1 Sine and Cosine
 
+- Similar to how \\(\ln x\\) and \\(e^x\\) are defined by integrals, we use
+  derivatives to define the trigonometric functions.
+- Define \\(f(x)=\sin x\\) to be the unique solution to the differential equation
+  (initial value problem) \\(f''(x)=-f(x),f'(0)=1,f(0)=0\\).
+- Define \\(\cos(x)\\) to be the derivative \\(\frac{d}{dx}[\sin x]\\).
+- **Example**
+  Prove that \\(\frac{d}{dx}[\cos x]=-\sin x\\).
+
 ### 1.2.2 Geometric Properties
+
+- The geometric properties of \\(\sin x\\) and \\(\cos x\\) come from the
+  fact that they satisfy the Pythagorean identity:
+  \\([\sin x]^2+[\cos x]^2=1\\).
+- **Example**
+  Prove the Pythagorean identity. (Hint: start by showing that both sides share
+  the same derivative.)
+
+### Exercises for 1.2
+
+1.  Show that \\(f(x)=\cos(x)\\) is a solution to the differential equation
+    \\(f''(x)=-f(x),f'(0)=0,f(0)=1\\).
+2.  Show that \\(f(x)=\sin(3x)\) is a solution to the differential equation
+    \\(f''(x)=-9f(x),f'(0)=3,f(0)=0\\).
+3.  Prove that if \\(\theta\\) is an angle where
+    \\(\sin\theta = \frac{3}{2}\\), then \\(\cos\theta\\) is either
+    \\(\frac{1}{2}\\) or \\(-\frac{1}{2}\\).
 
 
 
