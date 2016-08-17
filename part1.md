@@ -44,7 +44,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.1.3 General Logarithms and Exponential Functions
 
-*(currently uploading)*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u4ww4xnToOI" frameborder="0" allowfullscreen></iframe>
 
 - Since \\(\exp x\\) is defined for all real numbers, we may define
   \\(a^x = \exp(x\ln a)\\) for all \\(a>0\\) and \\(x\in\mathbb R\\).
