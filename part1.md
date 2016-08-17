@@ -3,8 +3,6 @@ layout: page
 title: "Part 1: Functions Defined by Derivatives and Integrals"
 ---
 
-**(note: all videos are temporary placeholders, do not watch yet)**
-
 ---
 
 ## 1.1 Logarithms and Exponential Functions
@@ -16,7 +14,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.1.1 The Natural Logarithm
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AmhDHRKGeJs" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7d0uTAlv0vo" frameborder="0" allowfullscreen></iframe>
 
 - Using integrals, we may rigorously define a logarithm.
 - \\( \ln x=\int_1^x \frac{1}{t}\,dt \\) for all \\(x>0\\)
@@ -32,7 +30,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.1.2 The Natural Number and Natural Exponential Function
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AmhDHRKGeJs" frameborder="0" allowfullscreen></iframe>
+*(currently uploading)*
 
 - Note that \\(a^p\\) has only been defined for when \\(p\in\mathbb Q\\).
 - Since \\(f(x)=\ln x\\) is differentiable and 1-to-1, we can define
@@ -46,7 +44,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.1.3 General Logarithms and Exponential Functions
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AmhDHRKGeJs" frameborder="0" allowfullscreen></iframe>
+*(currently uploading)*
 
 - Since \\(\exp x\\) is defined for all real numbers, we may define
   \\(a^x = \exp(x\ln a)\\) for all \\(a>0\\) and \\(x\in\mathbb R\\).
