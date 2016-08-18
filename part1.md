@@ -73,6 +73,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.2.1 Sine and Cosine
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qiVorZ9PNdg" frameborder="0" allowfullscreen></iframe>
+
 - Similar to how \\(\ln x\\) and \\(e^x\\) are defined by integrals, we use
   derivatives to define the trigonometric functions.
 - Define \\(f(x)=\sin x\\) to be the unique solution to the differential equation
@@ -84,6 +86,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
   of \\(\sin x\\) and \\(\cos x\\).
 
 ### 1.2.2 Geometric Properties
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/COGs6o__pL0" frameborder="0" allowfullscreen></iframe>
 
 - The geometric properties of \\(\sin x\\) and \\(\cos x\\) come from the
   fact that they satisfy the Pythagorean identity:
@@ -105,8 +109,10 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.3.1 Hyperbolic Sine and Cosine
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J78Ido7MOxE" frameborder="0" allowfullscreen></iframe>
+
 - Exponential functions are used to define the hyperbolic functions,
-  which look and behave like trigonometric functions.
+  which behave like trigonometric functions in many ways.
     - \\(\sinh x = \frac{e^x-e^{-x}}{2}\\)
     - \\(\cosh x = \frac{e^x+e^{-x}}{2}\\)
 - **Example** Evaluate \\(\sinh(0)\\) and \\(\cosh(0)\\).
@@ -117,6 +123,9 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 \\(\newcommand{\csch}{\mathrm{csch}\,}\\)
 
 ### 1.3.2 Other Hyperbolic Functions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5pHJkJoPSiA" frameborder="0" allowfullscreen></iframe>
+
 - The other hypberbolic functions are defined the same way their
   trig counterparts are, and have similar properties.
     - \\(\tanh x = \frac{\sinh x}{\cosh x} = \frac{e^x-e^{-x}}{e^x+e^{-x}}\\)
@@ -128,6 +137,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 
 ### 1.3.3 Derivatives and Integrals of Hyperbolic Functions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8WSn1tyUE90" frameborder="0" allowfullscreen></iframe>
 
 - Their derivatives also behave similarly.
     - \\(\frac{d}{dx}[\sinh x] = \cosh x\\)
@@ -188,7 +199,10 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 1.  Evaluate \\(\sinh(\ln 6)\\).
 2.  Prove that \\(\sinh(2x)=2\sinh(x)\cosh(x)\\).
-3.  Evaluate \\(\tanh(\ln 3)\\).
-4.  Simplify \\(\sinh(x)\coth(x)\cosh(x)-\sinh^2(x)\\).
-5.  Prove that \\(\frac{d}{dx}[\sech x] = -\sech x\tanh x\\).
-6.  Compute \\(\frac{d}{dx}[\tanh(3x)-\sech(\ln x)]\\).
+3.  Prove that \\(\cosh^2 x - \sinh^2 x = 1\\).
+4.  Evaluate \\(\tanh(\ln 3)\\).
+5.  Simplify \\(\sinh(x)\coth(x)\cosh(x)-\frac{1}{\csch^2(x)}\\).
+    (Hint: don't convert to exponential forms.)
+6.  Prove that \\(\frac{d}{dx}[\sech x] = -\sech x\tanh x\\).
+7.  Compute \\(\frac{d}{dx}[\tanh(3x)-\sech(\ln x)]\\).
+8.  Find \\(\int 3\csch x\coth x - 2\sinh x\,dx\\).
