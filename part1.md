@@ -105,10 +105,52 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.3.1 Hyperbolic Sine and Cosine
 
+- Exponential functions are used to define the hyperbolic functions,
+  which look and behave like trigonometric functions.
+    - \\(\sinh x = \frac{e^x-e^{-x}}{2}\\)
+    - \\(\cosh x = \frac{e^x+e^{-x}}{2}\\)
+- **Example** Evaluate \\(\sinh(0)\\) and \\(\cosh(0)\\).
+- **Example** Evaluate \\(\cosh(\ln 4)\\).
+- **Example** Prove that \\(\sinh(2x)=2\sinh(x)\cosh(x)\\).
+
+\\(\newcommand{\sech}{\mathrm{sech}\,}\\)
+\\(\newcommand{\csch}{\mathrm{csch}\,}\\)
+
 ### 1.3.2 Other Hyperbolic Functions
+- The other hypberbolic functions are defined the same way their
+  trig counterparts are, and have similar properties.
+    - \\(\tanh x = \frac{\sinh x}{\cosh x} = \frac{e^x-e^{-x}}{e^x+e^{-x}}\\)
+    - \\(\coth x = \frac{\cosh x}{\sinh x} = \frac{e^x+e^{-x}}{e^x-e^{-x}}\\)
+    - \\(\sech x = \frac{1}{\cosh x}=\frac{2}{e^x+e^{-x}}\\)
+    - \\(\csch x = \frac{1}{\sinh x}=\frac{2}{e^x-e^{-x}}\\)
+- **Example** Evaluate \\(\sech(-\ln 2)\\).
+- **Example** Prove that \\(\tanh^2(x)=1-\sech^2(x)\\).
+
 
 ### 1.3.3 Derivatives and Integrals of Hyperbolic Functions
 
+- Their derivatives also behave similarly.
+    - \\(\frac{d}{dx}[\sinh x] = \cosh x\\)
+    - \\(\frac{d}{dx}[\cosh x] = \sinh x\\)
+    - \\(\frac{d}{dx}[\tanh x] = \sech^2 x\\)
+    - \\(\frac{d}{dx}[\coth x] = -\csch^2 x\\)
+    - \\(\frac{d}{dx}[\sech x] = -\sech x\tanh x\\)
+    - \\(\frac{d}{dx}[\csch x] = -\csch x\coth x\\)
+- **Example**
+  Use their definitions to prove that \\(\frac{d}{dx}[\cosh x]=\sinh x\\).
+- **Example**
+  Use their definitions to prove that \\(\frac{d}{dx}[\coth x]=\csch^2 x\\).
+- **Example**
+  Compute \\(\frac{d}{dx}[\sinh(2x)+\coth(x^2)]\\).
+- Their integral formulas may be found by just reversing the equations.
+    - \\(\int \cosh x\,dx = \sinh x + C \\)
+    - \\(\int \sinh x\,dx = \cosh x + C \\)
+    - \\(\int \sech^2 x\,dx = \tanh x + C \\)
+    - \\(\int \csch^2 x\,dx = -\coth x + C \\)
+    - \\(\int\sech x\tanh x\,dx = -\sech x + C \\)
+    - \\(\int\csch x\coth x\,dx = -\csch x + C \\)
+- **Example**
+  Find \\(\int 4\csch^2 x-3\sinh x\,dx\\).
 
 ---
 
@@ -137,7 +179,16 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     \\(f^{\prime\prime}(x)=-9f(x),f'(0)=3,f(0)=0\\).
 3.  Find a solution to the differential equation
     \\(f^{\prime\prime}(x)=-f(x),f'(0)=0,f(0)=4\\).
-3.  Prove that if \\(\theta\\) is an angle where
+4.  Prove that if \\(\theta\\) is an angle where
     \\(\sin\theta = -\frac{5}{13}\\), then \\(\cos\theta\\) is either
     \\(\frac{12}{13}\\) or \\(-\frac{12}{13}\\). (Hint: use the Pythagorean
     identity.)
+
+### Exercises for 1.3
+
+1.  Evaluate \\(\sinh(\ln 6)\\).
+2.  Prove that \\(\sinh(2x)=2\sinh(x)\cosh(x)\\).
+3.  Evaluate \\(\tanh(\ln 3)\\).
+4.  Simplify \\(\sinh(x)\coth(x)\cosh(x)-\sinh^2(x)\\).
+5.  Prove that \\(\frac{d}{dx}[\sech x] = -\sech x\tanh x\\).
+6.  Compute \\(\frac{d}{dx}[\tanh(3x)-\sech(\ln x)]\\).
