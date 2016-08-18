@@ -16,10 +16,13 @@ title: "Part 0: Calculus 1 Review"
     2. continuous but not differentiable.
     3. not continuous.
 4.  Compute the derivative \\(f'(x)\\) of \\(f(x)=3-5x+7x^7\\).
-4.  Compute the derivative \\(f'(x)\\) of \\(f(x)=3x^2\tan x\\).
-5.  Compute the derivative \\(f'(x)\\) of \\(f(x)=\frac{1-x}{4+x^2}\\).
-6.  Compute the derivative \\(f'(x)\\) of \\(f(x)=e^{3x+x^3}\\).
-7.  Find all antiderivatives of \\(f(x)=2x^3-5x^4\\).
-8.  Compute \\(\frac{d}{dx}[\int_1^{x^2} \frac{dt}{1+t^2}]\\).
-9.  Evaluate \\(\int_0^{\pi/2} 3\sin x \, dx \\).
-10. State the Fundamental Theorem of Calculus (any form).
+5.  Compute the derivative \\(f'(x)\\) of \\(f(x)=3x^2\tan x\\).
+6.  Compute the derivative \\(f'(x)\\) of \\(f(x)=\frac{1-x}{4+x^2}\\).
+7.  Compute the derivative \\(f'(x)\\) of \\(f(x)=e^{3x+x^3}\\).
+8.  Find all antiderivatives of \\(f(x)=2x^3-5x^4\\).
+9.  Compute \\(\frac{d}{dx}[\int_1^{x^2} \frac{dt}{1+t^2}]\\).
+10. Evaluate \\(\int_0^{\pi/2} 3\sin x \, dx \\).
+
+### Solution Videos
+
+*(to be uploaded)*
