@@ -11,7 +11,7 @@ title: "Part 0: Calculus 1 Review"
 
 1.  Prove that \\(\lim_{x\to 0} x^2\cos(\frac{1}{x})=0\\).
 2.  Prove that \\(\lim_{x\to 4} \frac{x-4}{\sqrt{x}-2}=4\\).
-3.  Give examples of functions which are
+3.  Give examples of functions defined for all real numbers which are
     1. differentiable.
     2. continuous but not differentiable.
     3. not continuous.
@@ -23,6 +23,4 @@ title: "Part 0: Calculus 1 Review"
 9.  Compute \\(\frac{d}{dx}[\int_1^{x^2} \frac{dt}{1+t^2}]\\).
 10. Evaluate \\(\int_0^{\pi/2} 3\sin x \, dx \\).
 
-### Solution Videos
-
-*(to be uploaded)*
+[Solutions]({{site.baseurl}}public/part0-solutions.pdf)
