@@ -183,6 +183,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     \\( \frac{d}{dx}[\log_b x]=\frac{1}{x\ln b} \\) and
     \\( \frac{d}{dx}[a^x]=a^x \ln a \\).
 
+[Solutions]({{site.baseurl}}public/solutions/1.1.pdf)
+
 ### Exercises for 1.2
 
 1.  Show that \\(f(x)=\cos(x)\\) is a solution to the differential equation

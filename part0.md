@@ -23,4 +23,4 @@ title: "Part 0: Calculus 1 Review"
 9.  Compute \\(\frac{d}{dx}[\int_1^{x^2} \frac{dt}{1+t^2}]\\).
 10. Evaluate \\(\int_0^{\pi/2} 3\sin x \, dx \\).
 
-[Solutions]({{site.baseurl}}public/part0-solutions.pdf)
+[Solutions]({{site.baseurl}}public/solutions/0.pdf)
