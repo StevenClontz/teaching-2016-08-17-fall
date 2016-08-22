@@ -179,8 +179,9 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
   Describe infinitely many other functions \\(f(x)\\) such that
   \\(f'(x)=f(x)\\).
 5.  Find \\(\frac{d}{dx}[\frac{1}{x}+3e^x]\\).
-6.  Find formulas for the derivatives of \\( \log_b x \\) and
-  \\( a^x \\).
+6.  Prove the following derivative formulas:
+    \\( \frac{d}{dx}[\log_b x]=\frac{1}{x\ln b} \\) and
+    \\( \frac{d}{dx}[a^x]=a^x \ln a \\).
 
 ### Exercises for 1.2
 
