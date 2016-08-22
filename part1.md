@@ -182,6 +182,17 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 6.  Prove the following derivative formulas:
     \\( \frac{d}{dx}[\log_b x]=\frac{1}{x\ln b} \\) and
     \\( \frac{d}{dx}[a^x]=a^x \ln a \\).
+7.  (Quiz) Integrate \\(\int 3x^4+3e^x-\frac{4}{x}\,dx\\).
+    - \\(12x^3-3e^x+4\ln\|x\|+C\\)
+    - \\(\frac{3}{5}x^5+3e^x-4\ln\|x\|+C\\)
+    - \\(\frac{3}{4}x^5+3xe^{x-1}-\frac{4}{x^2}+C\\)
+    - None of the above
+8.  (Quiz) Differentiate \\(f(x)=\ln(x^2)+e^{x^3}\\).
+    - \\(f'(x)=\frac{2}{x}+3x^2e^{x^3}\\)
+    - \\(f'(x)=2x\ln(x^2)+x^3e^{x^3-1}+C\\)
+    - \\(f'(x)=\frac{2x}{x^2}+e^{x^3}\\)
+    - None of the above
+
 
 [Solutions]({{site.baseurl}}public/solutions/1.1.pdf)
 
