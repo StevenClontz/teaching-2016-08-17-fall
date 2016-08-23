@@ -204,8 +204,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     \\(f^{\prime\prime}(x)=-9f(x),f'(0)=3,f(0)=0\\).
 3.  Find a solution to the differential equation
     \\(f^{\prime\prime}(x)=-f(x),f'(0)=0,f(0)=4\\).
-4.  Prove that if \\(\theta\\) is an angle where
-    \\(\sin\theta = -\frac{5}{13}\\), then \\(\cos\theta\\) is either
+4.  Prove that if \\( x\\) is an angle where
+    \\(\sin x = -\frac{5}{13}\\), then \\(\cos x\\) is either
     \\(\frac{12}{13}\\) or \\(-\frac{12}{13}\\). (Hint: use the Pythagorean
     identity.)
 5.  (Optional)
@@ -214,6 +214,9 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 6.  (Optional)
     Prove that \\(-1\leq\sin x\leq 1\\) and \\(-1\leq\cos x\leq 1\\).
     (Hint: use the Pythagorean identity.)
+
+
+[Solutions]({{site.baseurl}}public/solutions/1.2.pdf)
 
 ### Exercises for 1.3
 
