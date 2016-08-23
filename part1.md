@@ -208,15 +208,22 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     \\(\sin\theta = -\frac{5}{13}\\), then \\(\cos\theta\\) is either
     \\(\frac{12}{13}\\) or \\(-\frac{12}{13}\\). (Hint: use the Pythagorean
     identity.)
+5.  (Optional)
+    Find a solution to the differential equation
+    \\(f^{\prime\prime}(x)=-4f(x),f'(0)=6,f(0)=0\\).
+6.  (Optional)
+    Prove that \\(-1\leq\sin x\leq 1\\) and \\(-1\leq\cos x\leq 1\\).
+    (Hint: use the Pythagorean identity.)
 
 ### Exercises for 1.3
 
 1.  Evaluate \\(\sinh(\ln 6)\\).
-2.  Prove that \\(\sinh(2x)=2\sinh(x)\cosh(x)\\).
+3.  Prove that \\(\cosh (2x) = \cosh^2 x + \sinh^2 x\\).
 3.  Prove that \\(\cosh^2 x - \sinh^2 x = 1\\).
 4.  Evaluate \\(\tanh(\ln 3)\\).
 5.  Simplify \\(\sinh(x)\coth(x)\cosh(x)-\frac{1}{\csch^2(x)}\\).
-    (Hint: don't convert to exponential forms.)
-6.  Prove that \\(\frac{d}{dx}[\sech x] = -\sech x\tanh x\\).
-7.  Compute \\(\frac{d}{dx}[\tanh(3x)-\sech(\ln x)]\\).
-8.  Find \\(\int 3\csch x\coth x - 2\sinh x\,dx\\).
+    (Hint: convert everything to \\(\sinh x\\) and \\(\cosh x\\).)
+6.  Prove that \\(\frac{d}{dx}[\sinh x] = \cosh x\\).
+7.  Prove that \\(\frac{d}{dx}[\sech x] = -\sech x\tanh x\\).
+8.  Compute \\(\frac{d}{dx}[\tanh(3x)-\sech(\ln x)]\\).
+9.  Find \\(\int 3\csch x\coth x - 2\sinh x\,dx\\).
