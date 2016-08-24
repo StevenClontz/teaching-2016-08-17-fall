@@ -34,11 +34,12 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 - Note that \\(a^p\\) has only been defined for when \\(p\in\mathbb Q\\).
 - Since \\(f(x)=\ln x\\) is differentiable and 1-to-1, we can define
-  \\(\exp x=f^{-1}(x)\\) to be its differentiable inverse.
+  \\(\exp x=f^{\leftarrow}(x)\\) to be its differentiable inverse.
 - **Example.**
-  Use the fact \\(\frac{d}{dx}[f^{-1}(x)]=\frac{1}{f'(f^{-1}(x))}\\)
+  Use the fact
+  \\(\frac{d}{dx}[f^{\leftarrow}(x)]=\frac{1}{f'(f^{\leftarrow}(x))}\\)
   to prove that \\(\frac{d}{dx}[\exp x]=\exp x\\).
-  (Hint: let \\(f(x)=\ln x,f'(x)=\frac{1}{x},f^{-1}(x)=\exp x\\).)
+  (Hint: let \\(f(x)=\ln x,f'(x)=\frac{1}{x},f^{\leftarrow}(x)=\exp x\\).)
 - Let \\(e=\exp 1\\). We'll see much later in the
   course why \\(e\approx 2.718\\).
 
@@ -228,5 +229,14 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     (Hint: convert everything to \\(\sinh x\\) and \\(\cosh x\\).)
 6.  Prove that \\(\frac{d}{dx}[\sinh x] = \cosh x\\).
 7.  Prove that \\(\frac{d}{dx}[\sech x] = -\sech x\tanh x\\).
+    (Hint: use the fact that \\(\frac{d}{dx}[\cosh x] = \sinh x\\).)
 8.  Compute \\(\frac{d}{dx}[\tanh(3x)-\sech(\ln x)]\\).
 9.  Find \\(\int 3\csch x\coth x - 2\sinh x\,dx\\).
+10. (Optional)
+    Let \\(\sinh^{\leftarrow}(x)\\) be the inverse function of
+    \\(\sinh(x)\\). Use the facts
+    \\(\frac{d}{dx}[f^{\leftarrow}(x)]=\frac{1}{f'(f^{\leftarrow}(x))}\\)
+    and \\(\cosh^2 x-\sinh^2 x = 1\\) to prove that
+    \\(\frac{d}{dx}[\sinh^{\leftarrow}(x)]=\frac{1}{\sqrt{1+x^2}}\\).
+11. (Optional)
+    Prove that \\(\sinh^{\leftarrow}(x)=\ln(\sqrt{x^2+1}+x)\\).
