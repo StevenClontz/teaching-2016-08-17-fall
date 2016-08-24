@@ -14,11 +14,40 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### 2.1.1 Substitution and the Chain Rule
 
+- Reversing the Chain Rule \\(\frac{d}{dx}[f(g(x))]=f'(g(x))g'(x)\\)
+  yields the Substitution Rule \\(\int f'(g(x))g'(x)\,dx=f(g(x))+C\\).
+- This is often abbreviated as \\(\int f'(u)\,du=f(u)+C\\)
+  by using the substitutions \\(u=g(x)\\) and \\(du=g'(x)dx\\).
+- **Example**
+  Find \\(\int 4(3+4x)^2\,dx\\).
+- **Example**
+  Find \\(\int 3u^2\sin(u^3)\,du\\).
+- **Example**
+  Find \\(\int \frac{x}{x^2+1}\,dx\\).
+- **Example**
+  Find \\(\int \frac{4\sinh(\ln t)}{t}\,dt\\).
+
+
 ### 2.1.2 Substitution in Definite Integrals
+
+- When dealing with definite integrals, you may either convert the
+  boundaries to \\(u\\)-values, or you must substitute back for the original
+  variable before plugging in boundaries.
+- **Example**
+  Compute \\(\int_1^2 4(3+4x)^2\,dx\\).
+- **Example**
+  Compute \\(\int_0^1 z\sqrt{1-z}\,dz\\).
+- **Example**
+  Compute \\(\int_0^{\pi/4}\tan^2\theta\sec^2\theta\,d\theta\\).
 
 ### 2.1.3 Antiderivatives of Trigonometric Functions
 
-
+- The antiderivatives of the basic trig functions (besides sine/cosine)
+  may be derived by using Substitution.
+- **Example**
+  Use Substitution to find \\(\int\tan\theta\,d\theta\\).
+- **Example**
+  Prove that \\(\int\csc x\,dx = -\ln|\csc x+\cot x|+C\\).
 
 ---
 
@@ -31,9 +60,43 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### 2.2.1 Parts and the Product Rule
 
+- We may reorder the Product Rule
+  \\(\frac{d}{dx}[f(x)g(x)]=g(x)f'(x)+f(x)g'(x)\\)
+  as follows:
+  \\(f(x)g'(x)=\frac{d}{dx}[f(x)g(x)]-g(x)f'(x)\\).
+- Integrating both sides
+  yields the rule of Integration by Parts:
+  \\(\int f(x)g'(x)\,dx=f(x)g(x)-\int g(x)f'(x)\,dx\\).
+- This is often abbreviated as
+  \\(\int u\,dv=uv-\int v\,du\\)
+  by using the substitutions \\(u=f(x)\\) \\(du=f'(x)dx\\),
+  \\(v=g(x)\\) \\(dv=g'(x)dx\\).
+- **Example**
+  Find \\(\int 2x\cos(x)\,dx\\).
+- **Example**
+  Find \\(\int te^t\,dt\\).
+- Occasionally you'll need to use parts twice.
+- **Example**
+  Find \\(\int 3x^2\sinh(x)\,dx\\).
+- Especially tricky problems may involve cycling back to the
+  original integral.
+- **Example**
+  Find \\(\int e^w\sin(2w)\,dw\\).
+
 ### 2.2.2 Integrating Definite Integrals by Parts
 
+- When using parts to evaluate definite integrals, do not forget
+  to apply the bounds of integration to the entire integral.
+- **Example**
+  Find \\(\int_0^1 s^2e^s\,ds\\).
+
 ### 2.2.3 Antiderivatives of Logarithms
+
+- Integrating logarithms is based on integration by parts.
+- **Example**
+  Use Integration by Parts to find \\(\int\ln x\,dx\\).
+- **Example**
+  Find \\(\int 4t\ln(t)\,dt\\).
 
 
 
