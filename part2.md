@@ -34,7 +34,7 @@ title: "Part 2: Advanced Integration Techniques"
   boundaries to \\(u\\)-values, or you must substitute back for the original
   variable before plugging in boundaries.
 - **Example**
-  Compute \\(\int_1^2 4(3+4x)^2\,dx\\).
+  Compute \\(\int_{1/4}^{1/2} 4(3+4x)^2\,dx\\).
 - **Example**
   Compute \\(\int_0^1 z\sqrt{1-z}\,dz\\).
 - **Example**
