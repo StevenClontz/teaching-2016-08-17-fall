@@ -14,12 +14,17 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### 2.1.1 Substitution and the Chain Rule
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QRUa732E61Q" frameborder="0" allowfullscreen></iframe>
+
 - Reversing the Chain Rule \\(\frac{d}{dx}[f(g(x))]=f'(g(x))g'(x)\\)
   yields the Substitution Rule \\(\int f'(g(x))g'(x)\,dx=f(g(x))+C\\).
 - This is often abbreviated as \\(\int f'(u)\,du=f(u)+C\\)
   by using the substitutions \\(u=g(x)\\) and \\(du=g'(x)dx\\).
 - **Example**
   Find \\(\int 4(3+4x)^2\,dx\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fC7suwFgwko" frameborder="0" allowfullscreen></iframe>
+
 - **Example**
   Find \\(\int 3u^2\sin(u^3)\,du\\).
 - **Example**
@@ -29,6 +34,8 @@ title: "Part 2: Advanced Integration Techniques"
 
 
 ### 2.1.2 Substitution in Definite Integrals
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fcaWT_qLcU" frameborder="0" allowfullscreen></iframe>
 
 - When dealing with definite integrals, you may either convert the
   boundaries to \\(u\\)-values, or you must substitute back for the original
@@ -41,6 +48,8 @@ title: "Part 2: Advanced Integration Techniques"
   Compute \\(\int_0^{\pi/4}\tan^2\theta\sec^2\theta\,d\theta\\).
 
 ### 2.1.3 Antiderivatives of Trigonometric Functions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHkxJk6bBAc" frameborder="0" allowfullscreen></iframe>
 
 - The antiderivatives of the basic trig functions (besides sine/cosine)
   may be derived by using Substitution.
@@ -60,6 +69,8 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### 2.2.1 Parts and the Product Rule
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p2qwAALpV70" frameborder="0" allowfullscreen></iframe>
+
 - We may reorder the Product Rule
   \\(\frac{d}{dx}[f(x)g(x)]=g(x)f'(x)+f(x)g'(x)\\)
   as follows:
@@ -73,6 +84,9 @@ title: "Part 2: Advanced Integration Techniques"
   \\(v=g(x)\\) \\(dv=g'(x)dx\\).
 - **Example**
   Find \\(\int 2x\cos(x)\,dx\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8wA0Onik9rc" frameborder="0" allowfullscreen></iframe>
+
 - **Example**
   Find \\(\int te^t\,dt\\).
 - Occasionally you'll need to use parts twice.
