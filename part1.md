@@ -240,3 +240,16 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     \\(\frac{d}{dx}[\sinh^{\leftarrow}(x)]=\frac{1}{\sqrt{1+x^2}}\\).
 11. (Optional)
     Prove that \\(\sinh^{\leftarrow}(x)=\ln(\sqrt{x^2+1}+x)\\).
+12. (Quiz)
+    Evaluate \\(\cosh(\ln 2)\\).
+    - \\(\frac{3}{5}\\)
+    - \\(\frac{2}{3}\\)
+    - \\(\frac{5}{4}\\)
+13. (Quiz)
+    Differentiate \\(f(x)=\tanh(x^2)-\cosh(2x+1)\\).
+    - \\(f'(x)=-\sech(x^2)\tanh(x^2)+\sinh(2x+1)+2\\)
+    - \\(f'(x)=2x\sech^2(x^2)-2\sinh(2x+1)\\)
+    - \\(f'(x)=\frac{1}{1+x^4}+2\sinh(2x+1)\\)
+
+[Solutions 1-11]({{site.baseurl}}public/solutions/1.3.pdf)
+[Solutions 12,13]({{site.baseurl}}public/solutions/1.3quiz.pdf)
