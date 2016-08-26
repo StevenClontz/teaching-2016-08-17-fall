@@ -1,0 +1,64 @@
+\documentclass[12pt]{exam}
+
+\newcommand{\ds}{\ensuremath{\displaystyle}}
+
+\usepackage{amsmath,amsfonts, amsthm}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{harpoon}
+\renewcommand{\arraystretch}{1.5}
+
+\newcommand{\harpvec}[1]{\overrightharp{\ensuremath{\mathbf{#1}}}}
+\newcommand{\vect}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\<}{(}
+\renewcommand{\>}{)}
+\newcommand{\p}{\partial}
+
+% ref: http://pgfplots.sourceforge.net/gallery.html
+% ref: http://tex.stackexchange.com/a/74575/79754
+\usepackage{pgfplots}% This uses tikz
+\pgfplotsset{compat=newest}% use newest version
+\tikzset{LineStyle/.style={smooth, ultra thick, samples=400}}
+
+% \printanswers
+
+\begin{document}
+
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\centering
+MA 126 | Fall 2016 | Prof. Clontz | Quiz
+}}}
+\end{center}
+\vspace{0.1in}
+\makebox[\textwidth]{
+  Name:\enspace\hrulefill\hrulefill\hrulefill
+}
+
+\vspace{12pt}
+
+\begin{questions}
+
+\question
+Evaluate \(\cosh(\ln 2)\).
+\begin{choices}
+\item \(\frac{3}{5}\)
+\item \(\frac{2}{3}\)
+\item \(\frac{5}{4}\)
+\item None of these.
+\end{choices}
+
+\newcommand{\sech}{\,\mathrm{sech}}
+\question
+Differentiate \(f(x)=\tanh(x^2)-\cosh(2x+1)\).
+\begin{choices}
+\item \(f'(x)=-\sech(x^2)\tanh(x^2)+\sinh(2x+1)+2\)
+\item \(f'(x)=2x\sech^2(x^2)-2\sinh(2x+1)\)
+\item \(f'(x)=\frac{1}{1+x^4}+2\sinh(2x+1)\)
+\item None of these.
+\end{choices}
+
+
+
+\end{questions}
+
+\end{document}
