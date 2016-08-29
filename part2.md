@@ -3,8 +3,8 @@ layout: page
 title: "Part 2: Advanced Integration Techniques"
 ---
 
-\\(\newcommand{\sech}{\,\mathrm{sech}\,}\\)
-\\(\newcommand{\csch}{\,\mathrm{csch}\,}\\)
+\\(\newcommand{\sech}{\operatorname{sech}}\\)
+\\(\newcommand{\csch}{\operatorname{csch}}\\)
 
 ---
 
@@ -112,8 +112,6 @@ title: "Part 2: Advanced Integration Techniques"
 - Integrating logarithms is based on integration by parts.
 - **Example**
   Use Integration by Parts to find \\(\int\ln x\,dx\\).
-- **Example**
-  Find \\(\int 4t\ln(t)\,dt\\).
 
 
 
@@ -126,12 +124,39 @@ title: "Part 2: Advanced Integration Techniques"
 - University Calculus: Early Transcendentals (3rd Ed)
     - 8.2
 
-### 2.3.1 Trigonometric Identities
+### 2.3.1 Integrating Products of Sine and Cosine
 
-### 2.3.2 Integrating Products of Sine and Cosine
+- To integrate a function of the form \\(\sin^m x\cos^n x\\) where
+  at least one of \\(m,n\\) is odd, use these identities to
+  substitute \\(u=\sin x,du=\cos x\,dx\\) or
+  \\(u=\cos x,du=-\sin x\,dx\\).
+    - \\(\cos^2 x=1-\sin^2 x\\)
+    - \\(\sin^2 x=1-\cos^2 x\\)
+- **Example**
+  Find \\(\int\sin^3\theta\cos^4\theta\,d\theta\\).
+- **Example**
+  Find \\(\int\sin^2(2y)\cos^5(2y)\,dy\\).
+- If both \\(m,n\\) are even, then one of these identities must be used:
+    - \\(\cos^2 x=\frac{1}{2}+\frac{1}{2}\cos(2x)\\)
+    - \\(\sin^2 x=\frac{1}{2}-\frac{1}{2}\cos(2x)\\)
+- **Example**
+  Find \\(\int\sin^2 x\cos^2 x\,dx\\).
+- **Example**
+  Find \\(\int\cos^4 z\,dz\\).
 
-### 2.3.3 Integrating Products of Secant and Tangent
+### 2.3.2 Integrating Products of Secant and Tangent
 
+
+- To integrate a function of the form \\(\sec^m x\tan^n x\\),
+  use these identities to
+  substitute \\(u=\tan x,du=\sec^2 x\,dx\\) or
+  \\(u=\sec x,du=\sec x\tan x\,dx\\).
+    - \\(\tan^2 x=\sec^2 x-1\\)
+    - \\(\sec^2 x=\tan^2 x+1\\)
+- **Example**
+  Find \\(\int\tan^3\theta\sec^3\theta\,d\theta\\).
+- **Example**
+  Find \\(\int\sec^4 x\tan^5 x\,dx\\).
 
 
 ---
@@ -185,16 +210,15 @@ title: "Part 2: Advanced Integration Techniques"
 14. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
     Substitution to prove \\(\int\sec\theta\,d\theta=\ln|\sec x+\tan x|+C\\).
 
-<!-- ### Exercises for 2.2
-
-(work in progress)
+### Exercises for 2.2
 
 1.  Find \\(\int 3x\cosh(x)\,dx\\).
 2.  Find \\(\int xe^{2x}\,dt\\).
 3.  Find \\(\int y^2\sin(y)\,dy\\).
-4.  Find \\(\int e^{3w}\cosh(w)\,dw\\).
-5.  Compute \\(\int_0^1 s^2e^s\,ds\\).
-6.  Use Integration by Parts to find \\(\int\ln x\,dx\\).
-7.  Find \\(\int 4t\ln(t)\,dt\\).
+4.  Find \\(\int 4x\sec^2(x)\,dx\\).
+    (Hint: recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
+5.  Find \\(\int e^{3w}\cosh(w)\,dw\\).
+6.  Find \\(\int \sin(2x)\cos(4x)\,dx\\).
+7.  Compute \\(\int_1^e x\ln x\,dx\\).
 8.  (Optional)
-    Find \\( -->
+    Find \\(\int x^4e^x\,dx\\).
