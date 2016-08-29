@@ -210,7 +210,7 @@ title: "Part 2: Advanced Integration Techniques"
 14. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
     Substitution to prove \\(\int\sec\theta\,d\theta=\ln|\sec x+\tan x|+C\\).
 
-[Solutions 1-11]({{site.baseurl}}public/solutions/2.1a.pdf)
+[Solutions 1-8]({{site.baseurl}}public/solutions/2.1a.pdf)
 
 ### Exercises for 2.2
 
