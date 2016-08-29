@@ -101,12 +101,11 @@ Note that students earning less than 50 Participation points
 
 ## Quizzes
 
-At the end of most class periods, the instructor will pose an exit
+At the end of many class periods, the instructor will pose an exit
 quiz on the board, usually one or two questions. A multiple-choice sheet
-will be provided by the instructor for recording responses, or the
-instructor may simply grade exercises done as a group.
+will be provided by the instructor for recording responses.
 
-Each correct/complete response is worth 2 Quiz points. Like participation,
+Each correct/complete response is worth 4 Quiz points. Like Participation,
 more than 150 Quiz points will be available throughout the semester,
 but 150 is the maximum allowed to count toward a student's overall grade.
 
