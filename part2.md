@@ -169,19 +169,32 @@ title: "Part 2: Advanced Integration Techniques"
 ### Exercises for 2.1
 
 1.  Find \\(\int 3(3x-5)^3\,dx\\).
-2.  Find \\(\int 4v\sech^2(2v^2+1)\,dv\\).
-3.  Find \\(\int \frac{2e^x}{e^x+3}\,dx\\).
-4.  Find \\(\int 2t^3\sqrt{t^2+1}\,dt\\).
+2.  Find \\(\int 4e^{r-7}\,dr\\).
+3.  Find \\(\int 4v\sech^2(2v^2+1)\,dv\\).
+4.  Find \\(\int \frac{2e^x}{e^x+3}\,dx\\).
+5.  Find \\(\int 2t^3\sqrt{t^2+1}\,dt\\).
     (Hint: \\(2t^3=2t\cdot t^2\\).)
-5.  Find \\(\int \frac{2(\ln s)^3}{s}\,ds\\).
-6.  Find \\(\int \frac{3\sqrt{x}}{2(x^{3/2}+2)^2}\,dx\\).
-7.  Find \\(\int \frac{\cos(1/y)}{y^2}\,dy\\).
-8.  Compute \\(\int_0^{\pi/12} \sec(3\theta)\tan(3\theta)\,d\theta\\).
-9.  Compute \\(\int_1^2 (6x+3)(x^2+x)^2\,dz\\).
-10. Compute \\(\int_1^{\ln 2}\frac{e^z}{1+e^{2z}}\,dz\\).
-11. Compute \\(\int_e^{e^2}\frac{1}{x\ln x}\,dx\\).
-12. Use Substitution to find \\(\int\cot\theta\,d\theta\\).
-13. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
-    Substitution to prove \\(\int\sec\theta\,d\theta=\ln|\sec x+\tan x|\\).
+6.  Find \\(\int \frac{2(\ln s)^3}{s}\,ds\\).
+7.  Find \\(\int \frac{3\sqrt{x}}{2(x^{3/2}+2)^2}\,dx\\).
+8.  Find \\(\int \frac{\cos(1/y)}{y^2}\,dy\\).
+9.  Compute \\(\int_0^{\pi/12} \sec(3\theta)\tan(3\theta)\,d\theta\\).
+10. Compute \\(\int_1^2 (6x+3)(x^2+x)^2\,dz\\).
+11. Compute \\(\int_1^{\ln 2}\frac{e^z}{1+e^{2z}}\,dz\\).
+12. Compute \\(\int_e^{e^2}\frac{1}{x\ln x}\,dx\\).
+13. Use Substitution to find \\(\int\cot\theta\,d\theta\\).
+14. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
+    Substitution to prove \\(\int\sec\theta\,d\theta=\ln|\sec x+\tan x|+C\\).
 
-### Exercises for 2.2
+<!-- ### Exercises for 2.2
+
+(work in progress)
+
+1.  Find \\(\int 3x\cosh(x)\,dx\\).
+2.  Find \\(\int xe^{2x}\,dt\\).
+3.  Find \\(\int y^2\sin(y)\,dy\\).
+4.  Find \\(\int e^{3w}\cosh(w)\,dw\\).
+5.  Compute \\(\int_0^1 s^2e^s\,ds\\).
+6.  Use Integration by Parts to find \\(\int\ln x\,dx\\).
+7.  Find \\(\int 4t\ln(t)\,dt\\).
+8.  (Optional)
+    Find \\( -->
