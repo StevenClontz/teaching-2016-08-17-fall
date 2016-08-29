@@ -217,7 +217,7 @@ title: "Part 2: Advanced Integration Techniques"
 3.  Find \\(\int y^2\sin(y)\,dy\\).
 4.  Find \\(\int 4x\sec^2(x)\,dx\\).
     (Hint: recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
-5.  Find \\(\int e^{3w}\cosh(w)\,dw\\).
+5.  Find \\(\int e^{3w}\sinh(w)\,dw\\).
 6.  Find \\(\int \sin(2x)\cos(4x)\,dx\\).
 7.  Compute \\(\int_1^e x\ln x\,dx\\).
 8.  (Optional)
