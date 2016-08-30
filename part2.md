@@ -214,14 +214,14 @@ title: "Part 2: Advanced Integration Techniques"
 14. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
     Substitution to prove \\(\int\sec x\,dx=\ln|\sec x+\tan x|+C\\).
 15. (Quiz)
-    Find \(\int 3t^5(t^3+3)^2\,dt\).
-    - \(\frac{1}{4}t^4-4t^3+C\)
-    - \(\frac{1}{4}(t^3+3)^4-(t^3+3)^3+C\)
-    - \(\frac{1}{2}(t^3+3)^2+4(t^3+3)^3+C\)
-16. Evaluate \(\int_0^1 x^2e^{2x^3}\,dx\).
-    - \(\frac{1}{6}e^2-\frac{1}{6}\)
-    - \(\frac{1}{4}e^2-\frac{1}{4}e\)
-    - \(\frac{1}{3}e-\frac{1}{3}\)
+    Find \\(\int 3t^5(t^3+3)^2\,dt\\).
+    - \\(\frac{1}{4}t^4-4t^3+C\\)
+    - \\(\frac{1}{4}(t^3+3)^4-(t^3+3)^3+C\\)
+    - \\(\frac{1}{2}(t^3+3)^2+4(t^3+3)^3+C\\)
+16. Evaluate \\(\int_0^1 x^2e^{2x^3}\,dx\\).
+    - \\(\frac{1}{6}e^2-\frac{1}{6}\\)
+    - \\(\frac{1}{4}e^2-\frac{1}{4}e\\)
+    - \\(\frac{1}{3}e-\frac{1}{3}\\)
 
 [Solutions 1-8]({{site.baseurl}}public/solutions/2.1a.pdf)
 [Solutions 9-16]({{site.baseurl}}public/solutions/2.1b.pdf)
