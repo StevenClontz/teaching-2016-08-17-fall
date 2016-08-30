@@ -102,12 +102,16 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### 2.2.2 Integrating Definite Integrals by Parts
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/evAqb25XkHk" frameborder="0" allowfullscreen></iframe>
+
 - When using parts to evaluate definite integrals, do not forget
   to apply the bounds of integration to the entire integral.
 - **Example**
   Find \\(\int_0^1 s^2e^s\,ds\\).
 
 ### 2.2.3 Antiderivatives of Logarithms
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JFCKIopecZI" frameborder="0" allowfullscreen></iframe>
 
 - Integrating logarithms is based on integration by parts.
 - **Example**
