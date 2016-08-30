@@ -207,8 +207,8 @@ title: "Part 2: Advanced Integration Techniques"
 7.  Find \\(\int \frac{3\sqrt{x}}{2(x^{3/2}+2)^2}\,dx\\).
 8.  Find \\(\int \frac{\cos(1/y)}{y^2}\,dy\\).
 9.  Compute \\(\int_0^{\pi/12} \sec(3\theta)\tan(3\theta)\,d\theta\\).
-10. Compute \\(\int_1^2 (6x+3)(x^2+x)^2\,dz\\).
-11. Compute \\(\int_1^{\ln 2}\frac{e^z}{1+e^{2z}}\,dz\\).
+10. Compute \\(\int_1^2 (6x+3)(x^2+x)^2\,dx\\).
+11. Compute \\(\int_{\ln 3}^{\ln 8}e^z\sqrt{1+e^z}\,dz\\).
 12. Compute \\(\int_e^{e^2}\frac{1}{x\ln x}\,dx\\).
 13. Use Substitution to find \\(\int\cot\theta\,d\theta\\).
 14. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
