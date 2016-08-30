@@ -218,7 +218,8 @@ title: "Part 2: Advanced Integration Techniques"
     - \\(\frac{1}{4}t^4-4t^3+C\\)
     - \\(\frac{1}{4}(t^3+3)^4-(t^3+3)^3+C\\)
     - \\(\frac{1}{2}(t^3+3)^2+4(t^3+3)^3+C\\)
-16. Evaluate \\(\int_0^1 x^2e^{2x^3}\,dx\\).
+16. (Quiz)
+    Evaluate \\(\int_0^1 x^2e^{2x^3}\,dx\\).
     - \\(\frac{1}{6}e^2-\frac{1}{6}\\)
     - \\(\frac{1}{4}e^2-\frac{1}{4}e\\)
     - \\(\frac{1}{3}e-\frac{1}{3}\\)
