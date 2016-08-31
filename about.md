@@ -137,6 +137,15 @@ Each exam covers the following material:
     - questions covered on the Midterm from Parts 1 to 3, and
     - all topics from Parts 4 to 6
 
+### Using notes during exams
+
+Each student may bring **notes in their own handwriting** to use
+during each exam, with the following limits:
+
+- **Practice Test**: two 8.5x11in pages, front-and-back
+- **Midterm**: three 8.5x11in pages, front-and-back
+- **Final Exam**: five 8.5x11in pages, front-and-back
+
 ## Absences and Makeup Policy
 
 Students should retain documentation of excusable absences throughout the
