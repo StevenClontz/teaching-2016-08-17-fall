@@ -230,7 +230,7 @@ title: "Part 2: Advanced Integration Techniques"
 ### Exercises for 2.2
 
 1.  Find \\(\int 3x\cosh(x)\,dx\\).
-2.  Find \\(\int xe^{2x}\,dt\\).
+2.  Find \\(\int te^{2t}\,dt\\).
 3.  Find \\(\int y^2\sin(y)\,dy\\).
 4.  Find \\(\int 4x\sec^2(x)\,dx\\).
     (Hint: recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
