@@ -239,3 +239,11 @@ title: "Part 2: Advanced Integration Techniques"
 7.  Compute \\(\int_1^e x\ln x\,dx\\).
 8.  (Optional)
     Find \\(\int x^4e^x\,dx\\).
+9.  (Optional)
+    Prove \\(
+      \int \cos^{n+2} x\,dx
+    =
+      \frac{\cos^{n+1} x\sin x}{n+2}+\frac{n+1}{n+2}\int\cos^n x\,dx
+    \\). (Hint: take the derivative of both sides.)
+10. (Optional)
+    Find \\(\int \cos^4 x\,dx\\) using the above formula.
