@@ -117,6 +117,26 @@ the Midterm is 50 minutes, and the Final Exam is 120 minutes.
 Each exam is based upon the problems covered during class prior
 to it. Full responses are required, and partial credit will be assigned.
 
+There will also be a 50 minute Practice Test of a similar format,
+worth 20 Quiz points.
+
+### Preparing for Exams
+
+This website is your study guide for all exams. At least 80% of the
+credit for each exam will be based directly upon either **Example** questions
+from the online lectures, or **Review Exercises** solved during class
+periods (including Quiz questions). *Other questions may also
+be asked to assess general understanding of the
+material and the ability to apply it to new problems.*
+
+Each exam covers the following material:
+
+- **Practice Test**: Part 1 and Sections 2.1 to 2.3
+- **Midterm**: Parts 1 to 3
+- **Final Exam**: All Sections, focusing mainly on
+    - questions covered on the Midterm from Parts 1 to 3, and
+    - all topics from Parts 4 to 6
+
 ## Absences and Makeup Policy
 
 Students should retain documentation of excusable absences throughout the
