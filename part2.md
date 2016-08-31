@@ -247,3 +247,5 @@ title: "Part 2: Advanced Integration Techniques"
     \\). (Hint: take the derivative of both sides.)
 10. (Optional)
     Find \\(\int \cos^4 x\,dx\\) using the above formula.
+
+[Solutions 1-5]({{site.baseurl}}public/solutions/2.2a.pdf)
