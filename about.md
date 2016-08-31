@@ -11,7 +11,7 @@ be run, and functions as your course syllabus.
 * Name: Prof. S. Clontz
 * Email: <sclontz@southalabama.edu>
 * Office: ILB 314
-* Office Hours: by appointment
+* Office Hours: MWF 9:55-11:55
 
 ## Course Information
 
