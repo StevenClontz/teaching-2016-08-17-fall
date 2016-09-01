@@ -130,6 +130,8 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### 2.3.1 Integrating Products of Sine and Cosine
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cd4WfFc-xq8" frameborder="0" allowfullscreen></iframe>
+
 - To integrate a function of the form \\(\sin^m x\cos^n x\\) where
   at least one of \\(m,n\\) is odd, use these identities to
   substitute \\(u=\sin x,du=\cos x\,dx\\) or
@@ -140,16 +142,20 @@ title: "Part 2: Advanced Integration Techniques"
   Find \\(\int\sin^3\theta\cos^4\theta\,d\theta\\).
 - **Example**
   Find \\(\int\sin^2(2y)\cos^5(2y)\,dy\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fHQnlVD915E" frameborder="0" allowfullscreen></iframe>
+
 - If both \\(m,n\\) are even, then one of these identities must be used:
     - \\(\cos^2 x=\frac{1}{2}+\frac{1}{2}\cos(2x)\\)
     - \\(\sin^2 x=\frac{1}{2}-\frac{1}{2}\cos(2x)\\)
 - **Example**
-  Find \\(\int\sin^2 x\cos^2 x\,dx\\).
+  Find \\(\int\cos^2 x\,dx\\).
 - **Example**
-  Find \\(\int\cos^4 z\,dz\\).
+  Find \\(\int\sin^2 z\cos^2 z\,dz\\).
 
 ### 2.3.2 Integrating Products of Secant and Tangent
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XpV_R8prU4A" frameborder="0" allowfullscreen></iframe>
 
 - To integrate a function of the form \\(\sec^m x\tan^n x\\),
   use these identities to
