@@ -63,6 +63,8 @@ title: "Part 2: Advanced Integration Techniques"
 
 ---
 
+<!-- TODO make this section last -->
+
 ## 2.2 Integration by Parts
 
 #### Textbook References
