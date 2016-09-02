@@ -70,6 +70,7 @@ title: "Part 2: Advanced Integration Techniques"
 - University Calculus: Early Transcendentals (3rd Ed)
     - 8.1
 
+    <!-- TODO make improvements for cycling -->
 ### 2.2.1 Parts and the Product Rule
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p2qwAALpV70" frameborder="0" allowfullscreen></iframe>
@@ -118,6 +119,30 @@ title: "Part 2: Advanced Integration Techniques"
   Use Integration by Parts to find \\(\int\ln x\,dx\\).
 
 
+<!-- ---
+
+## Note on Substitution and Parts
+
+To **tell the difference** between problems where you should use
+Substitution vs. Parts, do the following:
+
+- Look for a nested function and its derivative. These are usually
+  **Substitution** problems:
+    - \\(\int 2x^2\cos(x^3)\,dx\\) can be solved by Substitution
+      because \\(u=x^3\\) is nested inside cosine, and its derivative
+      \\(du=3x^2dx\\) can be manipulated to get \\(\frac{1}{3}du=x^2dx\\),
+      which is found in the integral.
+- Otherwise, products of \\(x^m\\) and another function usually are
+  **Parts** problems:
+    - \\(\int 2x^2\cos(x)\,dx\\) can be solved by Parts because
+      the derivative of \\(u=2x^2\\) gets simpler, and the integral
+      of \\(dv=\cos(x)dx\\) doesn't get more complicated.
+- Finally, products of any two of \\(\sin x\\), \\(\cos x\\), \\(e^x\\),
+  \\(\sinh x\\), \\(\cosh x\\) are usually
+  **Parts** problems with cycling.
+    - \\(\int \sin(x)\cosh(2x)\,dx\\) is most easily solved with Parts
+      by setting \\(u=\cosh(2x)\\) and \\(dv=\sin(x)dx\\).
+ -->
 
 ---
 
@@ -152,6 +177,9 @@ title: "Part 2: Advanced Integration Techniques"
   Find \\(\int\cos^2 x\,dx\\).
 - **Example**
   Find \\(\int\sin^2 z\cos^2 z\,dz\\).
+
+
+<!-- TODO make improvements for identifying secant/tangent -->
 
 ### 2.3.2 Integrating Products of Secant and Tangent
 
@@ -197,6 +225,18 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### 2.5.2 Integrating Partial Fractions
 
+--
+
+## 2.6 Strategies for Integration
+
+#### Textbook References
+
+- University Calculus: Early Transcendentals (3rd Ed)
+    - Review of 5.5, 8.1, 8.2, 8.3, 8.4
+
+### 2.6.1 Identifying Appropriate Integration Strategies
+
+
 ---
 
 ## Review Exercises
@@ -231,6 +271,7 @@ title: "Part 2: Advanced Integration Techniques"
     - \\(\frac{1}{3}e-\frac{1}{3}\\)
 
 [Solutions 1-8]({{site.baseurl}}public/solutions/2.1a.pdf)
+
 [Solutions 9-16]({{site.baseurl}}public/solutions/2.1b.pdf)
 
 ### Exercises for 2.2
@@ -253,5 +294,33 @@ title: "Part 2: Advanced Integration Techniques"
     \\). (Hint: take the derivative of both sides.)
 10. (Optional)
     Find \\(\int \cos^4 x\,dx\\) using the above formula.
+11. (Quiz)
+    Find \\(\int x\cosh x\,dx\\).
+    - \\(x\sinh x-\cosh x+C\\)
+    - \\(x^2\sinh x+2\cosh x+C\\)
+    - \\(x\cosh x+3x\sinh x+C\\)
+12. (Quiz)
+    Find \\(\int e^\theta\sin\theta\,d\theta\\).
+    - \\(\frac{e^\theta\sin\theta+e^\theta\cos\theta}{3}+C\\)
+    - \\(-\frac{e^\theta\cos\theta}{4}+C\\)
+    - \\(\frac{e^\theta\sin\theta-e^\theta\cos\theta}{2}+C\\)
 
 [Solutions 1-5]({{site.baseurl}}public/solutions/2.2a.pdf)
+
+[Solutions 6-12]({{site.baseurl}}public/solutions/2.1b.pdf)
+
+### Exercises for 2.3
+
+1.  Find \\(\int\sin^4 x\cos^3 x\,dx\\).
+2.  Find \\(\int\sin^5 \theta\cos^2 \theta\,d\theta\\).
+3.  Find \\(\int\sin^2 x\,dx\\).
+4.  Find \\(\int\cos^4 y\,dy\\).
+5.  Find \\(\int\tan^2 t\sec^4 t\,dt\\).
+6.  (Optional)
+    Use integration by parts with cycling to prove
+    \\(
+      \int\sec^3 x\,dx
+    =
+      \frac{1}{2}\sec x\tan x+\frac{1}{2}\ln|\sec x+\tan x|+C
+    \\).
+    (Hint: \\(\int\sec x\tan^2 x\,dx=\int\sec x(\sec^2 x-1)\,dx\\).)
