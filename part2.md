@@ -5,8 +5,11 @@ title: "Part 2: Advanced Integration Techniques"
 
 \\(\newcommand{\sech}{\operatorname{sech}}\\)
 \\(\newcommand{\csch}{\operatorname{csch}}\\)
+\\(\newcommand{\inverse}[1]{#1^{\leftarrow}}\\)
 
 ---
+
+<!-- TODO add guessing method -->
 
 ## 2.1 Integration by Substitution
 
@@ -208,9 +211,60 @@ Substitution vs. Parts, do the following:
 - University Calculus: Early Transcendentals (3rd Ed)
     - 8.3
 
-### 2.4.1 Pythagorean Forms
+### 2.4.1 Substituting for \\(a+bx^2\\)
 
-### 2.4.2 Trigonometric Substitution
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qBsX-ha-weU" frameborder="0" allowfullscreen></iframe>
+
+- To eliminate factors of the form \\(a+bx^2\\) from an integral,
+  use the substitution \\(a+bx^2=a+a\tan^2\theta=a\sec^2\theta\\)
+  with \\(-\pi/2<\theta<\pi/2\\).
+- **Example**
+  Find \\(\int\frac{z^2}{4+9z^2}\,dz\\).
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O2HkhWSws6A" frameborder="0" allowfullscreen></iframe>
+
+- **Example**
+  Compute \\(\int_0^2\frac{1}{\sqrt{16+4x^2}}\,dx\\).
+  (Recall \\(\int\sec\theta\,d\theta=\ln|\sec\theta+\tan\theta|+C\\).)
+
+### 2.4.2 Substituting for \\(a-bx^2\\)
+
+- To eliminate factors of the form \\(a-bx^2\\) from an integral,
+  use the substitution \\(a-bx^2=a-a\sin^2\theta=a\cos^2\theta\\)
+  with \\(-\pi/2\leq\theta\leq\pi/2\\).
+- Note that this is only valid when \\(\|x\|\leq\sqrt{a/b}\\),
+  which is guaranteed when \\(a-bx^2\\) is under a square root.
+- **Example**
+  Find \\(\int\sqrt{4-25s^2}\,ds\\).
+- **Example**
+  Find \\(\int\frac{x^2}{\sqrt{1-4x^2}}\,dx\\).
+
+
+### 2.4.3 Substituting for \\(bx^2-a\\)
+
+- To eliminate factors of the form \\(bx^2-a\\) from an integral,
+  use the substitution \\(bx^2-a=a\sec^2\theta-a=a\tan^2\theta\\)
+  with \\(0\leq\theta<\pi/2\\).
+- Note that this is only valid when \\(x\geq\sqrt{a/b}\\),
+  which will be assumed in our problems.
+- **Example**
+  Prove \\(\int\frac{1}{x\sqrt{x^2-1}}\,dx=\inverse\sec x+C\\)
+  where \\(x>1\\).
+- **Example**
+  Find \\(\int\frac{\sqrt{y^2-16}}{y}\,dy\\) where \\(y\geq 4\\).
+
+
+### 2.4.4 Using Inverse Trigonometric Antiderivatives
+
+- Sometimes, a simpler substiution may be combined with the following
+  antiderivatives to obtain a solution more elegantly.
+    - \\(\int\frac{1}{1+x^2}\,dx=\inverse\tan x+C\\).
+    - \\(\int\frac{1}{\sqrt{1-x^2}}\,dx=\inverse\sin x + C\\).
+    - \\(\int\frac{1}{x\sqrt{x^2-1}}\,dx=\inverse\sec x+C\\)
+      where \\(x>1\\).
+- **Example**
+  Find \\(\int\frac{3}{\sqrt{9-x^2}}\,dx\\).
 
 
 
@@ -326,3 +380,5 @@ Substitution vs. Parts, do the following:
       \frac{1}{2}\sec x\tan x+\frac{1}{2}\ln|\sec x+\tan x|+C
     \\).
     (Hint: \\(\int\sec x\tan^2 x\,dx=\int\sec x(\sec^2 x-1)\,dx\\).)
+
+[Solutions]({{site.baseurl}}public/solutions/2.3.pdf)

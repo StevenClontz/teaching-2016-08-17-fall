@@ -30,6 +30,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 ### 1.1.2 The Natural Number and Natural Exponential Function
 
+<!-- TODO fix video to use arrow inverse notation -->
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QqxdUCwim5Y" frameborder="0" allowfullscreen></iframe>
 
 - Note that \\(a^p\\) has only been defined for when \\(p\in\mathbb Q\\).
