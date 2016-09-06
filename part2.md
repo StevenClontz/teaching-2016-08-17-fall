@@ -230,16 +230,22 @@ Substitution vs. Parts, do the following:
 
 ### 2.4.2 Substituting for \\(a-bx^2\\)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lOM8Pwz-2X4" frameborder="0" allowfullscreen></iframe>
+
 - To eliminate factors of the form \\(a-bx^2\\) from an integral,
   use the substitution \\(a-bx^2=a-a\sin^2\theta=a\cos^2\theta\\)
   with \\(-\pi/2\leq\theta\leq\pi/2\\).
 - Note that this is only valid when \\(\|x\|\leq\sqrt{a/b}\\),
   which is guaranteed when \\(a-bx^2\\) is under a square root.
 - **Example**
-  Find \\(\int\sqrt{4-25s^2}\,ds\\).
-- **Example**
-  Find \\(\int\frac{x^2}{\sqrt{1-4x^2}}\,dx\\).
+  Find \\(\int(4-25s^2)^{-3/2}\,ds\\).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V6t5KjcUJVQ" frameborder="0" allowfullscreen></iframe>
+
+- **Example**
+  Find \\(\int\frac{x^3}{\sqrt{1-4x^2}}\,dx\\).
+
+**STOP HERE FOR Wed Sep 7**
 
 ### 2.4.3 Substituting for \\(bx^2-a\\)
 
