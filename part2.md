@@ -431,8 +431,8 @@ Substitution vs. Parts, do the following:
 4.  Find \\(\int\frac{2x^3}{\sqrt{9-x^2}}\,dx\\).
 5.  Prove \\(\int\frac{1}{\sqrt{1-x^2}}\,dx=\inverse\sin x+C\\).
 6.  Find \\(\int\frac{\sqrt{x^2-16}}{x}\,dx\\) where \\(x\geq 4\\).
-7.  Find \\(\int\frac{1}{4t^2-1}\,dt\\) where \\(t>\frac{1}{2}\\).
-8.  Find \\(\int\frac{1}{4x\sqrt{4x^2-1}}\,dx\\) without a
+7.  Find \\(\int\frac{1}{\sqrt{4t^2-1}}\,dt\\) where \\(t>\frac{1}{2}\\).
+8.  Find \\(\int\frac{2}{\sqrt{1-4x^2}}\,dx\\) without a
     trigonometric substitution.
 8.  (Optional)
     Find \\(\int\frac{2}{4+9x^2}\,dx\\) without a
