@@ -211,7 +211,7 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
     \\(\sin x = -\frac{5}{13}\\), then \\(\cos x\\) is either
     \\(\frac{12}{13}\\) or \\(-\frac{12}{13}\\). (Hint: use the Pythagorean
     identity.)
-5.  (Optional)
+5.  (Optional) <!-- TODO make nonoptional -->
     Find a solution to the differential equation
     \\(f^{\prime\prime}(x)=-4f(x),f'(0)=6,f(0)=0\\).
 6.  (Optional)

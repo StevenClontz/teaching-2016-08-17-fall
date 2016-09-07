@@ -371,7 +371,7 @@ Substitution vs. Parts, do the following:
 
 [Solutions 1-5]({{site.baseurl}}public/solutions/2.2a.pdf)
 
-[Solutions 6-12]({{site.baseurl}}public/solutions/2.1b.pdf)
+[Solutions 6-12]({{site.baseurl}}public/solutions/2.2b.pdf)
 
 ### Exercises for 2.3
 
