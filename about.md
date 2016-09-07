@@ -30,7 +30,7 @@ be run, and functions as your course syllabus.
     * Wednesday, Oct 5, 9:05am (101)
     * Wednesday, Oct 5, 12:20pm (104)
 * Final Exam Date/Time:
-    * Monday, Dec 5, 8:00am (101)
+    * Wednesday, Dec 7, 8:00am (101)
     * Monday, Dec 5, 1:00pm (104)
 
 ## Course Calendar
