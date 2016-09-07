@@ -400,3 +400,5 @@ Substitution vs. Parts, do the following:
 3.  Find \\(\int \frac{4}{(1-y^2)^{3/2}}\,dy\\).
 4.  Find \\(\int\frac{2x^3}{\sqrt{9-x^2}}\,dx\\).
 5.  Prove \\(\int\frac{1}{\sqrt{1-x^2}}\,dx=\inverse\sin x+C\\).
+
+[Solutions 1-5]({{site.baseurl}}public/solutions/2.4a.pdf)
