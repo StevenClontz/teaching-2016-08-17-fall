@@ -53,6 +53,8 @@ title: "Part 2: Advanced Integration Techniques"
 - **Example**
   Compute \\(\int_0^{\pi/4}\tan^2\theta\sec^2\theta\,d\theta\\).
 
+<!-- TODO require knowing all basic trig antiderivatives -->
+
 ### 2.1.3 Antiderivatives of Trigonometric Functions
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bHkxJk6bBAc" frameborder="0" allowfullscreen></iframe>
@@ -388,3 +390,13 @@ Substitution vs. Parts, do the following:
     (Hint: \\(\int\sec x\tan^2 x\,dx=\int\sec x(\sec^2 x-1)\,dx\\).)
 
 [Solutions]({{site.baseurl}}public/solutions/2.3.pdf)
+
+### Exercises for 2.4
+
+1.  Find \\(\int\frac{2}{\sqrt{1+4z^2}}\,dz\\).
+    (Recall \\(\int\sec\theta\,d\theta=\ln|\sec\theta+\tan\theta|+C\\).)
+2.  Find \\(\int\frac{x^3}{9+x^2}\,dx\\).
+    (Recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
+3.  Find \\(\int \frac{4}{(1-y^2)^{3/2}}\,dy\\).
+4.  Find \\(\int\frac{2x^3}{\sqrt{9-x^2}}\,dx\\).
+5.  Prove \\(\int\frac{1}{\sqrt{1-x^2}}\,dx=\inverse\sin x+C\\).
