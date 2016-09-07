@@ -247,8 +247,6 @@ Substitution vs. Parts, do the following:
 - **Example**
   Find \\(\int\frac{x^3}{\sqrt{1-4x^2}}\,dx\\).
 
-**STOP HERE FOR Wed Sep 7**
-
 ### 2.4.3 Substituting for \\(bx^2-a\\)
 
 - To eliminate factors of the form \\(bx^2-a\\) from an integral,
@@ -287,9 +285,41 @@ Substitution vs. Parts, do the following:
 
 ### 2.5.1 Rational Functions and Partial Fractions
 
+- A function of the form \\(\frac{f(x)}{g(x)}\\) where \\(f,g\\) are
+  both polynomials is called rational. We assume our rational functions
+  are simplified (no polynomial factors of \\(f,g\\) cancel).
+- The rational function \\(\frac{f(x)}{(x+r)^m}\\) may be split into
+  the partial fractions
+  \\(\frac{A_1}{x+r}+\frac{A_2}{(x+r)^2}+\dots+\frac{A_m}{(x+r)^m}\\).
+- **Example**
+  Expand \\(\frac{2x^2-7x+6}{(x-2)^3}\\) using partial fractions.
+- The rational function \\(\frac{f(x)}{(x^2+px+q)^n}\\) (where
+  \\(x^2+px+q\\) is irreducible) may be split into
+  the partial fractions
+  \\(
+    \frac{B_1x+C_1}{x^2+px+q}+
+    \frac{B_2x+C_2}{(x^2+px+q)^2}+
+    \dots+
+    \frac{B_mx+C_m}{(x^2+px+q)^n}
+  \\).
+- **Example**
+  Expand \\(\frac{3x^2+2x+4}{x^4+2x^2+1}\\) using partial fractions.
+- When the denominator is a product of \\((x+r)^m\\) and
+  \\((x^2+px+q)^n\\) terms, simply sum up the appropriate
+  partial fractions for each factor.
+- **Example**
+  Describe the partial fractions which expand the rational function
+  \\(\frac{f(x)}{(x+3)^3(x^2-2x+3)^2}\\).
+
 ### 2.5.2 Integrating Partial Fractions
 
---
+- Expanding rational functions using partial fractions allows us
+  to integrate.
+- **Example** Find \\(\int\frac{4x^2+9x-1}{(x-1)(x+1)(x-2)}\,dx\\).
+- **Example** Find \\(\int\frac{4y^2+14y+15}{y^3+4y^2+5y}\,dy\\).
+- **Example** Find \\(\int\frac{t^2-t}{(1+t)(1+t^2)}\,dt\\).
+
+---
 
 ## 2.6 Strategies for Integration
 
@@ -400,5 +430,12 @@ Substitution vs. Parts, do the following:
 3.  Find \\(\int \frac{4}{(1-y^2)^{3/2}}\,dy\\).
 4.  Find \\(\int\frac{2x^3}{\sqrt{9-x^2}}\,dx\\).
 5.  Prove \\(\int\frac{1}{\sqrt{1-x^2}}\,dx=\inverse\sin x+C\\).
+6.  Find \\(\int\frac{\sqrt{x^2-16}}{x}\,dx\\) where \\(x\geq 4\\).
+7.  Find \\(\int\frac{1}{4t^2-1}\,dt\\) where \\(t>\frac{1}{2}\\).
+8.  Find \\(\int\frac{1}{4x\sqrt{4x^2-1}}\,dx\\) without a
+    trigonometric substitution.
+8.  (Optional)
+    Find \\(\int\frac{2}{4+9x^2}\,dx\\) without a
+    trigonometric substitution.
 
 [Solutions 1-5]({{site.baseurl}}public/solutions/2.4a.pdf)
