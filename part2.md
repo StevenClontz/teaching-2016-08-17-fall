@@ -249,6 +249,8 @@ Substitution vs. Parts, do the following:
 
 ### 2.4.3 Substituting for \\(bx^2-a\\)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u0-PinsRqXc" frameborder="0" allowfullscreen></iframe>
+
 - To eliminate factors of the form \\(bx^2-a\\) from an integral,
   use the substitution \\(bx^2-a=a\sec^2\theta-a=a\tan^2\theta\\)
   with \\(0\leq\theta<\pi/2\\).
@@ -263,6 +265,8 @@ Substitution vs. Parts, do the following:
 
 ### 2.4.4 Using Inverse Trigonometric Antiderivatives
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r-umlF8ZNQk" frameborder="0" allowfullscreen></iframe>
+
 - Sometimes, a simpler substiution may be combined with the following
   antiderivatives to obtain a solution more elegantly.
     - \\(\int\frac{1}{1+x^2}\,dx=\inverse\tan x+C\\).
@@ -270,7 +274,8 @@ Substitution vs. Parts, do the following:
     - \\(\int\frac{1}{x\sqrt{x^2-1}}\,dx=\inverse\sec x+C\\)
       where \\(x>1\\).
 - **Example**
-  Find \\(\int\frac{3}{\sqrt{9-x^2}}\,dx\\).
+  Find \\(\int\frac{3}{\sqrt{9-x^2}}\,dx\\) without using a
+  trigonometric substitution.
 
 
 
