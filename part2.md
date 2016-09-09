@@ -78,6 +78,7 @@ title: "Part 2: Advanced Integration Techniques"
     - 8.1
 
     <!-- TODO make improvements for cycling -->
+
 ### 2.2.1 Parts and the Product Rule
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p2qwAALpV70" frameborder="0" allowfullscreen></iframe>
@@ -290,14 +291,20 @@ Substitution vs. Parts, do the following:
 
 ### 2.5.1 Rational Functions and Partial Fractions
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EmSIKDf_qug" frameborder="0" allowfullscreen></iframe>
+
 - A function of the form \\(\frac{f(x)}{g(x)}\\) where \\(f,g\\) are
-  both polynomials is called rational. We assume our rational functions
-  are simplified (no polynomial factors of \\(f,g\\) cancel).
+  both polynomials is called rational.
 - The rational function \\(\frac{f(x)}{(x+r)^m}\\) may be split into
   the partial fractions
-  \\(\frac{A_1}{x+r}+\frac{A_2}{(x+r)^2}+\dots+\frac{A_m}{(x+r)^m}\\).
+  \\(\frac{A_1}{x+r}+\frac{A_2}{(x+r)^2}+\dots+\frac{A_m}{(x+r)^m}\\),
+  provided the degree of the numerator is less than the denominator.
 - **Example**
   Expand \\(\frac{2x^2-7x+6}{(x-2)^3}\\) using partial fractions.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CgpzFKX6ZeY" frameborder="0" allowfullscreen></iframe>
+
 - The rational function \\(\frac{f(x)}{(x^2+px+q)^n}\\) (where
   \\(x^2+px+q\\) is irreducible) may be split into
   the partial fractions
@@ -306,9 +313,13 @@ Substitution vs. Parts, do the following:
     \frac{B_2x+C_2}{(x^2+px+q)^2}+
     \dots+
     \frac{B_mx+C_m}{(x^2+px+q)^n}
-  \\).
+  \\),
+  provided the degree of the numerator is less than the denominator.
 - **Example**
   Expand \\(\frac{3x^2+2x+4}{x^4+2x^2+1}\\) using partial fractions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GqlkMqLmYcs" frameborder="0" allowfullscreen></iframe>
+
 - When the denominator is a product of \\((x+r)^m\\) and
   \\((x^2+px+q)^n\\) terms, simply sum up the appropriate
   partial fractions for each factor.
@@ -322,7 +333,10 @@ Substitution vs. Parts, do the following:
   to integrate.
 - **Example** Find \\(\int\frac{4x^2+9x-1}{(x-1)(x+1)(x-2)}\,dx\\).
 - **Example** Find \\(\int\frac{4y^2+14y+15}{y^3+4y^2+5y}\,dy\\).
-- **Example** Find \\(\int\frac{t^2-t}{(1+t)(1+t^2)}\,dt\\).
+- If the numerator has degree greater than or equal to the denominator,
+  you will need to use long polynomial division to break down the
+  rational function first.
+- **Example** Find \\(\int\frac{2t^3+t^2+3t+2}{(1+t)(1+t^2)}\,dt\\).
 
 ---
 
