@@ -453,8 +453,26 @@ Substitution vs. Parts, do the following:
 7.  Find \\(\int\frac{1}{\sqrt{4t^2-1}}\,dt\\) where \\(t>\frac{1}{2}\\).
 8.  Find \\(\int\frac{2}{\sqrt{1-4x^2}}\,dx\\) without a
     trigonometric substitution.
-8.  (Optional)
+9.  (Optional)
     Find \\(\int\frac{2}{4+9x^2}\,dx\\) without a
     trigonometric substitution.
+10. (Quiz)
+    Find \\(\int \frac{1}{\sqrt{9+y^2}}\,dy\\).
+    (Recall \\(\int\sec\theta\,d\theta=\ln\|\sec\theta+\tan\theta\|+C\\).)
+    - \\(\ln\|\sqrt{1+\frac{1}{9}y^2}+\frac{y}{3}\|+C\\).
+    - \\(\sin^{\leftarrow}(\frac{y}{9})+C\\)
+    - \\(\ln(\sqrt{9+\frac{1}{9}y^2})+C\\)
+    - (Note: the quiz given in class had a typo:
+      \\(\int \frac{1}{\sqrt{9-y^2}}\,dy\\), making
+      \\(\inverse\sin(\frac{y}{3})+C\\) or
+      "None of the Above" the correct solution. The full solution below
+      is for the version without a typo.)
+11. (Quiz)
+    Find \\(\int \frac{1}{x\sqrt{4x^2-1}}\,dy\\) where \\(x>\frac{1}{2}\\).
+    - \\(\tan^{\leftarrow}(4x^2-1)+\ln\|x\|+C\\)
+    - \\(\sec^{\leftarrow}(2x)+C\\)
+    - \\(\ln\|x+\sqrt{4x^2-1}\|+C\\)
 
 [Solutions 1-5]({{site.baseurl}}public/solutions/2.4a.pdf)
+
+[Solutions 6-11]({{site.baseurl}}public/solutions/2.4b.pdf)

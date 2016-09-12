@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 4&5 Material
+title: Week 4 Material
 ---
 
 ## Week 4
@@ -13,15 +13,3 @@ title: Week 4&5 Material
     - [Section 2.4]({{site.baseurl}}part2/#trigonometric-substitution)
 - Friday Sep 9
     - [Practice Test]({{site.baseurl}}about/#preparing-for-exams) (over 1.1 to 2.3)
-
-
-## Week 5
-
-- Monday Sep 12
-    - Continue [Section 2.4]({{site.baseurl}}part2/#trigonometric-substitution)
-- Tuesday Sep 13
-    - [Section 2.5]({{site.baseurl}}part2/#integrating-with-partial-fractions)
-- Wednesday Sep 14
-    - Continue [Section 2.5]({{site.baseurl}}part2/#integrating-with-partial-fractions)
-- Friday Sep 16
-    - [Section 2.6]({{site.baseurl}}part2/#strategies-for-integration)
