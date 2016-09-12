@@ -329,10 +329,18 @@ Substitution vs. Parts, do the following:
 
 ### 2.5.2 Integrating Partial Fractions
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3LLOuOnOoEg" frameborder="0" allowfullscreen></iframe>
+
 - Expanding rational functions using partial fractions allows us
   to integrate.
-- **Example** Find \\(\int\frac{4x^2+9x-1}{(x-1)(x+1)(x-2)}\,dx\\).
+- **Example** Find \\(\int\frac{2x^2+5x-9}{(x-1)(x+1)(x-2)}\,dx\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JvSzxVuQsoQ" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Find \\(\int\frac{4y^2+14y+15}{y^3+4y^2+5y}\,dy\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tfO4BQojv_w" frameborder="0" allowfullscreen></iframe>
+
 - If the numerator has degree greater than or equal to the denominator,
   you will need to use long polynomial division to break down the
   rational function first.
