@@ -484,3 +484,13 @@ Substitution vs. Parts, do the following:
 [Solutions 1-5]({{site.baseurl}}public/solutions/2.4a.pdf)
 
 [Solutions 6-11]({{site.baseurl}}public/solutions/2.4b.pdf)
+
+### Exercises for 2.5
+
+1.  Expand \\(\frac{4x^2+16x+17}{(x+2)^3}\\) using partial fractions.
+2.  Expand \\(\frac{-y^2+2y-4}{(y^2+4)^2}\\) using partial fractions.
+3.  Expand \\(\frac{3r^3+r^2+3}{r^4+3r^2}\\) using partial fractions.
+4.  Find \\(\int\frac{3z+2}{z^2+2z+1}\,dz\\).
+5.  Find \\(\int\frac{3x^2+35}{x^3+5x}\,dx\\).
+6.  Find \\(\int\frac{2v^3+4v^2+4v+2}{v^2+2v}\,dv\\).
+7.  (Optional) Find \\(\int\frac{2x^3+6x^2+4x+2}{(x+1)^2(x^2+1)}\,dx\\).
