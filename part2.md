@@ -528,6 +528,18 @@ Substitution vs. Parts, do the following:
 5.  Find \\(\int\frac{3x^2+35}{x^3+5x}\,dx\\).
 6.  Find \\(\int\frac{2v^3+4v^2+4v+2}{v^2+2v}\,dv\\).
 7.  (Optional) Find \\(\int\frac{2x^3+6x^2+4x+2}{(x+1)^2(x^2+1)}\,dx\\).
+8.  (Quiz)
+    Which of the following describes the expansion of
+    \\(\frac{f(t)}{(t+1)^2(t^2+9)}\\) using partial fractions?
+    (Assume \\(f(t)\\) is a polynomial of degree less than 4.)
+    - \\(\frac{At+B}{t+1}+\frac{C}{t^2+1}+\frac{D}{t^2+9}\\).
+    - \\(\frac{A}{t}+\frac{Bt+C}{(t+1)^2}+\frac{D}{t+3}+\frac{E}{t^2+9}\\)
+    - \\(\frac{A}{t+1}+\frac{B}{(t+1)^2}+\frac{Ct+D}{t^2+9}\\)
+9.  (Quiz)
+    Find \\(\ds\int \frac{-x^2+6x-3}{(x+3)(x^2+1)}\,dx\\).
+    - \\(-3\ln|x+3|+\ln|x^2+1|+C\\)
+    - \\(\frac{3}{x^2+9}+2\ln(x^2+1)+C\\)
+    - \\(2\ln(x+3)-\tan^{\leftarrow}(x^2+1)+C\\)
 
 [Solutions 1-4]({{site.baseurl}}public/solutions/2.5a.pdf)
 [Solutions 5-9]({{site.baseurl}}public/solutions/2.5b.pdf)
