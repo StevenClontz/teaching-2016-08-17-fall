@@ -291,6 +291,8 @@ Substitution vs. Parts, do the following:
 
 ### 2.5.1 Rational Functions and Partial Fractions
 
+<!-- TODO generalize to ax+r,etc -->
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EmSIKDf_qug" frameborder="0" allowfullscreen></iframe>
 
 - A function of the form \\(\frac{f(x)}{g(x)}\\) where \\(f,g\\) are
