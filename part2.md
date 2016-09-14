@@ -530,3 +530,4 @@ Substitution vs. Parts, do the following:
 7.  (Optional) Find \\(\int\frac{2x^3+6x^2+4x+2}{(x+1)^2(x^2+1)}\,dx\\).
 
 [Solutions 1-4]({{site.baseurl}}public/solutions/2.5a.pdf)
+[Solutions 5-9]({{site.baseurl}}public/solutions/2.5b.pdf)
