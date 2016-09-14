@@ -359,6 +359,38 @@ Substitution vs. Parts, do the following:
 
 ### 2.6.1 Identifying Appropriate Integration Strategies
 
+- When encountering an integration problem, it's useful to spot
+  certain traits which can identify the best integration method
+  to apply. The following list isn't fool-proof, but checking these
+  in order can help you identify likely techniques for integration.
+    1. Use algebra to simplify the integrand first, if possible.
+       Split up sums into separate integrals as necessary.
+    2. Is the integrand a constant multiple of a known derivative?
+       If so, simply integrate using the constant multiple rule.
+    3. Is the integral of the form \\(\int cf(g(x))g'(x)\,dx\\):
+       a nested function along with (a constant multiple of)
+       its derivative?
+       If so, use integration by substitution with \\(u=g(x)\\).
+    4. Is the integrand a rational function (a fraction of two polynomials)?
+       If so, try the method of partial fractions
+       to expand the integrand algebraically.
+    5. Does the integrand include only trigonometric functions?
+       Use trig identities to allow for a direct substitution.
+    6. Does the integrand include expressions of the form \\(a+bx^2\\),
+       \\(a-bx^2\\), or \\(bx^2-a\\)? Use the method of trigonometric
+       substitution to simplify.
+    7. Is the integrand the product of two functions? Integration by
+       parts may produce a more manageable integral.
+    8. At this point, check to make sure you didn't miss a possibility
+       above. Otherwise, you may need to use a combination of techniques
+       from the above to proceed.
+- **Example** Find \\(\int\sinh x\sqrt{1+\cosh x}\,dx\\).
+- **Example** Find \\(\int 2ze^{3z}\,dz\\).
+- **Example** Find \\(\int\sin^2 \theta+\cos^2 \theta\,d\theta\\).
+- **Example** Find \\(\int\frac{5x^2+12}{x^3+4x}\,dx\\).
+- **Example** Find \\(\int3\sec y\tan y-\frac{1}{1+y^2}\,dy\\).
+- **Example** Find \\(\int\frac{1}{\sqrt{4-9t^2}}\,dt\\).
+- **Example** Find \\(\int\sin^2 x\cos^3 x\,dx\\).
 
 ---
 
