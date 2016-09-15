@@ -542,10 +542,25 @@ Substitution vs. Parts, do the following:
     - \\(\frac{A}{t}+\frac{Bt+C}{(t+1)^2}+\frac{D}{t+3}+\frac{E}{t^2+9}\\)
     - \\(\frac{A}{t+1}+\frac{B}{(t+1)^2}+\frac{Ct+D}{t^2+9}\\)
 9.  (Quiz)
-    Find \\(\ds\int \frac{-x^2+6x-3}{(x+3)(x^2+1)}\,dx\\).
+    Find \\(\int \frac{-x^2+6x-3}{(x+3)(x^2+1)}\,dx\\).
     - \\(-3\ln\|x+3\|+\ln\|x^2+1\|+C\\)
     - \\(\frac{3}{x^2+9}+2\ln(x^2+1)+C\\)
     - \\(2\ln(x+3)-\tan^{\leftarrow}(x^2+1)+C\\)
 
 [Solutions 1-4]({{site.baseurl}}public/solutions/2.5a.pdf)
+
 [Solutions 5-9]({{site.baseurl}}public/solutions/2.5b.pdf)
+
+### Exercises for 2.6
+
+1.  Find \\(\int(x^2-1)(x^2+1)\,dx\\).
+1.  Find \\(\int\frac{1}{\sqrt{9+z^2}}\,dz\\). (Recall
+    \\(\int\sec\theta\,d\theta=\ln\|\sec\theta+\tan\theta\|+C\\).)
+1.  Find \\(\int 6y^2e^{y^3}\,dy\\).
+1.  Find \\(\int 3x\sin(4x)\,dx\\).
+1.  Find \\(\int\sec^3 \theta\tan^3 \theta\,d\theta\\).
+1.  Find \\(\int\frac{5x-5}{x^2-3x-4}\,dx\\).
+1.  Find \\(\int \frac{3}{2}\sqrt{t}-\frac{1}{t\sqrt{t^2-1}}\,dt\\).
+8.  (Optional)
+    Find \\(\int e^x\sqrt{1-e^{2x}}\,dx\\).
+    (Hint: \\(\sin(2\theta)=2\sin\theta\cos\theta\\).)

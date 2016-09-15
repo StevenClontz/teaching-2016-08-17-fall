@@ -3,6 +3,8 @@ layout: page
 title: "Part 1: Functions Defined by Derivatives and Integrals"
 ---
 
+<!-- TODO in general, grouping in integrals -->
+
 ---
 
 ## 1.1 Logarithms and Exponential Functions
