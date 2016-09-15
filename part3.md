@@ -14,6 +14,8 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.1.1 Areas between Functions of \\(x\\)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mUbUYjVmV8s" frameborder="0" allowfullscreen></iframe>
+
 - Recall that \\(\int_a^b f(x)\,dx\\) is the net area between \\(y=f(x)\\)
   and \\(y=0\\).
 - Let \\(f(x)\leq g(x)\\) for \\(a\leq x\leq b\\). We define the area
@@ -22,12 +24,17 @@ title: "Part 3: Applications of Integrals"
 - We call \\(y=f(x)\\) the bottom curve and \\(y=g(x)\\) the top curve.
 - **Example** Find the area between the curves \\(y=2+x\\) and
   \\(y=1-\frac{1}{2}x\\) from \\(2\\) to \\(4\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R1LwUMRhn6k" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Find the area bounded by the curves \\(y=x^2-4\\) and
   \\(y=8-2x^2\\).
 - **Example** Prove that the area of a circle of radius \\(r\\) is
   \\(\pi r^2\\). (Hint: use the curves \\(y=\pm\sqrt{r^2-x^2}\\).)
 
 ### 3.1.2 Areas between Functions of \\(y\\)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LLv__SGVqPM" frameborder="0" allowfullscreen></iframe>
 
 - Areas between functions \\(f(y)\leq g(y)\\) may be found similarly,
   but in this case \\(x=f(y)\\) is the left curve and \\(x=g(y)\\) is
