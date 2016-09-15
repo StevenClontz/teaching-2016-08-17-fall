@@ -384,10 +384,16 @@ Substitution vs. Parts, do the following:
     8. At this point, check to make sure you didn't miss a possibility
        above. Otherwise, you may need to use a combination of techniques
        from the above to proceed.
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/3pL_XEYmFp8" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Find \\(\int\sinh x\sqrt{1+\cosh x}\,dx\\).
 - **Example** Find \\(\int 2ze^{3z}\,dz\\).
 - **Example** Find \\(\int\sin^2 \theta+\cos^2 \theta\,d\theta\\).
 - **Example** Find \\(\int\frac{5x^2+12}{x^3+4x}\,dx\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0_lntllVxZ4" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Find \\(\int3\sec y\tan y-\frac{1}{1+y^2}\,dy\\).
 - **Example** Find \\(\int\frac{1}{\sqrt{4-9t^2}}\,dt\\).
 - **Example** Find \\(\int\sin^2 x\cos^3 x\,dx\\).
