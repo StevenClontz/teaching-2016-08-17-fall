@@ -543,7 +543,7 @@ Substitution vs. Parts, do the following:
     - \\(\frac{A}{t+1}+\frac{B}{(t+1)^2}+\frac{Ct+D}{t^2+9}\\)
 9.  (Quiz)
     Find \\(\ds\int \frac{-x^2+6x-3}{(x+3)(x^2+1)}\,dx\\).
-    - \\(-3\ln|x+3|+\ln|x^2+1|+C\\)
+    - \\(-3\ln\|x+3\|+\ln\|x^2+1\|+C\\)
     - \\(\frac{3}{x^2+9}+2\ln(x^2+1)+C\\)
     - \\(2\ln(x+3)-\tan^{\leftarrow}(x^2+1)+C\\)
 
