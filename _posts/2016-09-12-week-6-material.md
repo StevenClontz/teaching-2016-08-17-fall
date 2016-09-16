@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 6&7 Material
+title: Week 6-8 Material
 ---
 
 ## Practice Test Solutions
@@ -28,3 +28,14 @@ title: Week 6&7 Material
     - [Section 3.5]({{site.baseurl}}part3/#work)
 - Friday Sep 30
     - Continue [Section 3.5]({{site.baseurl}}part3/#work)
+
+## Week 8
+
+- Monday Oct 3
+    - [Section 4.1]({{site.baseurl}}part4/planar-parametrizations)
+- Tuesday Oct 4
+    - Continue [Section 4.1]({{site.baseurl}}part4/planar-parametrizations)
+- Wednesday Oct 5
+    - Midterm
+- Friday Oct 7
+    - *No class (Fall Break)*
