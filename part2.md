@@ -564,3 +564,5 @@ Substitution vs. Parts, do the following:
 8.  (Optional)
     Find \\(\int e^x\sqrt{1-e^{2x}}\,dx\\).
     (Hint: \\(\sin(2\theta)=2\sin\theta\cos\theta\\).)
+
+[Solutions]({{site.baseurl}}public/solutions/2.6.pdf)
