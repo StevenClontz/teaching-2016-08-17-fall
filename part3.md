@@ -53,9 +53,14 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.2.1 Defining Volume with Integrals
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/myniFisw1sY" frameborder="0" allowfullscreen></iframe>
+
 - The volume of a solid defined between \\(x=a\\) to \\(x=b\\)
   with a cross-sectional area of \\(A(x)\\) at each \\(x\\)-value
   is defined to be \\(V=\int_a^b A(x)\,dx\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XuRYovkZE-s" frameborder="0" allowfullscreen></iframe>
+
 - Steps for solving such problems:
     1. Sketch the solid along the \\(x\\)-axis with a typical
        cross-section at some \\(x\\) value.
@@ -66,6 +71,8 @@ title: "Part 3: Applications of Integrals"
   of sidelength \\(2\\) and height \\(3\\) is \\(4\\) cubic units.
 
 ### 3.2.2 Circular Cross-Sections
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dhrsn_Lg3Ac" frameborder="0" allowfullscreen></iframe>
 
 - In the case that all cross-sections are circular, we may replace
   \\(A(x)\\) with \\(\pi[R(x)]^2\\), where \\(R(x)\\) is the radius
