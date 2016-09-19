@@ -55,6 +55,8 @@ title: "Part 3: Applications of Integrals"
     \\((0,h)\\) is \\(\frac{1}{2}bh\\).
 6.  (Optional) Find the area of the ellipse \\(9x^2+16y^2=25\\).
 
+[Solutions]({{site.baseurl}}public/solutions/3.1.pdf)
+
 ---
 
 ## 3.2 Volumes by Cross-Sectioning
