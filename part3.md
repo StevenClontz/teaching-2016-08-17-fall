@@ -42,6 +42,19 @@ title: "Part 3: Applications of Integrals"
 - **Example** Find the area bounded by the curves \\(y=\sqrt{x}\\),
   \\(y=0\\), and \\(y=x-2\\).
 
+### Exercises for 3.1
+
+1.  Find the area between the curves \\(y=4\\) and \\(y=4x^3\\) from
+    \\(-1\\) to \\(1\\).
+2.  Find the area bounded by the curves \\(y=x^2-2x\\) and \\(y=x\\).
+4.  Find the area bounded by the curves \\(y=\pm\sqrt{4-x}\\) and \\(x=3\\).
+4.  Find the area bounded by the curves \\(y=0\\), \\(x=0\\), \\(y=1\\),
+    and \\(y=\ln x\\).
+5.  Use a definite integral to prove that the area of the
+    triangle with vertices \\((0,0)\\), \\((b,0)\\),
+    \\((0,h)\\) is \\(\frac{1}{2}bh\\).
+6.  (Optional) Find the area of the ellipse \\(9x^2+16y^2=25\\).
+
 ---
 
 ## 3.2 Volumes by Cross-Sectioning
