@@ -95,6 +95,28 @@ title: "Part 3: Applications of Integrals"
 - **Example** Prove that a cone of radius \\(r\\) and height \\(h\\)
   has volume \\(V=\frac{1}{3}\pi r^2 h\\).
 
+### Exercises for 3.2
+
+1.  Find the volume of a solid located between \\(x=-1\\) and \\(x=2\\)
+    with cross-sectional area \\(A(x)=x^2+1\\) for all \\(-1\leq x\leq 2\\).
+2.  Find the volume of a solid located between \\(x=0\\) and \\(x=1\\)
+    whose cross-sections are parallelograms with base length \\(b(x)=x+1\\)
+    and height \\(h(x)=x^2+1\\) for all \\(0\leq x\leq 1\\).
+4.  Find the volume of a wedge cut from a circular cylinder
+    with radius \\(2\\), sliced out at a \\(45^\circ\\) angle from the
+    diameter of its base. (Hint: Sketch the
+    diameter of the cylinder along the \\(x\\)-axis from \\(-2\\) to \\(2\\).
+    The cross-sections will be isosceles triangles.)
+5.  Prove that the volume of a sphere with radius \\(r\\) is
+    \\(V=\frac{4}{3}\pi r^3\\). (Hint: Draw a diameter of the sphere
+    on the \\(x\\)-axis from \\(-r\\) to \\(r\\), and use the equation
+    \\(x^2+y^2=r^2\\).)
+5.  (Optional)
+    Find the volume of the solid whose base is the region
+    \\(0\leq y\leq 4-x^2\\) and whose
+    cross-sections are
+    equilateral triangles perpendicular to the \\(x\\)-axis.
+
 
 
 ---
@@ -108,8 +130,28 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.3.1 Rotation about Horizontal Axes
 
+- Many solids may be described as revolutions of two-dimensional regions.
+  Such solids have washer-shaped cross-sections.
+- To obtain the volume of a solid of revolution about a horizontal axis,
+  identify the outer radius \\(R(x)\\) and inner radius \\(r(x)\\) for each
+  \\(x\\)-value and use the formula
+  \\(V=\int_a^b \pi([R(x)]^2-[r(x)]^2)\,dx\\).
+- **Example**
+  Find the volume of the solid of revolution obtained by rotating the
+  triangle with vertices \\((0,0)\\), \\((2,2)\\), \\((4,2)\\) around
+  the \\(x\\)-axis.
+- **Example**
+  Find the volume of the solid of revolution obtained by rotating the
+  region bounded by \\(y=x\\) and \\(y=x^2\\) around the line \\(y=2\\).
+
 ### 3.3.2 Rotation about Vertical Axes
 
+- When the axis of revolution is vertical, simply use functions of \\(y\\)
+  rather than \\(x\\).
+- **Example**
+  Find the volume of the solid of revolution obtained by rotating the
+  region bounded by \\(y=0\\), \\(x=1\\), \\(y=\sqrt{x}\\) around the
+  line \\(x=-1\\).
 
 
 ---
@@ -123,7 +165,30 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.4.1 Rotation about Vertical Axes
 
+- As an alternative to the washer method, one may consider
+  "cylindrical shell" cross-sections obtained by scanning from the axis of
+  revolution outwards.
+- The lateral surface area of a cylinder is given by \\(2\pi rh\\).
+- For a vertical axis of revolution, identify the radius \\(r(x)\\) and
+  height \\(h(x)\\) of a cylindrical shell, and use the formula
+  \\(V=\int_a^b 2\pi r(x)h(x)\,dx\\).
+- **Example**
+  Find the volume of the solid of revolution obtained by rotating the
+  region bounded by \\(y=0\\), \\(x=1\\), \\(y=\sqrt{x}\\) around the
+  line \\(x=-1\\).
+- **Example**
+  Find the volume of the solid of revolution obtained by rotating the
+  region bounded by \\(y=0\\), \\(x=\pm1\\), \\(y=x^2+1\\) around the
+  line \\(x=2\\).
+
 ### 3.4.2 Rotation about Horizontal Axes
+
+- When the axis of revolution is horizontal, simply use functions of \\(y\\)
+  rather than \\(x\\):
+- **Example**
+  Find the volume of the solid of revolution obtained by rotating the
+  triangle with vertices \\((-1,2)\\), \\((0,1)\\), \\((2,2)\\) around
+  the \\(x\\)-axis.
 
 
 
