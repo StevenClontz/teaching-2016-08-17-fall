@@ -117,6 +117,8 @@ title: "Part 3: Applications of Integrals"
     cross-sections are
     equilateral triangles perpendicular to the \\(x\\)-axis.
 
+[Solutions]({{site.baseurl}}public/solutions/3.2.pdf)
+
 
 
 ---
