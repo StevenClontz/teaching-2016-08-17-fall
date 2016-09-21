@@ -234,4 +234,44 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.5.1 Work by a Constant Force
 
+- In physics, the work \\(W\\) done by a force of constant magnitude \\(F\\)
+  over a displacement \\(d\\) by the formula \\(W=Fd\\).
+- **Example** Calculate the work done by a crane in lifting a \\(3000\\) pound
+  wrecking ball \\(25\\) feet.
+- **Example** Estimate the work done in lifting a leaky bucket of water
+  \\(1\\) meter off the ground if it weighs approximately
+  \\(4\\) newtons on the ground,
+  \\(3.8\\) newtons at \\(25\\) cm,
+  \\(3.5\\) newtons at \\(50\\) cm,
+  and \\(2.3\\) newtons at \\(75\\) cm.
+
 ### 3.5.2 Work by a Variable Force
+
+- If the force \\(F(x)\\) acting on an object varies with respect to the
+  position \\(x\\) of the object, then work done in moving the object from
+  \\(a\\) to \\(b\\) is defined by \\(W=\int_a^b F(x)\,dx\\).
+- **Example** Find the work done in lifting a leaky bucket of water \\(1\\)
+  meter off the ground if it weighs \\(4-3x^2\\) newtons when it is
+  \\(x\\) meters above the ground.
+- **Example** How much work is done in pulling up \\(20\\) feet of
+  hanging chain if it weighs \\(1\\) pound per \\(4\\) feet?
+- **Example** Hooke's Law states that the force required to hold
+  a stretched or compressed spring is directly proportional to its
+  natural length. That is, \\(F(x)=kx\\) where \\(x\\) is the difference
+  between the spring's natural length and its current length.
+  If a spring has natural length \\(10\\) inches, and it requires
+  \\(15\\) pounds of force to hold the spring at \\(13\\) inches,
+  how much work is required to stretch the spring an additional
+  \\(2\\) inches?
+
+### 3.5.3 Work and Pumping Liquid
+
+- To compute the work in pumping liquid, we proceed by computing a
+  work differential \\(dW\\) for each infintesimal slab of liquid
+  at height \\(y\\), and then evaluating \\(W=\int_{y=a}^{y=b} dW\\)
+  where \\(y=a\\) is the lowest point of liquid and \\(y=b\\) is the
+  highest.
+- **Example** Assume salt water weighs \\(10,000\\) newtons per
+  cubic meter. How much work is required to pump out a conical tank
+  of height \\(6\\) meters and radius \\(3\\) meters, if it is initially
+  filled with \\(4\\) feet of salt water?
