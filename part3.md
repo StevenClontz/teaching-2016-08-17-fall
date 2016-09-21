@@ -146,7 +146,7 @@ title: "Part 3: Applications of Integrals"
   the \\(x\\)-axis.
 - **Example**
   Find the volume of the solid of revolution obtained by rotating the
-  region bounded by \\(y=x\\) and \\(y=x^2\\) around the line \\(y=2\\).
+  region bounded by \\(y=x\\) and \\(y=x^2\\) around the axis \\(y=2\\).
 
 ### 3.3.2 Rotation about Vertical Axes
 
@@ -155,7 +155,34 @@ title: "Part 3: Applications of Integrals"
 - **Example**
   Find the volume of the solid of revolution obtained by rotating the
   region bounded by \\(y=0\\), \\(x=1\\), \\(y=\sqrt{x}\\) around the
-  line \\(x=-1\\).
+  axis \\(x=-1\\).
+
+### Exercises for 3.3
+
+1.  Find the volume of the solid of revolution obtained by rotating the
+    triangle with vertices \\((3,0)\\), \\((3,3)\\), \\((0,3)\\)
+    around the \\(x\\)-axis.
+2.  Find the volume of the solid of revolution obtained by rotating the
+    region bounded by \\(y=x^2\\), \\(y=2x\\) around the axis
+    \\(y=-2\\).
+3.  Consider the region in the \\(xy\\) plane
+    satisfying \\(|x|\leq\frac{\pi}{2}\\) and \\(|y|\leq\cos x\\).
+    Find the volume of the solid of revolution obtained by rotating
+    this region around the axis \\(y=3\\).
+4.  Find the volume of the solid of revolution obtained by rotating the
+    triangle with vertices \\((0,0)\\), \\((2,0)\\), \\((2,1)\\) around
+    the axis \\(x=4\\).
+5.  Find the volume of the solid of revolution obtained by rotating the
+    region bounded by \\(x+y=1\\), \\(y=\ln x\\), \\(y=1\\) around
+    the \\(y\\)-axis.
+6.  (Optional)
+    Find the volume of the solid of revolution obtained by rotating the
+    triangle with vertices \\((-\sqrt 2,0)\\), \\((0,\sqrt 2)\\),
+    \\((\sqrt 2,0)\\) around the axis \\(y=\sqrt 2-x\\).
+    (Hint: Translate the region and its axis so that it has a horizontal
+    or vertical axis of revolution.)
+
+
 
 
 ---
