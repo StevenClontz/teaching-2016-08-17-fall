@@ -134,6 +134,8 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.3.1 Rotation about Horizontal Axes
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NrTsu8WYjPg" frameborder="0" allowfullscreen></iframe>
+
 - Many solids may be described as revolutions of two-dimensional regions.
   Such solids have washer-shaped cross-sections.
 - To obtain the volume of a solid of revolution about a horizontal axis,
@@ -145,11 +147,16 @@ title: "Part 3: Applications of Integrals"
   Find the volume of the solid of revolution obtained by rotating the
   triangle with vertices \\((0,0)\\), \\((2,2)\\), \\((2,4)\\) around
   the \\(x\\)-axis.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xoACNK1trLA" frameborder="0" allowfullscreen></iframe>
+
 - **Example**
   Find the volume of the solid of revolution obtained by rotating the
   region bounded by \\(y=x\\) and \\(y=x^2\\) around the axis \\(y=2\\).
 
 ### 3.3.2 Rotation about Vertical Axes
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qeyp192xcF4" frameborder="0" allowfullscreen></iframe>
 
 - When the axis of revolution is vertical, simply use functions of \\(y\\)
   rather than \\(x\\), and the bottommost \\(c\\) and topmost \\(d\\)
