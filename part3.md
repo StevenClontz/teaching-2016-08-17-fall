@@ -184,6 +184,33 @@ title: "Part 3: Applications of Integrals"
     \\((\sqrt 2,0)\\) around the axis \\(y=\sqrt 2-x\\).
     (Hint: Translate the region and its axis so that it has a horizontal
     or vertical axis of revolution.)
+7.  (Quiz, 3.1 material)
+    Find the area between the curves \\(y=x^2\\) and \\(y=4\\).
+    - \\(\frac{32}{3}\\)
+    - \\(\frac{25}{4}\\)
+    - \\(7\\)
+8.  (Quiz)
+    What integral is produced by the washer method for the
+    volume of the solid of revolution obtained by rotating
+    the region bounded by \\(y=x^2\\) and \\(y=4\\) around the
+    \\(x\\)-axis?
+    - \\(\pi\int_{-2}^2[(4)^2-(x^2)^2]\,dx\\)
+    - \\(\pi\int_0^2(x^2-4)^2\,dx\\)
+    - \\(\int_{-1}^1 2\sqrt{\pi}-y\sqrt{\pi}\,dy\\)
+9.  (Quiz)
+    What integral is produced by the washer method for the
+    volume of the solid of revolution obtained by rotating
+    the triangle with vertices \\((1,1)\\), \\((2,1)\\), \\((2,0)\\)
+    around the axis \\(x=3\\)?
+    - \\(\pi\int_0^1[(1+y)^2-(1)^2]\,dy\\)
+    - \\(\int_1^2[\pi(2-y)^2-(3)^2]\,dy\\)
+    - \\(\pi\int_1^3[(2)^2-(2+x)^2]\,dx\\)
+
+[Solutions]({{site.baseurl}}public/solutions/3.3a.pdf)
+
+[Solutions]({{site.baseurl}}public/solutions/3.3b.pdf)
+
+[Solutions]({{site.baseurl}}public/solutions/3.3c.pdf)
 
 
 
@@ -300,7 +327,7 @@ title: "Part 3: Applications of Integrals"
 ### 3.5.3 Work and Pumping Liquid
 
 - To compute the work in pumping liquid, we proceed by computing a
-  work differential \\(dW\\) for each infintesimal slab of liquid
+  work differential \\(dW\\) for each infintesimal cross-section of liquid
   at height \\(y\\), and then evaluating \\(W=\int_{y=a}^{y=b} dW\\)
   where \\(y=a\\) is the lowest point of liquid and \\(y=b\\) is the
   highest.
@@ -308,3 +335,9 @@ title: "Part 3: Applications of Integrals"
   cubic meter. How much work is required to pump out a conical tank
   of height \\(6\\) meters and radius \\(3\\) meters, if it is initially
   filled with \\(4\\) feet of salt water?
+
+### Exercises for 3.5
+
+<!-- 1.  Find the volume of the solid of revolution obtained by rotating the
+    triangle with vertices \\((0,2)\\), \\((1,0)\\), \\((1,2)\\)
+    around the axis \\(x=2\\). -->
