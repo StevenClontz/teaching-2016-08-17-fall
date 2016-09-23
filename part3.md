@@ -206,11 +206,11 @@ title: "Part 3: Applications of Integrals"
     - \\(\int_1^2[\pi(2-y)^2-(3)^2]\,dy\\)
     - \\(\pi\int_1^3[(2)^2-(2+x)^2]\,dx\\)
 
-[Solutions]({{site.baseurl}}public/solutions/3.3a.pdf)
+[Solutions 1-3]({{site.baseurl}}public/solutions/3.3a.pdf)
 
-[Solutions]({{site.baseurl}}public/solutions/3.3b.pdf)
+[Solutions 4-6]({{site.baseurl}}public/solutions/3.3b.pdf)
 
-[Solutions]({{site.baseurl}}public/solutions/3.3c.pdf)
+[Solutions 7-9]({{site.baseurl}}public/solutions/3.3c.pdf)
 
 
 
