@@ -266,14 +266,14 @@ title: "Part 3: Applications of Integrals"
     triangle with vertices \\((0,2)\\), \\((1,0)\\), \\((1,2)\\)
     around the axis \\(x=2\\).
 2.  Find the volume of the solid of revolution obtained by rotating the
-    region bounded by \\(y=4\\), \\(y=x^2-4x+4\\), \\(x=2\\) around the
+    region bounded by \\(y=4\\), \\(y=x^2-4x+4\\) around the
     \\(y\\)-axis.
 3.  Find the volume of the solid of revolution obtained by rotating the
     region bounded by \\(x=y^2-1\\), \\(x=3\\) around the
     axis \\(x=-1\\).
 4.  Find the volume of the solid of revolution obtained by rotating the
-    triangle with vertices \\((3,0)\\), \\((3,3)\\), \\((0,3)\\)
-    around the \\(x\\)-axis.
+    triangle with vertices \\((4,2)\\), \\((2,6)\\), \\((0,6)\\)
+    around the axis \\(y=2\\).
 5.  Find the volume of the solid of revolution obtained by rotating the
     region bounded by \\(x=e\\), \\(y=2\\), \\(y=\ln x\\) around the
     \\(x\\)-axis.
@@ -333,6 +333,7 @@ title: "Part 3: Applications of Integrals"
   highest.
 - **Example** Assume salt water weighs \\(10,000\\) newtons per
   cubic meter. How much work is required to pump out a conical tank
+  pointed downward
   of height \\(6\\) meters and radius \\(3\\) meters, if it is initially
   filled with \\(4\\) feet of salt water?
 
