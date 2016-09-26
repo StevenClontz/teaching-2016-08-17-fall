@@ -294,6 +294,8 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.5.1 Work by a Constant Force
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YYrV6D_KMI8" frameborder="0" allowfullscreen></iframe>
+
 - In physics, the work \\(W\\) done by a force of constant magnitude \\(F\\)
   over a displacement \\(d\\) by the formula \\(W=Fd\\).
 - **Example** Calculate the work done by a crane in lifting a \\(3000\\) pound
@@ -307,6 +309,8 @@ title: "Part 3: Applications of Integrals"
 
 ### 3.5.2 Work by a Variable Force
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/23-AT2qLE1o" frameborder="0" allowfullscreen></iframe>
+
 - If the force \\(F(x)\\) acting on an object varies with respect to the
   position \\(x\\) of the object, then work done in moving the object from
   \\(a\\) to \\(b\\) is defined by \\(W=\int_a^b F(x)\,dx\\).
@@ -315,6 +319,9 @@ title: "Part 3: Applications of Integrals"
   \\(x\\) meters above the ground.
 - **Example** How much work is done in pulling up \\(20\\) feet of
   hanging chain if it weighs \\(1\\) pound per \\(4\\) feet?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjcRyJDj5dM" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Hooke's Law states that the force required to hold
   a stretched or compressed spring is directly proportional to its
   natural length. That is, \\(F(x)=kx\\) where \\(x\\) is the difference
@@ -325,6 +332,8 @@ title: "Part 3: Applications of Integrals"
   \\(2\\) inches?
 
 ### 3.5.3 Work and Pumping Liquid
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/682QxafIkv4" frameborder="0" allowfullscreen></iframe>
 
 - To compute the work in pumping liquid, we proceed by computing a
   work differential \\(dW\\) for each infintesimal cross-section of liquid
