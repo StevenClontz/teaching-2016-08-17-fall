@@ -369,6 +369,11 @@ title: "Part 3: Applications of Integrals"
 
 ### Exercises for 3.5
 
-<!-- 1.  Find the volume of the solid of revolution obtained by rotating the
-    triangle with vertices \\((0,2)\\), \\((1,0)\\), \\((1,2)\\)
-    around the axis \\(x=2\\). -->
+1.  Estimate the work done in pushing a plow \\(6\\) meters through
+    increasingly packed dirt; this movement requires \\(1\\) newton of force
+    at the beginning, \\(5\\) newtons of force after \\(2\\) meters,
+    and \\(9\\) netwons of force after \\(4\\) meters.
+2.  Compute the exact amount of work done in pushing a plow \\(6\\) meters
+    through increasingly packed dirt; this movement requires
+    \\(F(x)=1+2x\\) newtons of force after \\(x\\) meters.
+3.  Compute the work done in
