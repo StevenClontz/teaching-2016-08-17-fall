@@ -66,6 +66,39 @@ title: "Part 2: Advanced Integration Techniques"
 - **Example**
   Prove that \\(\int\csc x\,dx = -\ln|\csc x+\cot x|+C\\).
 
+### Exercises for 2.1
+
+1.  Find \\(\int 3(3x-5)^3\,dx\\).
+2.  Find \\(\int 4e^{r-7}\,dr\\).
+3.  Find \\(\int 4v\sech^2(2v^2+1)\,dv\\).
+4.  Find \\(\int \frac{2e^x}{e^x+3}\,dx\\).
+5.  Find \\(\int 2t^3\sqrt{t^2+1}\,dt\\).
+    (Hint: \\(2t^3=2t\cdot t^2\\).)
+6.  Find \\(\int \frac{2(\ln s)^3}{s}\,ds\\).
+7.  Find \\(\int \frac{3\sqrt{x}}{2(x^{3/2}+2)^2}\,dx\\).
+8.  Find \\(\int \frac{\cos(1/y)}{y^2}\,dy\\).
+9.  Compute \\(\int_0^{\pi/12} \sec(3\theta)\tan(3\theta)\,d\theta\\).
+10. Compute \\(\int_1^2 (6x+3)(x^2+x)^2\,dx\\).
+11. Compute \\(\int_{\ln 3}^{\ln 8}e^z\sqrt{1+e^z}\,dz\\).
+12. Compute \\(\int_e^{e^2}\frac{1}{x\ln x}\,dx\\).
+13. Use Substitution to find \\(\int\cot\theta\,d\theta\\).
+14. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
+    Substitution to prove \\(\int\sec x\,dx=\ln|\sec x+\tan x|+C\\).
+15. (Quiz)
+    Find \\(\int 3t^5(t^3+3)^2\,dt\\).
+    - \\(\frac{1}{4}t^4-4t^3+C\\)
+    - \\(\frac{1}{4}(t^3+3)^4-(t^3+3)^3+C\\)
+    - \\(\frac{1}{2}(t^3+3)^2+4(t^3+3)^3+C\\)
+16. (Quiz)
+    Evaluate \\(\int_0^1 x^2e^{2x^3}\,dx\\).
+    - \\(\frac{1}{6}e^2-\frac{1}{6}\\)
+    - \\(\frac{1}{4}e^2-\frac{1}{4}e\\)
+    - \\(\frac{1}{3}e-\frac{1}{3}\\)
+
+[Solutions 1-8]({{site.baseurl}}public/solutions/2.1a.pdf)
+
+[Solutions 9-16]({{site.baseurl}}public/solutions/2.1b.pdf)
+
 ---
 
 <!-- TODO make this section last -->
@@ -126,31 +159,40 @@ title: "Part 2: Advanced Integration Techniques"
 - **Example**
   Use Integration by Parts to find \\(\int\ln x\,dx\\).
 
+### Exercises for 2.2
 
-<!-- ---
+1.  Find \\(\int 3x\cosh(x)\,dx\\).
+2.  Find \\(\int te^{2t}\,dt\\).
+3.  Find \\(\int y^2\sin(y)\,dy\\).
+4.  Find \\(\int 4x\sec^2(x)\,dx\\).
+    (Hint: recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
+5.  Find \\(\int e^{3w}\sinh(w)\,dw\\).
+6.  Find \\(\int \sin(2x)\cos(4x)\,dx\\).
+7.  Compute \\(\int_1^e x\ln x\,dx\\).
+8.  (Optional)
+    Find \\(\int x^4e^x\,dx\\).
+9.  (Optional)
+    Prove \\(
+      \int \cos^{n+2} x\,dx
+    =
+      \frac{\cos^{n+1} x\sin x}{n+2}+\frac{n+1}{n+2}\int\cos^n x\,dx
+    \\). (Hint: take the derivative of both sides.)
+10. (Optional)
+    Find \\(\int \cos^4 x\,dx\\) using the above formula.
+11. (Quiz)
+    Find \\(\int x\cosh x\,dx\\).
+    - \\(x\sinh x-\cosh x+C\\)
+    - \\(x^2\sinh x+2\cosh x+C\\)
+    - \\(x\cosh x+3x\sinh x+C\\)
+12. (Quiz)
+    Find \\(\int e^\theta\sin\theta\,d\theta\\).
+    - \\(\frac{e^\theta\sin\theta+e^\theta\cos\theta}{3}+C\\)
+    - \\(-\frac{e^\theta\cos\theta}{4}+C\\)
+    - \\(\frac{e^\theta\sin\theta-e^\theta\cos\theta}{2}+C\\)
 
-## Note on Substitution and Parts
+[Solutions 1-5]({{site.baseurl}}public/solutions/2.2a.pdf)
 
-To **tell the difference** between problems where you should use
-Substitution vs. Parts, do the following:
-
-- Look for a nested function and its derivative. These are usually
-  **Substitution** problems:
-    - \\(\int 2x^2\cos(x^3)\,dx\\) can be solved by Substitution
-      because \\(u=x^3\\) is nested inside cosine, and its derivative
-      \\(du=3x^2dx\\) can be manipulated to get \\(\frac{1}{3}du=x^2dx\\),
-      which is found in the integral.
-- Otherwise, products of \\(x^m\\) and another function usually are
-  **Parts** problems:
-    - \\(\int 2x^2\cos(x)\,dx\\) can be solved by Parts because
-      the derivative of \\(u=2x^2\\) gets simpler, and the integral
-      of \\(dv=\cos(x)dx\\) doesn't get more complicated.
-- Finally, products of any two of \\(\sin x\\), \\(\cos x\\), \\(e^x\\),
-  \\(\sinh x\\), \\(\cosh x\\) are usually
-  **Parts** problems with cycling.
-    - \\(\int \sin(x)\cosh(2x)\,dx\\) is most easily solved with Parts
-      by setting \\(u=\cosh(2x)\\) and \\(dv=\sin(x)dx\\).
- -->
+[Solutions 6-12]({{site.baseurl}}public/solutions/2.2b.pdf)
 
 ---
 
@@ -203,6 +245,24 @@ Substitution vs. Parts, do the following:
   Find \\(\int\tan^3\theta\sec^3\theta\,d\theta\\).
 - **Example**
   Find \\(\int\sec^4 x\tan^5 x\,dx\\).
+
+### Exercises for 2.3
+
+1.  Find \\(\int\sin^4 x\cos^3 x\,dx\\).
+2.  Find \\(\int\sin^5 \theta\cos^2 \theta\,d\theta\\).
+3.  Find \\(\int\sin^2 x\,dx\\).
+4.  Find \\(\int\cos^4 y\,dy\\).
+5.  Find \\(\int\tan^2 t\sec^4 t\,dt\\).
+6.  (Optional)
+    Use integration by parts with cycling to prove
+    \\(
+      \int\sec^3 x\,dx
+    =
+      \frac{1}{2}\sec x\tan x+\frac{1}{2}\ln|\sec x+\tan x|+C
+    \\).
+    (Hint: \\(\int\sec x\tan^2 x\,dx=\int\sec x(\sec^2 x-1)\,dx\\).)
+
+[Solutions]({{site.baseurl}}public/solutions/2.3.pdf)
 
 
 ---
@@ -278,6 +338,78 @@ Substitution vs. Parts, do the following:
   Find \\(\int\frac{3}{\sqrt{9-x^2}}\,dx\\) without using a
   trigonometric substitution.
 
+### Exercises for 2.4
+
+### Exercises for 2.2
+
+1.  Find \\(\int 3x\cosh(x)\,dx\\).
+2.  Find \\(\int te^{2t}\,dt\\).
+3.  Find \\(\int y^2\sin(y)\,dy\\).
+4.  Find \\(\int 4x\sec^2(x)\,dx\\).
+    (Hint: recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
+5.  Find \\(\int e^{3w}\sinh(w)\,dw\\).
+6.  Find \\(\int \sin(2x)\cos(4x)\,dx\\).
+7.  Compute \\(\int_1^e x\ln x\,dx\\).
+8.  (Optional)
+    Find \\(\int x^4e^x\,dx\\).
+9.  (Optional)
+    Prove \\(
+      \int \cos^{n+2} x\,dx
+    =
+      \frac{\cos^{n+1} x\sin x}{n+2}+\frac{n+1}{n+2}\int\cos^n x\,dx
+    \\). (Hint: take the derivative of both sides.)
+10. (Optional)
+    Find \\(\int \cos^4 x\,dx\\) using the above formula.
+11. (Quiz)
+    Find \\(\int x\cosh x\,dx\\).
+    - \\(x\sinh x-\cosh x+C\\)
+    - \\(x^2\sinh x+2\cosh x+C\\)
+    - \\(x\cosh x+3x\sinh x+C\\)
+12. (Quiz)
+    Find \\(\int e^\theta\sin\theta\,d\theta\\).
+    - \\(\frac{e^\theta\sin\theta+e^\theta\cos\theta}{3}+C\\)
+    - \\(-\frac{e^\theta\cos\theta}{4}+C\\)
+    - \\(\frac{e^\theta\sin\theta-e^\theta\cos\theta}{2}+C\\)
+
+[Solutions 1-5]({{site.baseurl}}public/solutions/2.2a.pdf)
+
+[Solutions 6-12]({{site.baseurl}}public/solutions/2.2b.pdf)
+
+1.  Find \\(\int\frac{2}{\sqrt{1+4z^2}}\,dz\\).
+    (Recall \\(\int\sec\theta\,d\theta=\ln|\sec\theta+\tan\theta|+C\\).)
+2.  Find \\(\int\frac{x^3}{9+x^2}\,dx\\).
+    (Recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
+3.  Find \\(\int \frac{4}{(1-y^2)^{3/2}}\,dy\\).
+4.  Find \\(\int\frac{2x^3}{\sqrt{9-x^2}}\,dx\\).
+5.  Prove \\(\int\frac{1}{\sqrt{1-x^2}}\,dx=\inverse\sin x+C\\).
+6.  Find \\(\int\frac{\sqrt{x^2-16}}{x}\,dx\\) where \\(x\geq 4\\).
+7.  Find \\(\int\frac{1}{\sqrt{4t^2-1}}\,dt\\) where \\(t>\frac{1}{2}\\).
+8.  Find \\(\int\frac{2}{\sqrt{1-4x^2}}\,dx\\) without a
+    trigonometric substitution.
+9.  (Optional)
+    Find \\(\int\frac{2}{4+9x^2}\,dx\\) without a
+    trigonometric substitution.
+10. (Quiz)
+    Find \\(\int \frac{1}{\sqrt{9+y^2}}\,dy\\).
+    (Recall \\(\int\sec\theta\,d\theta=\ln\|\sec\theta+\tan\theta\|+C\\).)
+    - \\(\ln\|\sqrt{1+\frac{1}{9}y^2}+\frac{y}{3}\|+C\\).
+    - \\(\sin^{\leftarrow}(\frac{y}{9})+C\\)
+    - \\(\ln(\sqrt{9+\frac{1}{9}y^2})+C\\)
+    - (Note: the quiz given in class had a typo:
+      \\(\int \frac{1}{\sqrt{9-y^2}}\,dy\\), making
+      \\(\inverse\sin(\frac{y}{3})+C\\) or
+      "None of the Above" the correct solution. The full solution below
+      is for the version without a typo.)
+11. (Quiz)
+    Find \\(\int \frac{1}{x\sqrt{4x^2-1}}\,dy\\) where \\(x>\frac{1}{2}\\).
+    - \\(\tan^{\leftarrow}(4x^2-1)+\ln\|x\|+C\\)
+    - \\(\sec^{\leftarrow}(2x)+C\\)
+    - \\(\ln\|x+\sqrt{4x^2-1}\|+C\\)
+
+[Solutions 1-5]({{site.baseurl}}public/solutions/2.4a.pdf)
+
+[Solutions 6-11]({{site.baseurl}}public/solutions/2.4b.pdf)
+
 
 
 ---
@@ -348,6 +480,32 @@ Substitution vs. Parts, do the following:
   rational function first.
 - **Example** Find \\(\int\frac{2t^3+t^2+3t+2}{(1+t)(1+t^2)}\,dt\\).
 
+### Exercises for 2.5
+
+1.  Expand \\(\frac{4x^2+16x+17}{(x+2)^3}\\) using partial fractions.
+2.  Expand \\(\frac{-y^2+2y-4}{(y^2+4)^2}\\) using partial fractions.
+3.  Expand \\(\frac{3r^3+r^2+3}{r^4+3r^2}\\) using partial fractions.
+4.  Find \\(\int\frac{3z+2}{z^2+2z+1}\,dz\\).
+5.  Find \\(\int\frac{3x^2+35}{x^3+5x}\,dx\\).
+6.  Find \\(\int\frac{2v^3+4v^2+4v+2}{v^2+2v}\,dv\\).
+7.  (Optional) Find \\(\int\frac{2x^3+6x^2+4x+2}{(x+1)^2(x^2+1)}\,dx\\).
+8.  (Quiz)
+    Which of the following describes the expansion of
+    \\(\frac{f(t)}{(t+1)^2(t^2+9)}\\) using partial fractions?
+    (Assume \\(f(t)\\) is a polynomial of degree less than 4.)
+    - \\(\frac{At+B}{t+1}+\frac{C}{t^2+1}+\frac{D}{t^2+9}\\).
+    - \\(\frac{A}{t}+\frac{Bt+C}{(t+1)^2}+\frac{D}{t+3}+\frac{E}{t^2+9}\\)
+    - \\(\frac{A}{t+1}+\frac{B}{(t+1)^2}+\frac{Ct+D}{t^2+9}\\)
+9.  (Quiz)
+    Find \\(\int \frac{-x^2+6x-3}{(x+3)(x^2+1)}\,dx\\).
+    - \\(-3\ln\|x+3\|+\ln\|x^2+1\|+C\\)
+    - \\(\frac{3}{x^2+9}+2\ln(x^2+1)+C\\)
+    - \\(2\ln(x+3)-\tan^{\leftarrow}(x^2+1)+C\\)
+
+[Solutions 1-4]({{site.baseurl}}public/solutions/2.5a.pdf)
+
+[Solutions 5-9]({{site.baseurl}}public/solutions/2.5b.pdf)
+
 ---
 
 ## 2.6 Strategies for Integration
@@ -398,159 +556,6 @@ Substitution vs. Parts, do the following:
 - **Example** Find \\(\int\frac{1}{\sqrt{4-9t^2}}\,dt\\).
 - **Example** Find \\(\int\sin^2 x\cos^3 x\,dx\\).
 
----
-
-## Review Exercises
-
-### Exercises for 2.1
-
-1.  Find \\(\int 3(3x-5)^3\,dx\\).
-2.  Find \\(\int 4e^{r-7}\,dr\\).
-3.  Find \\(\int 4v\sech^2(2v^2+1)\,dv\\).
-4.  Find \\(\int \frac{2e^x}{e^x+3}\,dx\\).
-5.  Find \\(\int 2t^3\sqrt{t^2+1}\,dt\\).
-    (Hint: \\(2t^3=2t\cdot t^2\\).)
-6.  Find \\(\int \frac{2(\ln s)^3}{s}\,ds\\).
-7.  Find \\(\int \frac{3\sqrt{x}}{2(x^{3/2}+2)^2}\,dx\\).
-8.  Find \\(\int \frac{\cos(1/y)}{y^2}\,dy\\).
-9.  Compute \\(\int_0^{\pi/12} \sec(3\theta)\tan(3\theta)\,d\theta\\).
-10. Compute \\(\int_1^2 (6x+3)(x^2+x)^2\,dx\\).
-11. Compute \\(\int_{\ln 3}^{\ln 8}e^z\sqrt{1+e^z}\,dz\\).
-12. Compute \\(\int_e^{e^2}\frac{1}{x\ln x}\,dx\\).
-13. Use Substitution to find \\(\int\cot\theta\,d\theta\\).
-14. Multiply by \\(\frac{\sec x+\tan x}{\sec x+\tan x}\\) and use
-    Substitution to prove \\(\int\sec x\,dx=\ln|\sec x+\tan x|+C\\).
-15. (Quiz)
-    Find \\(\int 3t^5(t^3+3)^2\,dt\\).
-    - \\(\frac{1}{4}t^4-4t^3+C\\)
-    - \\(\frac{1}{4}(t^3+3)^4-(t^3+3)^3+C\\)
-    - \\(\frac{1}{2}(t^3+3)^2+4(t^3+3)^3+C\\)
-16. (Quiz)
-    Evaluate \\(\int_0^1 x^2e^{2x^3}\,dx\\).
-    - \\(\frac{1}{6}e^2-\frac{1}{6}\\)
-    - \\(\frac{1}{4}e^2-\frac{1}{4}e\\)
-    - \\(\frac{1}{3}e-\frac{1}{3}\\)
-
-[Solutions 1-8]({{site.baseurl}}public/solutions/2.1a.pdf)
-
-[Solutions 9-16]({{site.baseurl}}public/solutions/2.1b.pdf)
-
-### Exercises for 2.2
-
-1.  Find \\(\int 3x\cosh(x)\,dx\\).
-2.  Find \\(\int te^{2t}\,dt\\).
-3.  Find \\(\int y^2\sin(y)\,dy\\).
-4.  Find \\(\int 4x\sec^2(x)\,dx\\).
-    (Hint: recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
-5.  Find \\(\int e^{3w}\sinh(w)\,dw\\).
-6.  Find \\(\int \sin(2x)\cos(4x)\,dx\\).
-7.  Compute \\(\int_1^e x\ln x\,dx\\).
-8.  (Optional)
-    Find \\(\int x^4e^x\,dx\\).
-9.  (Optional)
-    Prove \\(
-      \int \cos^{n+2} x\,dx
-    =
-      \frac{\cos^{n+1} x\sin x}{n+2}+\frac{n+1}{n+2}\int\cos^n x\,dx
-    \\). (Hint: take the derivative of both sides.)
-10. (Optional)
-    Find \\(\int \cos^4 x\,dx\\) using the above formula.
-11. (Quiz)
-    Find \\(\int x\cosh x\,dx\\).
-    - \\(x\sinh x-\cosh x+C\\)
-    - \\(x^2\sinh x+2\cosh x+C\\)
-    - \\(x\cosh x+3x\sinh x+C\\)
-12. (Quiz)
-    Find \\(\int e^\theta\sin\theta\,d\theta\\).
-    - \\(\frac{e^\theta\sin\theta+e^\theta\cos\theta}{3}+C\\)
-    - \\(-\frac{e^\theta\cos\theta}{4}+C\\)
-    - \\(\frac{e^\theta\sin\theta-e^\theta\cos\theta}{2}+C\\)
-
-[Solutions 1-5]({{site.baseurl}}public/solutions/2.2a.pdf)
-
-[Solutions 6-12]({{site.baseurl}}public/solutions/2.2b.pdf)
-
-### Exercises for 2.3
-
-1.  Find \\(\int\sin^4 x\cos^3 x\,dx\\).
-2.  Find \\(\int\sin^5 \theta\cos^2 \theta\,d\theta\\).
-3.  Find \\(\int\sin^2 x\,dx\\).
-4.  Find \\(\int\cos^4 y\,dy\\).
-5.  Find \\(\int\tan^2 t\sec^4 t\,dt\\).
-6.  (Optional)
-    Use integration by parts with cycling to prove
-    \\(
-      \int\sec^3 x\,dx
-    =
-      \frac{1}{2}\sec x\tan x+\frac{1}{2}\ln|\sec x+\tan x|+C
-    \\).
-    (Hint: \\(\int\sec x\tan^2 x\,dx=\int\sec x(\sec^2 x-1)\,dx\\).)
-
-[Solutions]({{site.baseurl}}public/solutions/2.3.pdf)
-
-### Exercises for 2.4
-
-1.  Find \\(\int\frac{2}{\sqrt{1+4z^2}}\,dz\\).
-    (Recall \\(\int\sec\theta\,d\theta=\ln|\sec\theta+\tan\theta|+C\\).)
-2.  Find \\(\int\frac{x^3}{9+x^2}\,dx\\).
-    (Recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
-3.  Find \\(\int \frac{4}{(1-y^2)^{3/2}}\,dy\\).
-4.  Find \\(\int\frac{2x^3}{\sqrt{9-x^2}}\,dx\\).
-5.  Prove \\(\int\frac{1}{\sqrt{1-x^2}}\,dx=\inverse\sin x+C\\).
-6.  Find \\(\int\frac{\sqrt{x^2-16}}{x}\,dx\\) where \\(x\geq 4\\).
-7.  Find \\(\int\frac{1}{\sqrt{4t^2-1}}\,dt\\) where \\(t>\frac{1}{2}\\).
-8.  Find \\(\int\frac{2}{\sqrt{1-4x^2}}\,dx\\) without a
-    trigonometric substitution.
-9.  (Optional)
-    Find \\(\int\frac{2}{4+9x^2}\,dx\\) without a
-    trigonometric substitution.
-10. (Quiz)
-    Find \\(\int \frac{1}{\sqrt{9+y^2}}\,dy\\).
-    (Recall \\(\int\sec\theta\,d\theta=\ln\|\sec\theta+\tan\theta\|+C\\).)
-    - \\(\ln\|\sqrt{1+\frac{1}{9}y^2}+\frac{y}{3}\|+C\\).
-    - \\(\sin^{\leftarrow}(\frac{y}{9})+C\\)
-    - \\(\ln(\sqrt{9+\frac{1}{9}y^2})+C\\)
-    - (Note: the quiz given in class had a typo:
-      \\(\int \frac{1}{\sqrt{9-y^2}}\,dy\\), making
-      \\(\inverse\sin(\frac{y}{3})+C\\) or
-      "None of the Above" the correct solution. The full solution below
-      is for the version without a typo.)
-11. (Quiz)
-    Find \\(\int \frac{1}{x\sqrt{4x^2-1}}\,dy\\) where \\(x>\frac{1}{2}\\).
-    - \\(\tan^{\leftarrow}(4x^2-1)+\ln\|x\|+C\\)
-    - \\(\sec^{\leftarrow}(2x)+C\\)
-    - \\(\ln\|x+\sqrt{4x^2-1}\|+C\\)
-
-[Solutions 1-5]({{site.baseurl}}public/solutions/2.4a.pdf)
-
-[Solutions 6-11]({{site.baseurl}}public/solutions/2.4b.pdf)
-
-### Exercises for 2.5
-
-1.  Expand \\(\frac{4x^2+16x+17}{(x+2)^3}\\) using partial fractions.
-2.  Expand \\(\frac{-y^2+2y-4}{(y^2+4)^2}\\) using partial fractions.
-3.  Expand \\(\frac{3r^3+r^2+3}{r^4+3r^2}\\) using partial fractions.
-4.  Find \\(\int\frac{3z+2}{z^2+2z+1}\,dz\\).
-5.  Find \\(\int\frac{3x^2+35}{x^3+5x}\,dx\\).
-6.  Find \\(\int\frac{2v^3+4v^2+4v+2}{v^2+2v}\,dv\\).
-7.  (Optional) Find \\(\int\frac{2x^3+6x^2+4x+2}{(x+1)^2(x^2+1)}\,dx\\).
-8.  (Quiz)
-    Which of the following describes the expansion of
-    \\(\frac{f(t)}{(t+1)^2(t^2+9)}\\) using partial fractions?
-    (Assume \\(f(t)\\) is a polynomial of degree less than 4.)
-    - \\(\frac{At+B}{t+1}+\frac{C}{t^2+1}+\frac{D}{t^2+9}\\).
-    - \\(\frac{A}{t}+\frac{Bt+C}{(t+1)^2}+\frac{D}{t+3}+\frac{E}{t^2+9}\\)
-    - \\(\frac{A}{t+1}+\frac{B}{(t+1)^2}+\frac{Ct+D}{t^2+9}\\)
-9.  (Quiz)
-    Find \\(\int \frac{-x^2+6x-3}{(x+3)(x^2+1)}\,dx\\).
-    - \\(-3\ln\|x+3\|+\ln\|x^2+1\|+C\\)
-    - \\(\frac{3}{x^2+9}+2\ln(x^2+1)+C\\)
-    - \\(2\ln(x+3)-\tan^{\leftarrow}(x^2+1)+C\\)
-
-[Solutions 1-4]({{site.baseurl}}public/solutions/2.5a.pdf)
-
-[Solutions 5-9]({{site.baseurl}}public/solutions/2.5b.pdf)
-
 ### Exercises for 2.6
 
 1.  Find \\(\int(x^2-1)(x^2+1)\,dx\\).
@@ -566,3 +571,9 @@ Substitution vs. Parts, do the following:
     (Hint: \\(\sin(2\theta)=2\sin\theta\cos\theta\\).)
 
 [Solutions]({{site.baseurl}}public/solutions/2.6.pdf)
+
+---
+
+## Review Exercises
+
+The exercises are now located with their respective notes.

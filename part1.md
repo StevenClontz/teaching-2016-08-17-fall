@@ -65,6 +65,35 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
   to prove the property \\( x = \log_b(b^x) \\). (That is,
   \\(\log_b x\\) and \\(b^x\\) are inverse functions.)
 
+### Exercises for 1.1
+
+1.  Use the definition \\( \ln x=\int_1^x \frac{1}{t}\,dt \\)
+  to prove the property \\( \ln(x^p) = p\ln x \\) for \\(x>0\\)
+  and \\(p\in\mathbb Q\\). (Hint: start by showing that both sides share
+  the same derivative.)
+2.  Find \\(\int \frac{6}{x^3}+\frac{2}{x}-3x\,dx\\).
+3.  Find \\(\int \frac{6x^4-x^2+4}{2x^3}\,dx\\).
+4.  We saw that \\(\frac{d}{dx}[e^x]=e^x\\).
+  Describe infinitely many other functions \\(f(x)\\) such that
+  \\(f'(x)=f(x)\\).
+5.  Find \\(\frac{d}{dx}[\frac{1}{x}+3e^x]\\).
+6.  Prove the following derivative formulas:
+    \\( \frac{d}{dx}[\log_b x]=\frac{1}{x\ln b} \\) and
+    \\( \frac{d}{dx}[a^x]=a^x \ln a \\).
+7.  (Quiz) Integrate \\(\int 3x^4+3e^x-\frac{4}{x}\,dx\\).
+    - \\(12x^3-3e^x+4\ln\|x\|+C\\)
+    - \\(\frac{3}{5}x^5+3e^x-4\ln\|x\|+C\\)
+    - \\(\frac{3}{4}x^5+3xe^{x-1}-\frac{4}{x^2}+C\\)
+    - None of the above
+8.  (Quiz) Differentiate \\(f(x)=\ln(x^2)+e^{x^3}\\).
+    - \\(f'(x)=\frac{2}{x}+3x^2e^{x^3}\\)
+    - \\(f'(x)=2x\ln(x^2)+x^3e^{x^3-1}+C\\)
+    - \\(f'(x)=\frac{2x}{x^2}+e^{x^3}\\)
+    - None of the above
+
+
+[Solutions]({{site.baseurl}}public/solutions/1.1.pdf)
+
 
 
 ---
@@ -102,6 +131,28 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
   the same derivative.)
 
 
+
+### Exercises for 1.2
+
+1.  Show that \\(f(x)=\cos(x)\\) is a solution to the differential equation
+    \\(f^{\prime\prime}(x)=-f(x),f'(0)=0,f(0)=1\\).
+2.  Show that \\(f(x)=\sin(3x)\\) is a solution to the differential equation
+    \\(f^{\prime\prime}(x)=-9f(x),f'(0)=3,f(0)=0\\).
+3.  Find a solution to the differential equation
+    \\(f^{\prime\prime}(x)=-f(x),f'(0)=0,f(0)=4\\).
+4.  Prove that if \\( x\\) is an angle where
+    \\(\sin x = -\frac{5}{13}\\), then \\(\cos x\\) is either
+    \\(\frac{12}{13}\\) or \\(-\frac{12}{13}\\). (Hint: use the Pythagorean
+    identity.)
+5.  (Optional) <!-- TODO make nonoptional -->
+    Find a solution to the differential equation
+    \\(f^{\prime\prime}(x)=-4f(x),f'(0)=6,f(0)=0\\).
+6.  (Optional)
+    Prove that \\(-1\leq\sin x\leq 1\\) and \\(-1\leq\cos x\leq 1\\).
+    (Hint: use the Pythagorean identity.)
+
+
+[Solutions]({{site.baseurl}}public/solutions/1.2.pdf)
 
 ---
 
@@ -168,60 +219,6 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 - **Example**
   Find \\(\int 4\csch^2 x-3\sinh x\,dx\\).
 
----
-
-## Review Exercises
-
-### Exercises for 1.1
-
-1.  Use the definition \\( \ln x=\int_1^x \frac{1}{t}\,dt \\)
-  to prove the property \\( \ln(x^p) = p\ln x \\) for \\(x>0\\)
-  and \\(p\in\mathbb Q\\). (Hint: start by showing that both sides share
-  the same derivative.)
-2.  Find \\(\int \frac{6}{x^3}+\frac{2}{x}-3x\,dx\\).
-3.  Find \\(\int \frac{6x^4-x^2+4}{2x^3}\,dx\\).
-4.  We saw that \\(\frac{d}{dx}[e^x]=e^x\\).
-  Describe infinitely many other functions \\(f(x)\\) such that
-  \\(f'(x)=f(x)\\).
-5.  Find \\(\frac{d}{dx}[\frac{1}{x}+3e^x]\\).
-6.  Prove the following derivative formulas:
-    \\( \frac{d}{dx}[\log_b x]=\frac{1}{x\ln b} \\) and
-    \\( \frac{d}{dx}[a^x]=a^x \ln a \\).
-7.  (Quiz) Integrate \\(\int 3x^4+3e^x-\frac{4}{x}\,dx\\).
-    - \\(12x^3-3e^x+4\ln\|x\|+C\\)
-    - \\(\frac{3}{5}x^5+3e^x-4\ln\|x\|+C\\)
-    - \\(\frac{3}{4}x^5+3xe^{x-1}-\frac{4}{x^2}+C\\)
-    - None of the above
-8.  (Quiz) Differentiate \\(f(x)=\ln(x^2)+e^{x^3}\\).
-    - \\(f'(x)=\frac{2}{x}+3x^2e^{x^3}\\)
-    - \\(f'(x)=2x\ln(x^2)+x^3e^{x^3-1}+C\\)
-    - \\(f'(x)=\frac{2x}{x^2}+e^{x^3}\\)
-    - None of the above
-
-
-[Solutions]({{site.baseurl}}public/solutions/1.1.pdf)
-
-### Exercises for 1.2
-
-1.  Show that \\(f(x)=\cos(x)\\) is a solution to the differential equation
-    \\(f^{\prime\prime}(x)=-f(x),f'(0)=0,f(0)=1\\).
-2.  Show that \\(f(x)=\sin(3x)\\) is a solution to the differential equation
-    \\(f^{\prime\prime}(x)=-9f(x),f'(0)=3,f(0)=0\\).
-3.  Find a solution to the differential equation
-    \\(f^{\prime\prime}(x)=-f(x),f'(0)=0,f(0)=4\\).
-4.  Prove that if \\( x\\) is an angle where
-    \\(\sin x = -\frac{5}{13}\\), then \\(\cos x\\) is either
-    \\(\frac{12}{13}\\) or \\(-\frac{12}{13}\\). (Hint: use the Pythagorean
-    identity.)
-5.  (Optional) <!-- TODO make nonoptional -->
-    Find a solution to the differential equation
-    \\(f^{\prime\prime}(x)=-4f(x),f'(0)=6,f(0)=0\\).
-6.  (Optional)
-    Prove that \\(-1\leq\sin x\leq 1\\) and \\(-1\leq\cos x\leq 1\\).
-    (Hint: use the Pythagorean identity.)
-
-
-[Solutions]({{site.baseurl}}public/solutions/1.2.pdf)
 
 ### Exercises for 1.3
 
@@ -257,3 +254,8 @@ title: "Part 1: Functions Defined by Derivatives and Integrals"
 
 [Solutions 1-11]({{site.baseurl}}public/solutions/1.3.pdf)
 [Solutions 12,13]({{site.baseurl}}public/solutions/1.3quiz.pdf)
+---
+
+## Review Exercises
+
+The exercises are now located with their respective notes.
