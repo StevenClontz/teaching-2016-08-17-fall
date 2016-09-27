@@ -105,7 +105,8 @@ title: "Part 3: Applications of Integrals"
 4.  Find the volume of a wedge cut from a circular cylinder
     with radius \\(2\\), sliced out at a \\(45^\circ\\) angle from the
     diameter of its base. (Hint: Sketch the
-    diameter of the cylinder along the \\(x\\)-axis from \\(-2\\) to \\(2\\).
+    diameter of the cylinder along the \\(x\\)-axis from \\(-2\\) to \\(2\\),
+    and use the equation \\(x^2+y^2=2^2\\).
     The cross-sections will be isosceles triangles.)
 5.  Prove that the volume of a sphere with radius \\(r\\) is
     \\(V=\frac{4}{3}\pi r^3\\). (Hint: Draw a diameter of the sphere
@@ -280,6 +281,26 @@ title: "Part 3: Applications of Integrals"
 6.  (Optional)
     Use the cylindrical shell method to reprove the volume formula
     for a sphere: \\(V=\frac{4}{3}\pi R^3\\).
+7.  (Quiz)
+    What integral is produced by the cylindrical shell method for the
+    volume of the solid of revolution obtained by rotating
+    the triangle with vertices \\((0,0),(2,0),(0,4)\\) around the
+    \\(y\\)-axis?
+    - \\(\pi\int_0^2(2x^2)(2x+4)\,dx\\)
+    - \\(\int_{-4}^4(2\pi-y)\,dy\\)
+    - \\(2\pi\int_0^2(x)(4-2x)\,dx\\)
+8.  (Quiz)
+    What integral is produced by the cylindrical shell method for the
+    volume of the solid of revolution obtained by rotating
+    the region bounded by \\(x=0,y=2,x=y^3\\) around the axis \\(y=-1\\)?
+    - \\(2\pi\int_0^2(y+1)(y^3),dy\\)
+    - \\(2\pi\int_8^0(y-1)(y^3+1)\,dy\\)
+    - \\(2\pi\int_1^3(2x)^2(\sqrt[3]x)\,dx\\)
+
+[Solutions 1-3]({{site.baseurl}}public/solutions/3.3a.pdf)
+
+[Solutions 4-8]({{site.baseurl}}public/solutions/3.3b.pdf)
+
 
 
 
