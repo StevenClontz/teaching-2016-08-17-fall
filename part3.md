@@ -416,3 +416,5 @@ title: "Part 3: Applications of Integrals"
     the entire beverage using a straw which extends \\(S\\) inches above
     the top of the container requires
     \\(\frac{4}{3}D\pi R^3(R+S)\\) inch-ounces of work.
+
+[Solutions 1-6]({{site.baseurl}}public/solutions/3.5a.pdf)
