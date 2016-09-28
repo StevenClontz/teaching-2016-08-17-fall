@@ -410,7 +410,7 @@ title: "Part 3: Applications of Integrals"
     work done in completely pumping all the water in the tank up to the
     point of the pyramid is \\(10000\int_0^4(4-y)^3\,dy\\) J.
 9.  (Optional)
-    Assume that a square inch of Juicy Juice(TM) weighs \\(D\\) oz.
+    Assume that a cubic inch of Juicy Juice(TM) weighs \\(D\\) oz.
     Suppose a perfectly spherical coconut-shaped cup with radius \\(R\\)
     inches is completely filled with Juicy Juice(TM). Show that drinking
     the entire beverage using a straw which extends \\(S\\) inches above
