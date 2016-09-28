@@ -297,9 +297,9 @@ title: "Part 3: Applications of Integrals"
     - \\(2\pi\int_8^0(y-1)(y^3+1)\,dy\\)
     - \\(2\pi\int_1^3(2x)^2(\sqrt[3]x)\,dx\\)
 
-[Solutions 1-3]({{site.baseurl}}public/solutions/3.3a.pdf)
+[Solutions 1-3]({{site.baseurl}}public/solutions/3.4a.pdf)
 
-[Solutions 4-8]({{site.baseurl}}public/solutions/3.3b.pdf)
+[Solutions 4-8]({{site.baseurl}}public/solutions/3.4b.pdf)
 
 
 
@@ -396,16 +396,23 @@ title: "Part 3: Applications of Integrals"
     water. This bucket weighs \\(10\\) pounds and
     initially holds \\(30\\) pounds of water,
     but loses \\(1\\) pound of water every \\(2\\) feet. Show that
-    the work done in lifting the rope and bucket is \\(4000\\) ft-lbs.
+    the work done in lifting the rope and bucket is \\(4400\\) ft-lbs.
     (Hint: When does the bucket run out of water?)
 7.  Assume salt water weighs \\(10\\) kilonewtons (kN) per cubic meter.
     A cylindrical tank with a radius of \\(3\\) meters and a height of
-    \\(10\\) meters holds \\(8\\) feet of salt water. Show that
+    \\(10\\) meters holds \\(8\\) meters of salt water. Show that
     the work required to pump out the salt water to the top of the tank
     is \\(4320\pi\\) kN-m (kJ).
 8.  Assume salt water weighs \\(10000\\) newtons per cubic meter.
-    A pyramid-shaped tank of height \\(4\\) feet is pointed upward,
-    with a square base of side length \\(4\\) feet, and is completely
+    A pyramid-shaped tank of height \\(4\\) meters is pointed upward,
+    with a square base of side length \\(4\\) meters, and is completely
     filled with salt water. Show that the
     work done in completely pumping all the water in the tank up to the
     point of the pyramid is \\(10000\int_0^4(4-y)^3\,dy\\) J.
+9.  (Optional)
+    Assume that a square inch of Juicy Juice(TM) weighs \\(D\\) oz.
+    Suppose a perfectly spherical coconut-shaped cup with radius \\(R\\)
+    inches is completely filled with Juicy Juice(TM). Show that drinking
+    the entire beverage using a straw which extends \\(S\\) inches above
+    the top of the container requires
+    \\(\frac{4}{3}D\pi R^3(R+S)\\) inch-ounces of work.
