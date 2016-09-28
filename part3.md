@@ -376,4 +376,15 @@ title: "Part 3: Applications of Integrals"
 2.  Compute the exact amount of work done in pushing a plow \\(6\\) meters
     through increasingly packed dirt; this movement requires
     \\(F(x)=1+2x\\) newtons of force after \\(x\\) meters.
-3.  Compute the work done in
+3.  A cable weighing \\(4\\) pounds per foot holds a \\(500\\) pound bucket of
+    coal at the bottom of a \\(300\\) foot mine shaft. Show that the
+    total work done in lifting the cable and bucket is
+    \\(330,000\) foot-pounds.
+4.  Hooke's Law states that the force required to hold
+    a stretched or compressed spring is directly proportional to its
+    natural length. That is, \\(F(x)=kx\\) where \\(x\\) is the difference
+    between the spring's natural length and its current length.
+    Show that if a spring has natural length \\(20\\) cm, and it requires
+    \\(25\\) newtons of force to hold the spring at \\(15\\) cm,
+    then the work required to stretch the spring from its natural length
+    to \\(26\\) cm is \\(72\\) N-cm.
