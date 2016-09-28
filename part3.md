@@ -379,15 +379,33 @@ title: "Part 3: Applications of Integrals"
 3.  Find the work done in lifting a leaky bucket from the ground to
     a height of four feet, assuming it weighs
     \\(25-x\\) pounds at \\(x\\) feet above the ground.
-3.  A cable weighing \\(4\\) pounds per foot holds a \\(500\\) pound bucket of
+4.  A cable weighing \\(4\\) pounds per foot holds a \\(500\\) pound bucket of
     coal at the bottom of a \\(300\\) foot mine shaft. Show that the
     total work done in lifting the cable and bucket is
     \\(330,000\\) foot-pounds.
-4.  Hooke's Law states that the force required to hold
+5.  Hooke's Law states that the force required to hold
     a stretched or compressed spring is directly proportional to its
     natural length. That is, \\(F(x)=kx\\) where \\(x\\) is the difference
     between the spring's natural length and its current length.
     Show that if a spring has natural length \\(20\\) cm, and it requires
     \\(25\\) newtons of force to hold the spring at \\(15\\) cm,
     then the work required to stretch the spring from its natural length
-    to \\(26\\) cm is \\(72\\) N-cm.
+    to \\(26\\) cm is \\(90\\) N-cm.
+6.  A uniformly weighted \\(100\\) foot rope weighs \\(50\\) pounds.
+    Suppose it is fully extended into a well, tied to a leaky bucket of
+    water. This bucket weighs \\(10\\) pounds and
+    initially holds \\(30\\) pounds of water,
+    but loses \\(1\\) pound of water every \\(2\\) feet. Show that
+    the work done in lifting the rope and bucket is \\(4000\\) ft-lbs.
+    (Hint: When does the bucket run out of water?)
+7.  Assume salt water weighs \\(10\\) kilonewtons (kN) per cubic meter.
+    A cylindrical tank with a radius of \\(3\\) meters and a height of
+    \\(10\\) meters holds \\(8\\) feet of salt water. Show that
+    the work required to pump out the salt water to the top of the tank
+    is \\(4320\pi\\) kN-m (kJ).
+8.  Assume salt water weighs \\(10000\\) newtons per cubic meter.
+    A pyramid-shaped tank of height \\(4\\) feet is pointed upward,
+    with a square base of side length \\(4\\) feet, and is completely
+    filled with salt water. Show that the
+    work done in completely pumping all the water in the tank up to the
+    point of the pyramid is \\(10000\int_0^4(4-y)^3\,dy\\) J.
