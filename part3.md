@@ -376,6 +376,9 @@ title: "Part 3: Applications of Integrals"
 2.  Compute the exact amount of work done in pushing a plow \\(6\\) meters
     through increasingly packed dirt; this movement requires
     \\(F(x)=1+2x\\) newtons of force after \\(x\\) meters.
+3.  Find the work done in lifting a leaky bucket from the ground to
+    a height of four feet, assuming it weighs
+    \\(25-x\\) pounds at \\(x\\) feet above the ground.
 3.  A cable weighing \\(4\\) pounds per foot holds a \\(500\\) pound bucket of
     coal at the bottom of a \\(300\\) foot mine shaft. Show that the
     total work done in lifting the cable and bucket is
