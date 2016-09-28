@@ -379,7 +379,7 @@ title: "Part 3: Applications of Integrals"
 3.  A cable weighing \\(4\\) pounds per foot holds a \\(500\\) pound bucket of
     coal at the bottom of a \\(300\\) foot mine shaft. Show that the
     total work done in lifting the cable and bucket is
-    \\(330,000\) foot-pounds.
+    \\(330,000\\) foot-pounds.
 4.  Hooke's Law states that the force required to hold
     a stretched or compressed spring is directly proportional to its
     natural length. That is, \\(F(x)=kx\\) where \\(x\\) is the difference
