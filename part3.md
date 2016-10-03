@@ -416,5 +416,24 @@ title: "Part 3: Applications of Integrals"
     the entire beverage using a straw which extends \\(S\\) inches above
     the top of the container requires
     \\(\frac{4}{3}D\pi R^3(R+S)\\) inch-ounces of work.
+10. What is the work required to push a heavy box \\(3\\) meters over
+    an irregular surface, assuming it requires \\(F(x)=3+2x-x^2\\) newtons
+    of force to move at \\(x\\) meters?
+    - \\(\frac{5}{3}\\) joules
+    - \\(9\\) joules
+    - \\(\frac{13}{3}\\) joules
+11. Which of these integrals gives the work in ft-lbs
+    required to pull up a hanging \\(30\\)-pound \\(15\\)-foot chain?
+    - \\(\int_0^{15}(60-2x)\,dx\\)
+    - \\(\int_0^{15x}30\,dy\\)
+    - \\(\int_{15}^{30}(15+x)\,dx\\)
+12. Which of these integrals gives the work in kN-m required to
+    pump out all salt-water to the top of a cubical tank with side length
+    \\(4\\) meters, if it is initially half-full? Assume the
+    density of salt water is \\(10\\) kilonewtons per cubic meter.
+    - \\(10\pi\int_0^4(16+8y+y^2)\,dy\\)
+    - \\(\int_0^{16}(4-y)^3\,dy\\)
+    - \\(160\int_0^2(4-y)\,dy\\)
 
 [Solutions 1-6]({{site.baseurl}}public/solutions/3.5a.pdf)
+[Solutions 7-12]({{site.baseurl}}public/solutions/3.5b.pdf)
