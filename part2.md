@@ -340,41 +340,6 @@ title: "Part 2: Advanced Integration Techniques"
 
 ### Exercises for 2.4
 
-### Exercises for 2.2
-
-1.  Find \\(\int 3x\cosh(x)\,dx\\).
-2.  Find \\(\int te^{2t}\,dt\\).
-3.  Find \\(\int y^2\sin(y)\,dy\\).
-4.  Find \\(\int 4x\sec^2(x)\,dx\\).
-    (Hint: recall \\(\int\tan\theta\,d\theta=\ln|\sec\theta|+C\\).)
-5.  Find \\(\int e^{3w}\sinh(w)\,dw\\).
-6.  Find \\(\int \sin(2x)\cos(4x)\,dx\\).
-7.  Compute \\(\int_1^e x\ln x\,dx\\).
-8.  (Optional)
-    Find \\(\int x^4e^x\,dx\\).
-9.  (Optional)
-    Prove \\(
-      \int \cos^{n+2} x\,dx
-    =
-      \frac{\cos^{n+1} x\sin x}{n+2}+\frac{n+1}{n+2}\int\cos^n x\,dx
-    \\). (Hint: take the derivative of both sides.)
-10. (Optional)
-    Find \\(\int \cos^4 x\,dx\\) using the above formula.
-11. (Quiz)
-    Find \\(\int x\cosh x\,dx\\).
-    - \\(x\sinh x-\cosh x+C\\)
-    - \\(x^2\sinh x+2\cosh x+C\\)
-    - \\(x\cosh x+3x\sinh x+C\\)
-12. (Quiz)
-    Find \\(\int e^\theta\sin\theta\,d\theta\\).
-    - \\(\frac{e^\theta\sin\theta+e^\theta\cos\theta}{3}+C\\)
-    - \\(-\frac{e^\theta\cos\theta}{4}+C\\)
-    - \\(\frac{e^\theta\sin\theta-e^\theta\cos\theta}{2}+C\\)
-
-[Solutions 1-5]({{site.baseurl}}public/solutions/2.2a.pdf)
-
-[Solutions 6-12]({{site.baseurl}}public/solutions/2.2b.pdf)
-
 1.  Find \\(\int\frac{2}{\sqrt{1+4z^2}}\,dz\\).
     (Recall \\(\int\sec\theta\,d\theta=\ln|\sec\theta+\tan\theta|+C\\).)
 2.  Find \\(\int\frac{x^3}{9+x^2}\,dx\\).
