@@ -101,7 +101,7 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   \\(x=\tan t,y=\sec t,-\frac{\pi}{2}<t<\frac{\pi}{2}\\)
   at the point \\((1,\sqrt 2)\\).
 - **Example**
-  Find the point on the parametric curve \\(x=\ln t,y=t+\frac{1}{t},t>1\\)
+  Find the point on the parametric curve \\(x=\ln t,y=t+\frac{1}{t},t>0\\)
   which has a horizontal tangent line.
 
 ### 4.2.2 Arclength
