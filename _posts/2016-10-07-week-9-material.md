@@ -3,6 +3,10 @@ layout: post
 title: Week 9&10 Material
 ---
 
+## Midterm Solutions
+
+[PDF]({{site.baseurl}}public/solutions/midterm.pdf)
+
 ## Week 9
 
 - Monday Oct 10
@@ -13,7 +17,7 @@ title: Week 9&10 Material
     - Continue [Section 4.2]({{site.baseurl}}part4/#applications-of-parametrizations)
 - Friday Oct 14
     - [Section 4.3]({{site.baseurl}}part4/#polar-coordinates)
-    ---
+
 
 ## Week 10
 

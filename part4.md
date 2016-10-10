@@ -92,6 +92,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 
 ### 4.2.1 Parametric Formula for \\(dy/dx\\)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I4Rpho1e99E" frameborder="0" allowfullscreen></iframe>
+
 - Let \\(y\\) be a function of \\(x\\), and suppose its
   curve is parametrized by the equations \\(x(t),y(t)\\). Then by
   the Chain Rule, \\(\frac{dy}{dt}=\frac{dy}{dx}\frac{dx}{dt}\\)
@@ -105,6 +107,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   which has a horizontal tangent line.
 
 ### 4.2.2 Arclength
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jagdtq9s3s0" frameborder="0" allowfullscreen></iframe>
 
 - Suppose a curve \\(C\\) is defined parametrically by one-to-one functions
   \\(x(t),y(t)\\) on \\(a\leq t\leq b\\), where
@@ -121,19 +125,28 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   \\).
 - **Example** Use the arclength formula to find the length of the
   line segment joining \\((-2,3)\\) and \\((2,0)\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z14bNRMmfIc" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Find the perimeter of the curve parametrized by
   \\(x=\sin^3 t,y=\cos^3 t,0\leq t\leq 2\pi\\).
 
-### 4.2.3 Surface Areas of Revolution
+### 4.2.3 Surface Areas from Revolution
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cbsSOm2Hkzc" frameborder="0" allowfullscreen></iframe>
 
 - Suppose a smooth curve \\(C\\)
   is defined parametrically by one-to-one functions
-  \\(x(t),y(t)\\) on \\(a\leq t\leq b\\).
+  \\(x(t),y(t)\\) on \\(a\leq t\leq b\\), with \\(y(t)\geq 0\\).
   Then the area of the surface of revolution obtained by rotating
   \\(C\\) about the \\(x\\)-axis is given by
-  \\(2\pi\int_{t=a}^{t=b}|y|\,ds\\).
+  \\(2\pi\int_{t=a}^{t=b}y(t)\,ds\\).
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XZ5Og5B9E-Y" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Find the area of the surface of revolution obtained by
-  rotating the portion of the parabola \\(y=\sqrt x\\) from \\((0,0)\\)
+  rotating the portion of the parabola \\(y=x^2\\) from \\((0,0)\\)
   to \\((4,2)\\) around the \\(x\\)-axis.
 
 ### Exercises for 4.2
