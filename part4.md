@@ -158,7 +158,7 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
     \\(x=3\sin t,y=3\cos t\\)
     at the point \\((\frac{3}{2},\frac{3\sqrt 3}{2})\\)
     has the equation \\(y=2\sqrt{3}-\frac{1}{\sqrt 3}x\\).
-    (Hint: \\(-\frac{1}{\sqrt 3}\frac{3}{2}=\frac{\sqrt 3}{2}\\).)
+    (Hint: \\(\frac{1}{\sqrt 3}\frac{3}{2}=\frac{\sqrt 3}{2}\\).)
 1.  Find the point on the parametric curve
     \\(x=2t^2+1,y=t^4-4t\\)
     which has a horizontal tangent line.
