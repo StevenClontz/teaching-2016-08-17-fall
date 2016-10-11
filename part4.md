@@ -151,6 +151,34 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 
 ### Exercises for 4.2
 
+1.  Find the line tangent to the curve parametrized by
+    \\(x=t^2,y=t^3\\)
+    at the point where \\(t=-2\\).
+1.  Show that the line tangent to the curve parametrized by
+    \\(x=3\sin t,y=3\cos t\\)
+    at the point \\((\frac{3}{2},\frac{3\sqrt 3}{2})\\)
+    has the equation \\(y=\sqrt{3}-\frac{1}{\sqrt 3}x\\).
+1.  Find the point on the parametric curve
+    \\(x=2t^2+1,y=t^4-4t\\)
+    which has a horizontal tangent line.
+1.  Use the arclength formula to find the length of the
+    line segment joining \\((-2,6)\\) and \\((3,-6)\\).
+1.  Use the arclength formula to prove that the circumference of a
+    circle of radius \\(R\\) is \\(2\pi R\\).
+1.  Show that the arclength of the curve parameterized by \\(x=\cos 2t\\),
+    \\(y=2t+\sin 2t\\), \\(0\leq t\leq \pi/2\\) is \\(4\\).
+    (Hint: \\(1+\cos 2t=2\cos^2 t\\).)
+1.  Find the area of the surface obtained by rotating the curve parameterized
+    by \\(x=\cos t,y=2+\sin t,0\leq t\leq \pi/2\\) around the \\(x\\)-axis.
+1.  Use the parametric equations \\(x=t,y=t,0\leq t\leq 1\\) to
+    show that the surface area of the cone of height \\(1\\) and radius
+    \\(1\\) is \\(\pi(\sqrt 2+1)\\). (Hint: Don't forget to add the area
+    of the base of the cone.)
+1.  (Optional)
+    Show that the surface area of the cone of height \\(H\\) and radius
+    \\(R\\) is \\(\pi R(\sqrt{H^2+R^2}+R)\\).
+
+
 ---
 
 ## 4.3 Polar Coordinates
