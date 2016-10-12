@@ -41,7 +41,7 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   Give a system of parametric equations for the curve \\(y=\ln x\\)
   from \\((1,0)\\) to \\((e^2,2)\\).
 
-### 4.1.3 Parametrizing Line Segments
+### 4.1.3 Parametrizing Line Segments <!-- TODO add circles -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fp_Bee3vSMs" frameborder="0" allowfullscreen></iframe>
 
@@ -80,6 +80,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
     Let \\(a<b\\).
     Find a system of parametric equations which parametrizes the planar
     curve \\(y=f(x)\\) *right-to-left* from \\(x=b\\) to \\(x=a\\).
+
+[Solutions]({{site.baseurl}}public/solutions/4.1.pdf)
 
 ---
 
@@ -178,7 +180,21 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 1.  (Optional)
     Show that the surface area of the cone of height \\(H\\) and radius
     \\(R\\) is \\(\pi R(\sqrt{H^2+R^2}+R)\\).
+1.  (Quiz)
+    Find the point on the parametric curve
+    \\(x=e^{3t}+5,y=e^{2t}-2t+1\\)
+    which has a horizontal tangent line.
+    - \\((e^3,e^2)\\)
+    - \\((6,0)\\)
+    - \\((5,e-1)\\)
+2.  (Quiz)
+    Which of these integrals gives the arclength of the curve
+    \\(y=x^2-3x+4\\) between \\((1,2)\\) and \\((3,4)\\)?
+    - \\(\int_1^3\sqrt{4t^2-12t+10}\,dt\\)
+    - \\(\int_2^4\sqrt{2t+3t^2}\,dt\\)
+    - \\(\int_0^1(4+2t)\,dt\\)
 
+[Solutions]({{site.baseurl}}public/solutions/4.2.pdf)
 
 ---
 
@@ -208,7 +224,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   Convert the Cartesian coordinate \\((-2\sqrt3,2)\\) into a polar
   coordinate.
 - **Example**
-  Convert the polar equation \\(r=\frac{1}{\sin\theta-\cos\theta}\\)
+  Convert the polar equation \\(r=\frac{1}{\sin\theta-\cos\theta}\\),
+  \\(\pi/4<\theta<5\pi/4\\)
   into a Cartesian equation.
 - **Example**
   Convert the Cartesian equation \\((x-2)^2+y^2=4\\)
