@@ -207,6 +207,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 
 ### 4.3.1 Definition of Polar Coordinates
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1tjeJmTmBbg" frameborder="0" allowfullscreen></iframe>
+
 - The polar coordinate \\(p(r,\theta)\\) is defined to be Cartesian
   coordinate \\((r\cos\theta,r\sin\theta)\\).
 - **Example** Plot the polar coordinates
@@ -217,12 +219,17 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 
 ### 4.3.2 Equations Relating Polar and Cartesian Coordinates
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ar4rY_uDrbY" frameborder="0" allowfullscreen></iframe>
+
 - Polar and Cartesian coordinates may be related by the equations
   \\(x=r\cos\theta\\), \\(y=r\sin\theta\\), \\(x^2+y^2=r^2\\),
   and \\(\tan\theta=\frac{y}{x}\\).
 - **Example**
   Convert the Cartesian coordinate \\((-2\sqrt3,2)\\) into a polar
   coordinate.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pIXfMdVHxNk" frameborder="0" allowfullscreen></iframe>
+
 - **Example**
   Convert the polar equation \\(r=\frac{1}{\sin\theta-\cos\theta}\\),
   \\(\pi/4<\theta<5\pi/4\\)
@@ -232,6 +239,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   into a polar equation.
 
 ### 4.3.3 Common Polar Equations
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/edC-bfH6xh8" frameborder="0" allowfullscreen></iframe>
 
 - The equation \\(r=R\\) is a circle centered at the origin of radius
   \\(R\\).
