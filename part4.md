@@ -185,8 +185,10 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
     \\(x=e^{3t}+5,y=e^{2t}-2t+1\\)
     which has a horizontal tangent line.
     - \\((e^3,e^2)\\)
-    - \\((6,0)\\)
+    - \\((6,2)\\)
     - \\((5,e-1)\\)
+    - *(Note: the quiz given in class had (6,0) as a choice by mistake,
+      making the correct answer D.)*
 2.  (Quiz)
     Which of these integrals gives the arclength of the curve
     \\(y=x^2-3x+4\\) between \\((1,2)\\) and \\((3,4)\\)?
@@ -248,14 +250,34 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   at the angle \\(\\alpha\\).
 - The equation \\(r\cos\theta=a\\) is the vertical line \\(x=a\\).
 - The equation \\(r\sin\theta=b\\) is the horizontal line \\(y=b\\).
-- **Example**
-  Sketch the region where \\(\csc\theta\leq r\leq 2\\).
+- **Example** <!-- TODO fix video -->
+  Sketch the region where \\(0<\csc\theta\leq r\leq 2\\).
 - The equations \\(r=a\pm a\cos\theta\\) and \\(r=a\pm a\sin\theta\\)
   are known as cardoids.
 - **Example**
   Sketch the cardoid \\(r=4-4\sin\theta\\).
 
 ### Exercises for 4.3
+
+1.  Convert the polar coordinates
+    \\(p(\sqrt 3,2\pi/3),p(\sqrt 2,\pi/4),p(2,7\pi/6),p(-\sqrt 3,-\pi/3)\\)
+    to Cartesian and plot them in the \\(xy\\) plane.
+2.  Convert the Cartesian coordinates \\((4,-4),(\frac{3}{2},-\frac{3}{2})\\)
+    into polar coordinates.
+3.  Convert the polar equation \\(r=\frac{5}{\sqrt{25-9\sin^2\theta}}\\)
+    into a Cartesian equation. Name the curve.
+4.  Convert the Cartesian equation
+    \\(1-\frac{y}{x^2+y^2}=\frac{3}{\sqrt{x^2+y^2}}\\) into a polar equation.
+4.  Convert the Cartesian equation for the line
+    \\(y=\frac{x}{\sqrt 3}\\) into a polar equation.
+4.  Sketch the region where \\(0< 3\sec\theta\leq r\leq 6\cos\theta\\).
+4.  Sketch the cardoid \\(r=3+3\sin\theta\\).
+4.  Sketch the cardoids \\(r=1+\cos\theta\\) and \\(r=1-\cos\theta\\).
+    At what points do they intersect?
+4.  (OPTIONAL)
+    Sketch the "three-leaved rose" \\(r=\sin 3\theta\\).
+
+
 
 ---
 
