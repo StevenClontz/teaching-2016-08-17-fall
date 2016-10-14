@@ -262,7 +262,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 1.  Convert the polar coordinates
     \\(p(\sqrt 3,2\pi/3),p(\sqrt 2,\pi/4),p(2,7\pi/6),p(-\sqrt 3,-\pi/3)\\)
     to Cartesian and plot them in the \\(xy\\) plane.
-2.  Convert the Cartesian coordinates \\((4,-4),(\frac{3}{2},-\frac{3}{2})\\)
+2.  Convert the Cartesian coordinates
+    \\((4,-4),(-\frac{3}{2},-\frac{\sqrt 3}{2})\\)
     into polar coordinates.
 3.  Convert the polar equation \\(r=\frac{5}{\sqrt{25-9\sin^2\theta}}\\)
     into a Cartesian equation. Name the curve.
@@ -276,6 +277,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
     At what points do they intersect?
 4.  (OPTIONAL)
     Sketch the "three-leaved rose" \\(r=\sin 3\theta\\).
+
+[Solutions 1-5]({{site.baseurl}}public/solutions/4.3a.pdf)
 
 
 
