@@ -7,6 +7,10 @@ title: Week 9&10 Material
 
 [PDF]({{site.baseurl}}public/solutions/midterm.pdf)
 
+## Unit Circle
+
+[PDF]({{site.baseurl}}public/unit-circle.pdf)
+
 ## Week 9
 
 - Monday Oct 10
