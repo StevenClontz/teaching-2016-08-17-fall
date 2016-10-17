@@ -339,3 +339,27 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   \\(p(0,0)\\) to \\(p(5,\sqrt 5)\\).
 
 ### Exercises for 4.4
+
+1.  Find the area inside \\(r=\cos2\theta\\) where \\(0\leq\theta\leq\pi/4\\).
+1.  Find the area bounded by the cardioid \\(r=1-\cos\theta\\).
+2.  Sketch the region where \\(x\leq y\leq\sqrt{1-x^2}+1\\).
+    Show that its area is \\(\frac{\pi}{4}+\frac{1}{2}\\).
+    (Hint: Show that this is the area inside \\(r=2\sin\theta\\)
+    where \\(\pi/4\leq\theta\leq\pi/2\\).)
+1.  Sketch the circles of radius \\(1\\) centered at the origin and
+    at the point \\((0,1)\\). Show that the area inside both circles is
+    \\(\frac{1}{2}\int_{\pi/6}^{5\pi/6}(4\sin^2\theta-1)\,d\theta\\).
+1.  Find the length of one rotation of the spiral \\(r=e^\theta\\).
+1.  Use the polar arclength formula to show that the circumference of the
+    circle \\(r=4\sin\theta\\) is \\(4\pi\\).
+1.  Show that the length of the cardioid \\(r=2+2\cos\theta\\) is
+    \\(\int_0^{2\pi}\sqrt{8+8\cos\theta}\,d\theta\\).
+1.  (OPTIONAL)
+    Prove that if \\(x=f(\theta)\cos\theta\\) and \\(y=f(\theta)\sin\theta\\)
+    then
+\\(\int_\alpha^\beta\sqrt{
+    (\frac{dx}{d\theta})^2+(\frac{dy}{d\theta})^2
+}\,d\theta
+=\int_\alpha^\beta\sqrt{
+    (f(\theta))^2+(f'(\theta))^2
+}\,d\theta\\).
