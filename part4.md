@@ -295,6 +295,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 
 ### 4.4.1 Area Between Polar Curves
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gz0vRIShjRk" frameborder="0" allowfullscreen></iframe>
+
 - The area of the circle sector of angle \\(\theta\\) is given by
   \\(A=\pi r^2\times\frac{\theta}{2\pi}=\frac{1}{2}r^2\theta\\).
 - Therefore the area bounded by \\(\alpha\leq\theta\leq\beta\\),
@@ -302,6 +304,9 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   \\(A=\frac{1}{2}\int_\alpha^\beta(f(\theta))^2\,d\theta\\).
 - **Example**
   Find the area bounded by the cardioid \\(r=2+2\sin\theta\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VvmPhO5nY00" frameborder="0" allowfullscreen></iframe>
+
 - To obtain the area where \\(f(\theta)\leq r\leq g(\theta)\\),
   where \\(f\\) is an inside curve and \\(g\\) is an outside curve,
   find the clockwise angle \\(\alpha\\) and counter-clockwise angle
@@ -312,6 +317,8 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   cardioid \\(r=1-\cos\theta\\).
 
 ### 4.4.2 Length of a Polar Curve
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TZAQB6AkB7w" frameborder="0" allowfullscreen></iframe>
 
 - The polar curve \\(r=f(\theta)\\) where \\(\alpha\leq\theta\leq\beta\\)
   may be parametrized by \\(x=f(\theta)\cos\theta,y=f(\theta)\sin\theta\\)
@@ -326,8 +333,9 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
       (f(\theta))^2+(f'(\theta))^2
   }\,d\theta\\).
 - **Example**
-  Prove the above simplification.
+  Show that the circumference of the circle of radius \\(R\\) is \\(2\pi R\\).
 - **Example**
-  Show that the circumference of the circle \\(3\\) is \\(6\pi\\).
+  Find the circumference of the spiral \\(r=\theta^2\\) from
+  \\(p(0,0)\\) to \\(p(5,\sqrt 5)\\).
 
 ### Exercises for 4.4
