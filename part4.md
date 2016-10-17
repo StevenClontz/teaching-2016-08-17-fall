@@ -343,9 +343,9 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 1.  Find the area inside \\(r=\cos2\theta\\) where \\(0\leq\theta\leq\pi/4\\).
 1.  Find the area bounded by the cardioid \\(r=1-\cos\theta\\).
 2.  Sketch the region where \\(x\leq y\leq\sqrt{1-x^2}+1\\).
-    Show that its area is \\(\frac{\pi}{4}+\frac{1}{2}\\).
+    Show that its area is \\(\frac{\pi}{2}+1\\).
     (Hint: Show that this is the area inside \\(r=2\sin\theta\\)
-    where \\(\pi/4\leq\theta\leq\pi/2\\).)
+    where \\(\pi/4\leq\theta\leq3\pi/4\\).)
 1.  Sketch the circles of radius \\(1\\) centered at the origin and
     at the point \\((0,1)\\). Show that the area inside both circles is
     \\(\frac{1}{2}\int_{\pi/6}^{5\pi/6}(4\sin^2\theta-1)\,d\theta\\).
