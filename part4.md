@@ -250,12 +250,12 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   at the angle \\(\\alpha\\).
 - The equation \\(r\cos\theta=a\\) is the vertical line \\(x=a\\).
 - The equation \\(r\sin\theta=b\\) is the horizontal line \\(y=b\\).
-- **Example** <!-- TODO fix video -->
+- **Example** <!-- TODO fix minor issue in video -->
   Sketch the region where \\(0<\csc\theta\leq r\leq 2\\).
 - The equations \\(r=a\pm a\cos\theta\\) and \\(r=a\pm a\sin\theta\\)
-  are known as cardoids.
+  are known as cardioids.
 - **Example**
-  Sketch the cardoid \\(r=4-4\sin\theta\\).
+  Sketch the cardioid \\(r=4-4\sin\theta\\).
 
 ### Exercises for 4.3
 
@@ -272,8 +272,10 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 4.  Convert the Cartesian equation for the line
     \\(y=\frac{x}{\sqrt 3}\\) into a polar equation.
 4.  Sketch the region where \\(0< 3\sec\theta\leq r\leq 6\cos\theta\\).
-4.  Sketch the cardoid \\(r=3+3\sin\theta\\).
-4.  Sketch the cardoids \\(r=1+\cos\theta\\) and \\(r=1-\cos\theta\\).
+    (Hint: Completing the square in \\(x^2-6x+y^2=0\\) yields
+    \\((x-3)^2+y^2=9\\).)
+4.  Sketch the cardioid \\(r=3+3\sin\theta\\).
+4.  Sketch the cardioids \\(r=1+\cos\theta\\) and \\(r=1-\cos\theta\\).
     At what points do they intersect?
 4.  (OPTIONAL)
     Sketch the "three-leaved rose" \\(r=\sin 3\theta\\).
@@ -299,7 +301,7 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   \\(r=f(\theta)\\) is
   \\(A=\frac{1}{2}\int_\alpha^\beta(f(\theta))^2\,d\theta\\).
 - **Example**
-  Find the area bounded by the cardoid \\(r=2+2\sin\theta\\).
+  Find the area bounded by the cardioid \\(r=2+2\sin\theta\\).
 - To obtain the area where \\(f(\theta)\leq r\leq g(\theta)\\),
   where \\(f\\) is an inside curve and \\(g\\) is an outside curve,
   find the clockwise angle \\(\alpha\\) and counter-clockwise angle
@@ -307,7 +309,7 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   \\(A=\frac{1}{2}\int_\alpha^\beta((g(\theta))^2-(f(\theta))^2)\,d\theta\\).
 - **Example**
   Find the area outside the circle \\(x^2+y^2=1\\) and inside the
-  cardoid \\(r=1-\cos\theta\\).
+  cardioid \\(r=1-\cos\theta\\).
 
 ### 4.4.2 Length of a Polar Curve
 
