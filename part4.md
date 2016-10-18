@@ -240,7 +240,7 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
   Convert the Cartesian equation \\((x-2)^2+y^2=4\\)
   into a polar equation.
 
-### 4.3.3 Common Polar Equations
+### 4.3.3 Common Polar Equations <!-- TODO add r=a\sin(\theta)-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/edC-bfH6xh8" frameborder="0" allowfullscreen></iframe>
 
@@ -279,8 +279,27 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
     At what points do they intersect?
 4.  (OPTIONAL)
     Sketch the "three-leaved rose" \\(r=\sin 3\theta\\).
+1.  (QUIZ)
+    Which of these polar coordinates gives the point \\((-\sqrt3,1)\\)?
+    - \\(p(\sqrt2,3\pi/4)\\)
+    - \\(p(\sqrt3,\pi/3)\\)
+    - \\(p(2,5\pi/6)\\)
+1.  (QUIZ)
+    Convert the circle \\(x^2+(y-4)^2=16\\) into a polar equation.
+    - \\(r=16\\)
+    - \\(r=8\sin\theta\\)
+    - \\(r=12\cos^2\theta-4\sin^2\theta\\)
+1.  (QUIZ)
+    Which of these equations gives the curve drawn below?
+    - \\(r=3+3\cos\theta\\)
+    - \\(r=3-3\sin\theta\\)
+    - \\(r=3\tan\theta\\)
+
+![Cardioid]({{site.baseurl}}public/cardioid.gif)
 
 [Solutions 1-5]({{site.baseurl}}public/solutions/4.3a.pdf)
+
+[Solutions 6-12]({{site.baseurl}}public/solutions/4.3b.pdf)
 
 
 
@@ -295,7 +314,7 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 
 ### 4.4.1 Area Between Polar Curves
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gz0vRIShjRk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gz0vRIShjRk" frameborder="0" allowfullscreen></iframe> <!-- TODO drop f(\theta) -->
 
 - The area of the circle sector of angle \\(\theta\\) is given by
   \\(A=\pi r^2\times\frac{\theta}{2\pi}=\frac{1}{2}r^2\theta\\).
@@ -342,18 +361,15 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 
 1.  Find the area inside \\(r=\cos2\theta\\) where \\(0\leq\theta\leq\pi/4\\).
 1.  Find the area bounded by the cardioid \\(r=1-\cos\theta\\).
-2.  Sketch the region where \\(x\leq y\leq\sqrt{1-x^2}+1\\).
+2.  Sketch the region where \\(\|x\|\leq y\leq\sqrt{1-x^2}+1\\).
     Show that its area is \\(\frac{\pi}{2}+1\\).
     (Hint: Show that this is the area inside \\(r=2\sin\theta\\)
     where \\(\pi/4\leq\theta\leq3\pi/4\\).)
-1.  Sketch the circles of radius \\(1\\) centered at the origin and
-    at the point \\((0,1)\\). Show that the area inside both circles is
-    \\(\frac{1}{2}\int_{\pi/6}^{5\pi/6}(4\sin^2\theta-1)\,d\theta\\).
 1.  Find the length of one rotation of the spiral \\(r=e^\theta\\).
 1.  Use the polar arclength formula to show that the circumference of the
     circle \\(r=4\sin\theta\\) is \\(4\pi\\).
 1.  Show that the length of the cardioid \\(r=2+2\cos\theta\\) is
-    \\(\int_0^{2\pi}\sqrt{8+8\cos\theta}\,d\theta\\).
+    \\(\int_0^{2\pi}\sqrt{8+8\cos\theta}\,d\theta=16\\).
 1.  (OPTIONAL)
     Prove that if \\(x=f(\theta)\cos\theta\\) and \\(y=f(\theta)\sin\theta\\)
     then
