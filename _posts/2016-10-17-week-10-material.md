@@ -27,4 +27,4 @@ title: Week 10&11 Material
 - Wednesday Oct 26
     - [Section 5.2]({{site.baseurl}}part5/#computing-limits-of-sequences)
 - Friday Oct 28 (electronically)
-    - Continue [Section 5.2]({{site.baseurl}}part5/#computing-limits-of-sequences); Quiz on USAOnline
+    - Continue [Section 5.2]({{site.baseurl}}part5/#computing-limits-of-sequences); Take-Home Quiz
