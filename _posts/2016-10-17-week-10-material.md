@@ -3,6 +3,10 @@ layout: post
 title: Week 10&11 Material
 ---
 
+## Midterm Retake Solutions
+
+[PDF]({{site.baseurl}}public/solutions/midterm-retake.pdf)
+
 ## Week 10
 
 - Monday Oct 17
