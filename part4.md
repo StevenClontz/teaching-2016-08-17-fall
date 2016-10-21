@@ -379,3 +379,16 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
 =\int_\alpha^\beta\sqrt{
     (f(\theta))^2+(f'(\theta))^2
 }\,d\theta\\).
+1.  (QUIZ)
+    Which of these integrals is the area of the cardioid \\(r=4+4\sin\theta\\)?
+    - \\(\int_0^{2\pi}(8+16\sin\theta+8\sin^2\theta)\,d\theta\\)
+    - \\(\int_0^{\pi/2}(16+16\sin^2\theta)\,d\theta\\)
+    - \\(\int_0^{\pi}6\sin^2\theta\,d\theta\\)
+1.  (QUIZ)
+    Which of these integrals is the length of the curve \\(r=\cos^2\theta\\)
+    where \\(0\leq\theta\leq\pi/2\\)?
+    - \\(\int_0^{\pi/2}4\sin\theta\sqrt{1-\cos^2\theta}\,d\theta\\)
+    - \\(\int_0^{\pi/2}(\cos^4\theta-\pi)\,d\theta\\)
+    - \\(\int_0^{\pi/2}\cos\theta\sqrt{1+3\sin^2\theta}\,d\theta\\)
+
+[Solutions 1-7]({{site.baseurl}}public/solutions/4.4a.pdf)
