@@ -48,6 +48,7 @@ title: "Part 5: Sequences and Series"
   \\(c_n=\cos(\frac{\pi}{2}n)\\).
 - **Example** Give the term \\(a_7\\) for the sequence defined by
   the formula \\(a_n=\frac{n}{2n+1}\\).
+  <!-- TODO replace previous with create a formula question -->
 
 
 ### 5.1.2 Recursive Formulas
@@ -86,6 +87,30 @@ title: "Part 5: Sequences and Series"
 - **Example** Write a few terms of the sequence defined by the formula
   \\(b_n=(-1)^n\frac{n+1}{n+2}\\). Does it appear to be converging or
   diverging?
+
+### Exercises for 5.1
+
+1.  Use your intuition to guess the next three terms of the sequences
+    \\(\\<1,5,9,13,17,\dots\\>\\),
+    \\(\\<1,\frac{1}{4},\frac{1}{9},\frac{1}{16},\frac{1}{25},\dots\\>\\), and
+    \\(\\<\frac{1}{3},-1,3,-9,27,\dots\\>\\).
+1.  Create an explicit formula for each of the three previous sequences.
+1.  Write the first five terms of the sequences
+    \\(\\<a_n\\>\_{n=0}^\infty\\),
+    \\(\\<b_n\\>\_{n=0}^\infty\\), and
+    \\(\\<c_n\\>\_{n=0}^\infty\\)
+    defined by
+    \\(a_n=3n+2\\),
+    \\(b_n=2(-\frac{1}{3})^n\\), and
+    \\(c_n=\frac{n}{1+n^2}\\).
+1.  Write the first six terms of the sequence \\(\\<q_n\\>\_{n=0}^\infty\\)
+    defined by \\(q_0=0\\) and \\(q_{n+1}=q_n+2n+1\\).
+1.  Prove that \\(q_n=n^2\\) is an explicit formula for the
+    sequence defined recursively in the previous problem.
+1.  Write the first six terms of the sequence \\(\\<b_n\\>\_{n=1}^\infty\\)
+    defined by \\(b_1=4\\) and \\(b_{n+1}=\frac{b_n}{2}\\).
+1.  Prove that \\(b_n=\frac{8}{2^n}\\) is an explicit formula for the
+    sequence defined recursively in the previous problem.
 
 
 ---
