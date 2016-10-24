@@ -5,7 +5,11 @@ title: Week 10&11 Material
 
 ## Midterm Retake Solutions
 
-[PDF]({{site.baseurl}}public/solutions/midterm-retake.pdf)
+[Solutions PDF]({{site.baseurl}}public/solutions/midterm-retake.pdf)
+
+[Morning Exam Blank PDF]({{site.baseurl}}public/solutions/midterm-retake-blank.pdf)
+
+[Afternoon Exam Blank PDF]({{site.baseurl}}public/solutions/midterm-retake-v2.pdf)
 
 ## Week 10
 
