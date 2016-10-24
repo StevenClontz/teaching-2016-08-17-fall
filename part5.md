@@ -8,7 +8,7 @@ title: "Part 5: Sequences and Series"
 \\(
   \newcommand{\\<}{\langle}
   \newcommand{\\>}{\rangle}
-\\)
+\\) <!-- TODO make angle brackets parentheses -->
 
 ## 5.1 Sequences
 
