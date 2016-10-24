@@ -19,7 +19,7 @@ title: "Part 5: Sequences and Series"
 
 ### 5.1.1 Definition
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/https://youtu.be/vx3XB5mz7UY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vx3XB5mz7UY" frameborder="0" allowfullscreen></iframe>
 
 - A sequence is an infinitely long list of real numbers. For example,
   the sequence of positive even integers is \\(\\<2,4,6,8,\dots\\>\\).
@@ -52,7 +52,7 @@ title: "Part 5: Sequences and Series"
 
 ### 5.1.2 Recursive Formulas
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/https://youtu.be/qxtFf3g1DNI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qxtFf3g1DNI" frameborder="0" allowfullscreen></iframe>
 
 - A recursive formula for a sequence defines one or more initial terms of
   the sequence, and then defines future terms of the sequence by using
@@ -70,7 +70,7 @@ title: "Part 5: Sequences and Series"
 
 ### 5.1.3 Limits, Convergence, and Divergence
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/https://youtu.be/5Zqwo5dZAaU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Zqwo5dZAaU" frameborder="0" allowfullscreen></iframe>
 
 - The sequence \\(\\<a_n\\>\_{n=i}^\infty\\) converges to a limit
   \\(L\\) if for each \\(\epsilon>0\\), there exists an integer \\(N\\)
