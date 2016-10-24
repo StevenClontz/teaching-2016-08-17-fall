@@ -142,15 +142,52 @@ title: "Part 5: Sequences and Series"
 - University Calculus: Early Transcendentals (3rd Ed)
     - 9.1
 
-### 5.2.1 Arithmetic Rules
+### 5.2.1 Limits of Sequences and Functions
 
-### 5.2.2 The Squeeze Theorem
+- If \\(f(x)\\) is a function and \(a_n\) is a sequence such that
+  \\(f(n)=a_n\\) for sufficiently large integers \(n\), then
+  \\(\lim_{x\to\infty}f(x)=L\\) implies \\(\lim_{n\to\infty}a_n=L\\).
+- Therefore all the rules for evaluating \\(\lim_{x\to\infty}f(x)\\)
+  extend to evaluating \\(\lim_{n\to\infty}a_n\\).
+- **Example** Use factoring to compute
+  \\(\lim_{n\to\infty}\frac{4+n}{n^3+1}\\).
+- **Example** Use L'Hopital's Rule to prove that any sequence
+  defined by the formula \\(a_n=\frac{n^2+3}{4-5n^2}\\) converges to
+  \\(-\frac{1}{5}\\).
+- **Example** Use the squeeze theorem to compute
+  \\(\lim_{n\to\infty}\frac{\sin n}{n}\\).
 
-### 5.2.3 Sequences and Continuous Functions
+### 5.2.2 Common Limits
 
-### 5.2.4 Common Limits
+- The following limits are often useful:
+    - \\(\lim_{n\to\infty} k = k\\)
+    - \\(\lim_{n\to\infty} \frac{1}{n} = 0\\)
+    - \\(\lim_{n\to\infty} \frac{\ln n}{n} = 0\\)
+    - \\(\lim_{n\to\infty} \sqrt[n]{n} = 1\\)
+    - \\(\lim_{n\to\infty} \sqrt[n]{x} = 1\\), \\(x>0\\)
+    - \\(\lim_{n\to\infty} x^n = 0\\), \\(\|x\|<1\\)
+    - \\(\lim_{n\to\infty} (1+\frac{x}{n})^n=e^x\\)
+    - \\(\lim_{n\to\infty} \frac{x^n}{n!}=0\\)
+- **Example** Find \\(\lim_{n\to\infty}\frac{\ln(n^3)}{n}\\).
+- **Example** Find \\(\lim_{n\to\infty}\frac{3^n+1}{n!}\\).
+- **Example** Find \\(\lim_{n\to\infty}(4n)^{1/n}\\).
 
-### 5.2.5 Monotonic and Bounded Sequences
+### 5.2.3 Monotonic and Bounded Sequences
+
+- A sequence \\(\\<a_n\\>\_{n=i}^\infty\\) is bounded if there exist
+  real numbers \\(A,B\\) such that \\(A\leq a_n\leq B\\) for all integers
+  \\(n\geq i\\).
+- **Example** Is the sequence \\(\\<a_n\\>\_{n=1}^\infty\\)
+  where \\(a_n=\frac{n+1}{n}\\) bounded?
+- **Example** Is the sequence \\(\\<b_n\\>\_{n=0}^\infty\\)
+  given by \\(b_n=\frac{n}{(-3)^n}\\) bounded?
+- A sequence is monotonic if it either never increases or never decreases.
+- **Example** Is the sequence \\(\\<a_n\\>\_{n=1}^\infty\\)
+  where \\(a_n=\frac{n+1}{n}\\) monotonic?
+- **Example** Is the sequence \\(\\<b_n\\>\_{n=0}^\infty\\)
+  given by \\(b_n=\frac{n}{(-3)^n}\\) monotonic?
+- The Monotonic Sequence Theorem states that
+  all bounded monotonic sequences converge.
 
 
 ---
