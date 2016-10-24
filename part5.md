@@ -111,6 +111,26 @@ title: "Part 5: Sequences and Series"
     defined by \\(b_1=4\\) and \\(b_{n+1}=\frac{b_n}{2}\\).
 1.  Prove that \\(b_n=\frac{8}{2^n}\\) is an explicit formula for the
     sequence defined recursively in the previous problem.
+1.  Guess the limit of the alternating harmonic sequence    
+    \\(\\<b_n\\>\_{n=1}^\infty\\) defined by \\(b_n=\frac{(-1)^n}{n}\\)
+    by writing out the first few terms.
+1.  Guess the limit of the geometric sequence    
+    \\(\\<g_n\\>\_{n=0}^\infty\\) defined by \\(g_n=2^{-n}\\)
+    by writing out the first few terms.
+1.  Guess the limit of the sequence    
+    \\(\\<a_n\\>\_{n=3}^\infty\\) defined by \\(a_n=\frac{3n+2}{2n+1}\\)
+    by writing out the first few terms.
+1.  Write a few terms of the sequence defined by the formula
+    \\(c_n=\frac{n!}{n^2+1}\\). Does it appear to be converging or
+    diverging?
+1.  Write a few terms of the sequence defined by the formula
+    \\(s_n=\sin(\frac{\pi n}{3})\\). Does it appear to be converging or
+    diverging?
+1.  (OPTIONAL)
+    Sketch a picture which explains why
+    \\(\lim_{n\to\infty} \sin(\pi n)=0\\) as the limit of a
+    sequence, but \\(\lim_{x\to\infty}\sin(\pi x)\\)
+    does not exist as a limit of a function.
 
 
 ---
