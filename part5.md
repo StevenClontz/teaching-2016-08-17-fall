@@ -144,7 +144,9 @@ title: "Part 5: Sequences and Series"
 
 ### 5.2.1 Limits of Sequences and Functions
 
-- If \\(f(x)\\) is a function and \(a_n\) is a sequence such that
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lEqbxJeq9_M" frameborder="0" allowfullscreen></iframe>
+
+- If \\(f(x)\\) is a function and \\(a_n\\) is a sequence such that
   \\(f(n)=a_n\\) for sufficiently large integers \(n\), then
   \\(\lim_{x\to\infty}f(x)=L\\) implies \\(\lim_{n\to\infty}a_n=L\\).
 - Therefore all the rules for evaluating \\(\lim_{x\to\infty}f(x)\\)
@@ -159,8 +161,10 @@ title: "Part 5: Sequences and Series"
 
 ### 5.2.2 Common Limits
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/--o02u0BdUo" frameborder="0" allowfullscreen></iframe>
+
 - The following limits are often useful:
-    - \\(\lim_{n\to\infty} k = k\\)
+    - \\(\lim_{n\to\infty} x = x\\)
     - \\(\lim_{n\to\infty} \frac{1}{n} = 0\\)
     - \\(\lim_{n\to\infty} \frac{\ln n}{n} = 0\\)
     - \\(\lim_{n\to\infty} \sqrt[n]{n} = 1\\)
@@ -173,6 +177,8 @@ title: "Part 5: Sequences and Series"
 - **Example** Find \\(\lim_{n\to\infty}(4n)^{1/n}\\).
 
 ### 5.2.3 Monotonic and Bounded Sequences
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fVx-4y-N-P0" frameborder="0" allowfullscreen></iframe>
 
 - A sequence \\(\\<a_n\\>\_{n=i}^\infty\\) is bounded if there exist
   real numbers \\(A,B\\) such that \\(A\leq a_n\leq B\\) for all integers
