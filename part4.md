@@ -392,3 +392,4 @@ title: "Part 4: Parametric Equations and Polar Coordiantes"
     - \\(\int_0^{\pi/2}\cos\theta\sqrt{1+3\sin^2\theta}\,d\theta\\)
 
 [Solutions 1-7]({{site.baseurl}}public/solutions/4.4a.pdf)
+[Solutions 8-9]({{site.baseurl}}public/solutions/4.4b.pdf)

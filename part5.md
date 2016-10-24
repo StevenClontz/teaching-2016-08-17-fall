@@ -132,6 +132,8 @@ title: "Part 5: Sequences and Series"
     sequence, but \\(\lim_{x\to\infty}\sin(\pi x)\\)
     does not exist as a limit of a function.
 
+[Solutions 1-7]({{site.baseurl}}public/solutions/5.1a.pdf)
+
 
 ---
 
