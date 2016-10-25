@@ -62,8 +62,9 @@ title: "Part 5: Sequences and Series"
   by the recursive formula \\(f_0=1,f_1=1,f_{n+2}=f_n+f_{n+1}\\).
 - **Example** Write the first six terms of the factorial sequence defined
   by the recursive formula \\(!\_0=1,!\_{n+1}=(n+1)!\_n\\).
-  (Note: This sequence is commonly written in the form \\(n!\\) rather
-  than \\(!\_n\\).)
+- The factorial sequence is commonly written in the form \\(n!\\) rather
+  than \\(!\_n\\). It has the explicit formula
+  \\(n!=1\times2\times3\times\dots\times n\\).
 - **Example** Prove that \\(a_n=\frac{3}{2^n}\\)
   is an explicit formula for the
   sequence \\(\\<a_n\\>\_{n=0}^\infty\\) defined recursively by
@@ -76,7 +77,8 @@ title: "Part 5: Sequences and Series"
 - The sequence \\(\\<a_n\\>\_{n=i}^\infty\\) converges to a limit
   \\(L\\) if for each \\(\epsilon>0\\), there exists an integer \\(N\\)
   such that \\(\|a_n-L\|<\epsilon\\) for all \\(n\geq N\\).
-  This is written as \\(\lim_{n\to\infty}a_n=L\\).
+  This is written as \\(\lim_{n\to\infty}a_n=L\\) or
+  \\(a_n\to L\\).
 - **Example** Guess the limit of the harmonic sequence    
   \\(\\<a_n\\>\_{n=1}^\infty\\) defined by \\(a_n=\frac{1}{n}\\)
   by writing out the first few terms.
@@ -131,8 +133,30 @@ title: "Part 5: Sequences and Series"
     \\(\lim_{n\to\infty} \sin(\pi n)=0\\) as the limit of a
     sequence, but \\(\lim_{x\to\infty}\sin(\pi x)\\)
     does not exist as a limit of a function.
+1.  (QUIZ)
+    What are the first five terms of the sequence \\(\\<r_n\\>\_{n=1}^\infty\\)
+    defined explicitly by \\(r_n=\frac{n+2}{3+n^2}\\)?
+    - \\(\\<\frac{3}{4},\frac{4}{7},\frac{5}{12},\frac{6}{19}, \frac{1}{4},\dots\\>\\)
+    - \\(\\<\frac{2}{7},\frac{1}{2},\frac{4}{9},0,\frac{5}{17},\dots\\>\\)
+    - \\(\\<0,\frac{3}{5},\frac{5}{18},\frac{8}{27},\frac{9}{61},\dots\\>\\)
+1.  (QUIZ)
+    What are the first five terms of the sequence \\(\\<w_n\\>\_{n=0}^\infty\\)
+    defined recursively by \\(w_0=1\\), \\(w_1=2\\),
+    \\(w_{n+2}=2w_n+w_{n+1}\\)?
+    - \\(\\<1,2,5,10,17,\dots\\>\\)
+    - \\(\\<1,2,3,5,9,\dots\\>\\)
+    - \\(\\<1,2,4,8,16,\dots\\>\\)
+1.  (QUIZ)
+    Which of these statements seems most appropriate for describing the
+    sequence whose initial terms are
+    \\(\\<1,\frac{3}{4},\frac{5}{8},\frac{9}{16},\frac{17}{32},\dots\\>\\)?
+    - The sequence appears to converge to \\(\frac{1}{2}\\).
+    - The sequence appears to diverge to \\(\frac{1}{2}\\).
+    - The sequence appears to neither converge nor diverge.
 
 [Solutions 1-7]({{site.baseurl}}public/solutions/5.1a.pdf)
+
+[Solutions 8-16]({{site.baseurl}}public/solutions/5.1b.pdf)
 
 
 ---
@@ -147,7 +171,7 @@ title: "Part 5: Sequences and Series"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lEqbxJeq9_M" frameborder="0" allowfullscreen></iframe>
 
 - If \\(f(x)\\) is a function and \\(a_n\\) is a sequence such that
-  \\(f(n)=a_n\\) for sufficiently large integers \(n\), then
+  \\(f(n)=a_n\\) for sufficiently large integers \\(n\\), then
   \\(\lim_{x\to\infty}f(x)=L\\) implies \\(\lim_{n\to\infty}a_n=L\\).
 - Therefore all the rules for evaluating \\(\lim_{x\to\infty}f(x)\\)
   extend to evaluating \\(\lim_{n\to\infty}a_n\\).
@@ -194,6 +218,36 @@ title: "Part 5: Sequences and Series"
   given by \\(b_n=\frac{n}{(-3)^n}\\) monotonic?
 - The Monotonic Sequence Theorem states that
   all bounded monotonic sequences converge.
+
+### Exercises for 5.2
+
+1.  Use factoring to compute
+    \\(\displaystyle\lim_{n\to\infty}\frac{n-4n^2}{2n^2+7}\\).
+1.  Use L'Hopital's Rule to prove that
+    \\(\displaystyle\frac{\ln n}{n}\to 0\\).
+1.  Use the squeeze theorem to compute
+    \\(\displaystyle\lim_{n\to\infty}\frac{\cos n}{n\ln n}\\).
+1.  Find \\(\displaystyle\lim_{n\to\infty}\frac{\sin n + 3n^2}{n^2+1}\\).
+1.  Find \\(\displaystyle\lim_{n\to\infty}\frac{\ln(n^n)}{n^2}\\).
+1.  Find \\(\displaystyle\lim_{n\to\infty}(5n^3)^{2/n}\\).
+1.  Find \\(\displaystyle\lim_{n\to\infty}(\frac{1}{\pi})^{3n}\\).
+1.  Find \\(\displaystyle\lim_{n\to\infty}(\frac{1}{2}+\frac{1}{n})^n\\).
+1.  Is the sequence \\(\\<a_n\\>\_{n=2}^\infty\\)
+    where \\(a_n=\frac{2+n^2}{n^2-1}\\) bounded? Is it monotonic?
+    Does it converge?
+1.  Is the sequence \\(\\<b_n\\>\_{n=2}^\infty\\)
+    where \\(b_n=(-3)^n\\) bounded? Is it monotonic?
+    Does it converge?
+1.  Is the sequence \\(\\<y_n\\>\_{n=2}^\infty\\)
+    where \\(y_n=(-\frac{1}{2})^n\\) bounded? Is it monotonic?
+    Does it converge?
+1.  (OPTIONAL)
+    Prove that \\(\displaystyle\lim_{n\to\infty} (1+\frac{x}{n})^n=e^x\\) by
+    considering the function version
+    \\(\displaystyle L=\lim_{t\to\infty} (1+\frac{x}{t})^t\\) and taking
+    the natural log of both sides of the equality. Use L'Hopital
+    to solve this limit, showing that \\(\ln L=x\\) and therefore
+    \\(L=e^x\\).
 
 
 ---
