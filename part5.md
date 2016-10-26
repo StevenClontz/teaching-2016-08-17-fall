@@ -235,15 +235,18 @@ title: "Part 5: Sequences and Series"
 1.  Find
     \\(\displaystyle\lim_{n\to\infty}
     \frac{\frac{(n+2)!}{2^n}}{\frac{3n^2n!}{2^{n+1}}}\\).
-1.  Is the sequence \\(\\<a_n\\>\_{n=2}^\infty\\)
-    where \\(a_n=\frac{2+n^2}{n^2-1}\\) bounded? Is it monotonic?
-    Does it converge?
-1.  Is the sequence \\(\\<b_n\\>\_{n=2}^\infty\\)
-    where \\(b_n=(-3)^n\\) bounded? Is it monotonic?
-    Does it converge?
-1.  Is the sequence \\(\\<y_n\\>\_{n=2}^\infty\\)
-    where \\(y_n=(-\frac{1}{2})^n\\) bounded? Is it monotonic?
-    Does it converge?
+1.  Based on its first few terms, does the sequence
+    \\(\\<a_n\\>\_{n=2}^\infty\\)
+    where \\(a_n=\frac{2+n^2}{n^2-1}\\) appear bounded? Monotonic?
+    Does it appear to converge?
+1.  Based on its first few terms, does the sequence
+    \\(\\<b_n\\>\_{n=0}^\infty\\)
+    where \\(b_n=(-3)^n\\) appear bounded? Monotonic?
+    Does it appear to converge?
+1.  Based on its first few terms, does the sequence
+    \\(\\<y_n\\>\_{n=1}^\infty\\)
+    where \\(y_n=(-\frac{1}{2})^n\\) appear bounded? Monotonic?
+    Does it appear to converge?
 1.  (OPTIONAL)
     Prove that \\(\displaystyle\lim_{n\to\infty} (1+\frac{x}{n})^n=e^x\\) by
     considering the function version
@@ -251,6 +254,8 @@ title: "Part 5: Sequences and Series"
     the natural log of both sides of the equality. Use L'Hopital
     to solve this limit, showing that \\(\ln L=x\\) and therefore
     \\(L=e^x\\).
+
+[Solutions 1-13]({{site.baseurl}}public/solutions/5.2a.pdf)
 
 
 ---
