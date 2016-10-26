@@ -232,6 +232,9 @@ title: "Part 5: Sequences and Series"
 1.  Find \\(\displaystyle\lim_{n\to\infty}(5n^3)^{2/n}\\).
 1.  Find \\(\displaystyle\lim_{n\to\infty}(\frac{1}{\pi})^{3n}\\).
 1.  Find \\(\displaystyle\lim_{n\to\infty}(\frac{1}{2}+\frac{1}{n})^n\\).
+1.  Find
+    \\(\displaystyle\lim_{n\to\infty}
+    \frac{\frac{(n+2)!}{2^n}}{\frac{3n^2n!}{2^{n+1}}}\\).
 1.  Is the sequence \\(\\<a_n\\>\_{n=2}^\infty\\)
     where \\(a_n=\frac{2+n^2}{n^2-1}\\) bounded? Is it monotonic?
     Does it converge?
