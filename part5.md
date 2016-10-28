@@ -267,17 +267,42 @@ title: "Part 5: Sequences and Series"
 
 ### 5.3.1 Series as Partial Sum Sequences
 
-### 5.3.2 Geometric Sequences and Series
+- For a given sequence \\(\\<a_i\\>\_{i=0}^\infty\\), its
+  partial sum sequence \\(\\<s_n\\>\_{n=0}^\infty\\) is defined explicitly
+  by \\(s_n=\sum_{i=0}^n a_i=a_0+a_1+\dots+a_n\\), and defined recursively by
+  \\(s_0=a_0\\) and \\(s_{n+1}=s_n+a_{n+1}\\).
+- **Example** Write out the first few terms of the partial sum sequence for
+  \\(\\<1,2,3,4,5,\dots\\>\\).
+- **Example** Write out the first few terms of the partial sum sequence for
+  \\(\\<b_i\\>\_{i=1}^\infty\\) where \\(b_i=\frac{6}{i}\\).
+- The series \\(\sum_{n=0}^\infty a_n=a_0+a_1+a_2+\dots\\) represents the
+  sum of the infinite sequence \\(\\<a_n\\>\_{n=1}^\infty\\). If its
+  partial sum sequence converges to \\(L\\), then we say that its series
+  converges to \\(L\\) and the value of the series is \\(L\\)
+  (written \\(\sum_{n=0}^\infty a_n=a_0+a_1+a_2+\dots=L\\)). Otherwise,
+  we say the series diverges.
 
-### 5.3.3 Telescoping Sequences and Series
+### 5.3.2 Telescoping/Geometric Sequences and Series
 
-### 5.3.4 Series Divergence Test
+- A telescoping series is a series whose partial sum sequence allows for
+  canceling.
+- **Example** Show that \\(\sum_{n=1}^\infty\\(\frac{1}{n}-\frac{1}{n+1})\\)
+  converges to \\(1\\) by evaluating the limit of its partial sum sequence.
+- **Example** Does \\(\sum_{n=0}^\infty\frac{2}{n^2+3n+2}\\) converge or
+  diverge?
+- The geometric series defined for real numbers \\(a,r\\) is
+  \\(\sum_{n=0}^\infty ar^n=a+ar+ar^2+ar^3+\dots\\).
+- The geometric series \\(\sum_{n=0}^\infty ar^n\\) converges to
+  \\(\frac{a}{1-r}\\) when \\(|r|<1\\), and diverges when \\(|r|\geq 1\\).
+- **Example** Compute \\(1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\dots\\).
+- **Example** Does \\(\sum_{k=0}^\infty\frac{2}{3^{n+1}}\\) converge or
+  diverge?
 
-### 5.3.5 Harmonic Series
+### 5.3.3 Series Divergence Test
 
-### 5.3.6 Arithmetic Rules
+### 5.3.4 Harmonic Series
 
-### 5.3.7 Reindexing
+### 5.3.5 Arithmetic Rules and Indexing
 
 
 ---
