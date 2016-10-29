@@ -267,6 +267,8 @@ title: "Part 5: Sequences and Series"
 
 ### 5.3.1 Series as Partial Sum Sequences
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/docTkY5KEOI" frameborder="0" allowfullscreen></iframe>
+
 - For a given sequence \\(\\<a_i\\>\_{i=0}^\infty\\), its
   partial sum sequence \\(\\<s_n\\>\_{n=0}^\infty\\) is defined explicitly
   by \\(s_n=\sum_{i=0}^n a_i=a_0+a_1+\dots+a_n\\), and defined recursively by
@@ -284,25 +286,33 @@ title: "Part 5: Sequences and Series"
 
 ### 5.3.2 Telescoping/Geometric Sequences and Series
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hI9SNAt7HMQ" frameborder="0" allowfullscreen></iframe>
+
 - A telescoping series is a series whose partial sum sequence allows for
   canceling.
 - **Example** Show that \\(\sum_{n=1}^\infty(\frac{1}{n}-\frac{1}{n+1})\\)
   converges to \\(1\\) by evaluating the limit of its partial sum sequence.
 - **Example** Does \\(\sum_{n=0}^\infty\frac{2}{n^2+3n+2}\\) converge or
   diverge?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mQ5GGR7YlQo" frameborder="0" allowfullscreen></iframe>
+
 - The geometric series defined for real numbers \\(a,r\\) is
   \\(\sum_{n=0}^\infty ar^n=a+ar+ar^2+ar^3+\dots\\).
 - The geometric series \\(\sum_{n=0}^\infty ar^n\\) converges to
   \\(\frac{a}{1-r}\\) when \\(|r|<1\\), and diverges when \\(|r|\geq 1\\).
 - **Example** Compute \\(1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\dots\\).
-- **Example** Does \\(\sum_{k=0}^\infty\frac{2}{3^{n+1}}\\) converge or
+- **Example** Does \\(\sum_{k=0}^\infty\frac{2}{3^{k+1}}\\) converge or
   diverge? If it converges, what is its value?
-- **Example** Does \\(\sum_{k=0}^\infty\frac{2}{(1/3)^{n+1}}\\) converge or
+- **Example** Does \\(\sum_{k=0}^\infty\frac{2}{(1/3)^{k+1}}\\) converge or
   diverge? If it converges, what is its value?
 
 ### 5.3.3 Divergent Series
 
-- The Series Divergence Test: If a sequence diverges, then its series diverges.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zZreQ7WzkLs" frameborder="0" allowfullscreen></iframe>
+
+- The Series Divergence Test: If a sequence fails to converge to \\(0\\),
+  then its series diverges.
 - **Example** Does \\(\sum_{k=0}^\infty\frac{k^2+3}{2k^2+k+5}\\) converge or
   diverge? If it converges, what is its value?
 - This does NOT mean that if a sequence converges, then its series converges.
@@ -311,12 +321,14 @@ title: "Part 5: Sequences and Series"
 
 ### 5.3.4 Arithmetic Rules and Reindexing
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_3H1IEtz0I" frameborder="0" allowfullscreen></iframe>
+
 - Because a series is a limit, it follows the same rules as limits do.
 - **Example** Evaluate the convergent series
-  \\(\sum_{k=0}^\infty\frac{1+\frac{2^{n+2}}{n+1}-\frac{2^{n+2}}{n+2}}{2^n}\\).
+  \\(\sum_{i=0}^\infty\frac{1+\frac{2^{i+2}}{i+1}-\frac{2^{i+2}}{i+2}}{2^i}\\).
 - The starting index for a series may be adjusted by offsetting the index for
   its sequence in the opposite direction.
-- **Example** Does \\(\sum_{k=-1}^\infty\frac{1}{n+2}\\) converge or
+- **Example** Does \\(\sum_{m=-1}^\infty\frac{1}{m+2}\\) converge or
   diverge? If it converges, what is its value?
 
 ### Exercises for 5.3
