@@ -286,7 +286,7 @@ title: "Part 5: Sequences and Series"
 
 - A telescoping series is a series whose partial sum sequence allows for
   canceling.
-- **Example** Show that \\(\sum_{n=1}^\infty\\(\frac{1}{n}-\frac{1}{n+1})\\)
+- **Example** Show that \\(\sum_{n=1}^\infty(\frac{1}{n}-\frac{1}{n+1})\\)
   converges to \\(1\\) by evaluating the limit of its partial sum sequence.
 - **Example** Does \\(\sum_{n=0}^\infty\frac{2}{n^2+3n+2}\\) converge or
   diverge?
@@ -296,13 +296,30 @@ title: "Part 5: Sequences and Series"
   \\(\frac{a}{1-r}\\) when \\(|r|<1\\), and diverges when \\(|r|\geq 1\\).
 - **Example** Compute \\(1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\dots\\).
 - **Example** Does \\(\sum_{k=0}^\infty\frac{2}{3^{n+1}}\\) converge or
-  diverge?
+  diverge? If it converges, what is its value?
+- **Example** Does \\(\sum_{k=0}^\infty\frac{2}{(1/3)^{n+1}}\\) converge or
+  diverge? If it converges, what is its value?
 
-### 5.3.3 Series Divergence Test
+### 5.3.3 Divergent Series
 
-### 5.3.4 Harmonic Series
+- The Series Divergence Test: If a sequence diverges, then its series diverges.
+- **Example** Does \\(\sum_{k=0}^\infty\frac{k^2+3}{2k^2+k+5}\\) converge or
+  diverge? If it converges, what is its value?
+- This does NOT mean that if a sequence converges, then its series converges.
+- The harmonic sequence \\(\\<\frac{1}{n}\\>\_{n=1}^\infty\\) converges to
+  \\(0\\), but its series \\(\sum_{n=1}^\infty\frac{1}{n}\\) diverges.
 
-### 5.3.5 Arithmetic Rules and Indexing
+### 5.3.4 Arithmetic Rules and Reindexing
+
+- Because a series is a limit, it follows the same rules as limits do.
+- **Example** Evaluate the convergent series
+  \\(\sum_{k=0}^\infty\frac{1+\frac{2^{n+2}}{n+1}-\frac{2^{n+2}}{n+2}}{2^n}\\).
+- The starting index for a series may be adjusted by offsetting the index for
+  its sequence in the opposite direction.
+- **Example** Does \\(\sum_{k=-1}^\infty\frac{1}{n+2}\\) converge or
+  diverge? If it converges, what is its value?
+
+### Exercises for 5.3
 
 
 ---
