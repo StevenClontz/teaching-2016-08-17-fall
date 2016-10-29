@@ -269,7 +269,7 @@ title: "Part 5: Sequences and Series"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/docTkY5KEOI" frameborder="0" allowfullscreen></iframe>
 
-- For a given sequence \\(\\<a_i\\>\_{i=0}^\infty\\), its
+- For a given sequence \\(\\<a_n\\>\_{n=0}^\infty\\), its
   partial sum sequence \\(\\<s_n\\>\_{n=0}^\infty\\) is defined explicitly
   by \\(s_n=\sum_{i=0}^n a_i=a_0+a_1+\dots+a_n\\), and defined recursively by
   \\(s_0=a_0\\) and \\(s_{n+1}=s_n+a_{n+1}\\).
@@ -278,7 +278,7 @@ title: "Part 5: Sequences and Series"
 - **Example** Write out the first few terms of the partial sum sequence for
   \\(\\<b_i\\>\_{i=1}^\infty\\) where \\(b_i=\frac{6}{i}\\).
 - The series \\(\sum_{n=0}^\infty a_n=a_0+a_1+a_2+\dots\\) represents the
-  sum of the infinite sequence \\(\\<a_n\\>\_{n=1}^\infty\\). If its
+  sum of the infinite sequence \\(\\<a_n\\>\_{n=0}^\infty\\). If its
   partial sum sequence converges to \\(L\\), then we say that its series
   converges to \\(L\\) and the value of the series is \\(L\\)
   (written \\(\sum_{n=0}^\infty a_n=a_0+a_1+a_2+\dots=L\\)). Otherwise,
