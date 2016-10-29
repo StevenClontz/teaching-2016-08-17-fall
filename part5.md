@@ -333,6 +333,34 @@ title: "Part 5: Sequences and Series"
 
 ### Exercises for 5.3
 
+1.  Write out the first four terms of the partial sum sequence for
+    \\(\\<1,-\frac{1}{3},\frac{1}{9},-\frac{1}{27},\dots\\>\\).
+1.  Write out the first four terms of the partial sum sequence for
+    \\(\\<0.3,0.03,0.003,0.0003,\dots\\>\\).
+1.  Does \\(\sum_{m=2}^\infty(\frac{3}{2m}-\frac{3}{2m+2})\\) converge or
+    diverge? If it converges, what is its value?
+1.  Does \\(\sum_{j=2}^\infty\frac{6}{4j^2+8j+4}\\) converge or
+    diverge? If it converges, what is its value?
+1.  Compute \\(1-\frac{1}{3}+\frac{1}{9}-\frac{1}{27}+\dots\\).
+1.  Prove that \\(0.\overline3=0.333\dots\\) equals \\(\frac{1}{3}\\)
+    by expressing the decimal
+    expression as a geometric series.
+1.  Write \\(0.\overline{27}=0.272727\dots\\) as a fraction of integers.
+1.  Does \\(\sum_{n=0}^\infty\frac{6}{3^{n+2}}\\) converge or
+    diverge? If it converges, what is its value?
+1.  Does \\(\sum_{m=0}^\infty 3(-1)^m\\) converge or
+    diverge? If it converges, what is its value?
+1.  Does \\(\sum_{i=1}^\infty \frac{i+\sin i}{2i}\\) converge or
+    diverge? If it converges, what is its value?
+1.  Suppose \\(\sum_{n=0}^\infty a_n=3\\) and
+    \\(\sum_{n=0}^\infty b_n=4\\). Evaluate
+    \\(\sum_{n=0}^\infty(3a_n-2b_n)\\).
+1.  Does \\(\sum_{k=2}^\infty 4(\frac{2}{3})^k\\) converge or
+    diverge? If it converges, what is its value?
+1.  (OPTIONAL) Find the value of the convergent series
+    \\(\sum_{n=0}^\infty\frac{2}{n^2+4n+3}\\).
+
+
 
 ---
 
