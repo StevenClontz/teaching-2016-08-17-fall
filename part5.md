@@ -418,7 +418,7 @@ title: "Part 5: Sequences and Series"
 1.  Does \\(\int_0^\infty\frac{2y}{y^2+3}\,dy\\)
     converge or diverge?
     If it converges, what is its value?
-1.  Does \\(\int_1^\infty\frac{1}{\ln(x^x)}\,dx\\) converge or diverge?
+1.  Does \\(\int_e^\infty\frac{1}{\ln(x^x)}\,dx\\) converge or diverge?
     If it converges, what is its value?
 1.  Show that
     \\(\int_1^\infty\frac{1}{x^2}\,dx+1=\int_0^1\frac{1}{\sqrt y}\,dy\\).
