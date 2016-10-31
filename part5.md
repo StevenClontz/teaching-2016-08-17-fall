@@ -413,6 +413,30 @@ title: "Part 5: Sequences and Series"
 
 ### Exercises for 5.4
 
+1.  Does \\(\int_2^\infty\frac{32}{x^3}\,dx\\) converge or diverge?
+    If it converges, what is its value?
+1.  Does \\(\int_0^\infty\frac{2y}{y^2+3}\,dy\\)
+    converge or diverge?
+    If it converges, what is its value?
+1.  Does \\(\int_1^\infty\frac{1}{\ln(x^x)}\,dx\\) converge or diverge?
+    If it converges, what is its value?
+1.  Show that
+    \\(\int_1^\infty\frac{1}{x^2}\,dx+1=\int_0^1\frac{1}{\sqrt y}\,dy\\).
+    Then draw a sketch involving areas illustrating why they are equal.
+1.  Does \\(\sum_{n=0}^\infty\frac{2n}{n^2+3}\\) converge or diverge?
+1.  Does \\(\sum_{n=3}^\infty\frac{4}{n(\ln n)^3}\\) converge or diverge?
+1.  Does \\(\sum_{n=-2}^\infty\frac{1}{e^n}\\) converge or diverge?
+1.  Show that
+    \\(
+      \int_1^\infty\frac{1}{x^2}\,dx
+    \not=
+      \sum_{n=1}^\infty\frac{1}{n^2}
+    \\), even though they both converge.
+1.  Does \\(\sum_{k=100}^\infty\frac{5}{\sqrt[7]{k^6}}\\) converge or diverge?
+1.  Does \\(\sum_{n=5}^\infty\frac{1}{n^2-8n+16}\\) converge or diverge?
+1.  (OPTIONAL) Does \\(\sum_{n=-1}^\infty\frac{e^n}{1+e^{2n}}\\) converge
+    or diverge? (Hint: \\(\int\frac{1}{1+u^2}\,du=\tan^\leftarrow u+C\\)
+    and \\(\lim_{u\to\infty}\tan^\leftarrow u=\frac{\pi}{2}\\).)
 
 ---
 
