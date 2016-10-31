@@ -361,6 +361,29 @@ title: "Part 5: Sequences and Series"
     using the proof of the Geometric Series formula (not the formula
     itself).
 
+<!-- 1.  (QUIZ)
+    Does \\(\sum_{n=3}^\infty\left(\frac{6}{n}-\frac{6}{n+1}\right)\\)
+    converge or diverge? If it converges, what is its value?
+    - It converges to \\(\frac{1}{2}\\).
+    - It converges to \\(2\\).
+    - It diverges.
+1.  (QUIZ)
+    Does \\(\sum_{i=0}^\infty\frac{(-3)^i}{2}\\) converge or
+    diverge? If it converges, what is its value?
+    - It converges to \\(-3\\).
+    - It converges to \\(6\\).
+    - It diverges.
+1.  (QUIZ)
+    Does \\(\sum_{n=1}^\infty\frac{1}{4^n}\\) converge or
+    diverge? If it converges, what is its value?
+    - It converges to \\(\frac{1}{3}\\).
+    - It converges to \\(\frac{3}{4}\\).
+    - It diverges. -->
+
+
+[Solutions 1-7]({{site.baseurl}}public/solutions/5.3a.pdf)
+
+
 
 
 ---
