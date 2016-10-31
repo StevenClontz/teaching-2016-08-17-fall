@@ -373,8 +373,9 @@ title: "Part 5: Sequences and Series"
 ### 5.4.1 Improper Integrals
 
 - If \\(f(x)\geq 0\\), the improper integral
-  \\(\int_a^\infty f(x)\,dx=\lim_b\to\infty\int_a^b f(x)\,dx\\)
-  represents the area under the curve \\(y=f(x)\\). If the limit exists,
+  \\(\int_a^\infty f(x)\,dx=\lim_{b\to\infty}\int_a^b f(x)\,dx\\)
+  represents the area under the curve \\(y=f(x)\\) from \\(x=a\\) out
+  to \\(\infty\\). If the limit exists,
   then the improper integral converges; otherwise it diverges.
 - **Example** Does \\(\int_1^\infty\frac{1}{x^2}\,dx\\) converge or diverge?
   If it converges, what is its value?
@@ -394,6 +395,11 @@ title: "Part 5: Sequences and Series"
 - **Example** Does \\(\sum_{n=4}^\infty\frac{4n+4}{n^2+2n+1}\\) converge or
   diverge?
 - **Example** Does \\(\sum_{k=1}^\infty\frac{k}{e^{k^2}}\\) converge or diverge?
+- Even when they both converge,
+  the values of the series \\(\sum_{n=N}^\infty a_n\\) and improper integral
+  \\(\int_N^\infty f(x)\,dx\\) usually differ.
+- **Example** Show that
+  \\(\sum_{n=1}^\infty\frac{1}{n^3}\not=\int_1^\infty\frac{1}{x^3}\,dx\\).
 
 ### 5.4.3 The \\(p\\)-Series Test
 
