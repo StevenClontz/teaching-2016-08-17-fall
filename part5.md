@@ -357,6 +357,9 @@ title: "Part 5: Sequences and Series"
     \\(\sum_{n=0}^\infty(3a_n-2b_n)\\).
 1.  Does \\(\sum_{k=2}^\infty 4(\frac{2}{3})^k\\) converge or
     diverge? If it converges, what is its value?
+1.  (OPTIONAL) Prove \\(\sum_{n=1}^\infty\frac{1}{3^n}=\frac{1}{2}\\)
+    using the proof of the Geometric Series formula (not the formula
+    itself).
 
 
 
@@ -367,13 +370,42 @@ title: "Part 5: Sequences and Series"
 - University Calculus: Early Transcendentals (3rd Ed)
     - 9.3, 8.7
 
-### 5.3.1 Series as Areas
+### 5.4.1 Improper Integrals
 
-### 5.3.2 Improper Integrals
+- If \\(f(x)\geq 0\\), the improper integral
+  \\(\int_a^\infty f(x)\,dx=\lim_b\to\infty\int_a^b f(x)\,dx\\)
+  represents the area under the curve \\(y=f(x)\\). If the limit exists,
+  then the improper integral converges; otherwise it diverges.
+- **Example** Does \\(\int_1^\infty\frac{1}{x^2}\,dx\\) converge or diverge?
+  If it converges, what is its value?
+- **Example** Does \\(\int_4^\infty\frac{1}{2\sqrt y}\,dy\\)
+  converge or diverge?
+  If it converges, what is its value?
+- When an integrand is undefined at an endpoint, then it is also called
+  improper and is evaluated with as a limit.
+- **Example** Find the value of \\(\int_0^8 z^{-1/3}\,dz\\).
 
-### 5.3.3 The Integral Test
+### 5.4.2 The Integral Test
 
-### 5.3.4 The \\(p\\)-Series Test
+- If \\(a_n=f(n)\\) where \\(f(x)\\) is a continuous, positive, decreasing
+  function for sufficiently large values of \\(x\\), then
+  the series \\(\sum_{n=N}^\infty a_n\\) and improper integral
+  \\(\int_a^\infty f(x)\,dx\\) either both converge, or both diverge.
+- **Example** Does \\(\sum_{n=4}^\infty\frac{4n+4}{n^2+2n+1}\\) converge or
+  diverge?
+- **Example** Does \\(\sum_{k=1}^\infty\frac{k}{e^{k^2}}\\) converge or diverge?
+
+### 5.4.3 The \\(p\\)-Series Test
+
+- The \\(p\\)-Series Test states that the series
+  \\(\sum_{n=1}^\infty\frac{1}{n^p}\\) converges when \\(p>1\\),
+  and diverges when \\(p\leq 1\\).
+- **Example**
+  Does \\(\sum_{m=2}^\infty\frac{3}{\sqrt[10]{m^4}}\\) converge or diverge?
+- **Example**
+  Does \\(\sum_{j=0}^\infty\frac{1}{j^2+2j+1}\\) converge or diverge?
+
+### Exercises for 5.4
 
 
 ---
