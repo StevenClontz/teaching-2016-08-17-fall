@@ -478,6 +478,8 @@ title: "Part 5: Sequences and Series"
 
 ### 5.5.1 Direct Comparison Test
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5DYYL4GlBuw" frameborder="0" allowfullscreen></iframe>
+
 - Suppose \\(\sum_{n=N}^\infty a_n\\) is a series with non-negative terms.
     - If there exists a convergent series \\(\sum_{n=M}^\infty b_n\\)
       with non-negative terms where \\(a_n\leq b_n\\) for sufficiently
@@ -508,6 +510,8 @@ title: "Part 5: Sequences and Series"
 
 
 ### 5.5.2 Limit Comparison Test
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ug9mAWcbwp0" frameborder="0" allowfullscreen></iframe>
 
 - Suppose \\(\sum_{n=N}^\infty a_n\\) is a series with non-negative terms.
     - If there exists a convergent series \\(\sum_{n=M}^\infty b_n\\)
