@@ -470,7 +470,54 @@ title: "Part 5: Sequences and Series"
 
 ### 5.5.1 Direct Comparison Test
 
+- Suppose \\(\sum_{n=N}^\infty a_n\\) is a series with non-negative terms.
+    - If there exists a convergent series \\(\sum_{n=M}^\infty b_n\\)
+      with non-negative terms where \\(a_n\leq b_n\\) for sufficiently
+      large \\(n\\), then \\(\sum_{n=N}^\infty a_n\\) converges as well.
+    - If there exists a divergent series \\(\sum_{n=M}^\infty b_n\\)
+      with non-negative terms where \\(a_n\geq b_n\\) for sufficiently
+      large \\(n\\), then \\(\sum_{n=N}^\infty a_n\\) diverges as well.
+- **Example**
+  Show that \\(\sum_{n=0}^\infty\frac{n}{n^3+3n+2}\\) converges by
+  comparing with the series \\(\sum_{n=1}^\infty\frac{1}{n^2}\\).
+- Following is a list of sequence formulas ordered from larger to
+  smaller (for sufficiently large \\(n\\)).
+    - \\(n^n\\)
+    - \\(n!\\)
+    - \\(b^n\\) where \\(b>1\\)
+    - \\(n^p\\) where \\(p>0\\)
+    - any positive constant
+    - \\(n^p\\) where \\(p<0\\), or \\(\frac{1}{n^p}\\) where \\(p>0\\)
+    - \\(b^n\\) where \\(0<b<1\\), or \\(\frac{1}{b^n}\\) where \\(b>1\\)
+    - \\(\frac{1}{n!}\\)
+    - \\(\frac{1}{n^n}\\)
+- **Example**
+  Does \\(\sum_{n=1}^\infty\frac{2}{n^{1/3}+5}\\) converge or diverge?
+- **Example**
+  Does \\(\sum_{k=3}^\infty\frac{3^n}{n!}\\) converge or diverge?
+- **Example**
+  Does \\(\sum_{m=2}^\infty(m\ln m)^{-1/2}\\) converge or diverge?
+
+
 ### 5.5.2 Limit Comparison Test
+
+- Suppose \\(\sum_{n=N}^\infty a_n\\) is a series with non-negative terms.
+    - If there exists a convergent series \\(\sum_{n=M}^\infty b_n\\)
+      with non-negative terms where
+      \\(\lim_{n\to\infty}\frac{a_n}{b_n}\\) converges,
+      then \\(\sum_{n=N}^\infty a_n\\) converges as well.
+    - If there exists a divergent series \\(\sum_{n=M}^\infty b_n\\)
+      with non-negative terms where
+      \\(\lim_{n\to\infty}\frac{a_n}{b_n}>0\\) or diverges,
+      then \\(\sum_{n=N}^\infty a_n\\) diverges as well.
+- **Example**
+  Does \\(\sum_{n=1}^\infty\frac{2}{n^{1/3}+5}\\) converge or diverge?
+- **Example**
+  Does \\(\sum_{i=0}^\infty\frac{3i}{5^i}\\) converge or diverge?
+- **Example**
+  Does \\(\sum_{n=42}^\infty\frac{2^n+5^n}{3^n+4^n}\\) converge or diverge?
+
+### Exercises for 5.5
 
 
 ---
