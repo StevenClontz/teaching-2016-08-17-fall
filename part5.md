@@ -395,6 +395,8 @@ title: "Part 5: Sequences and Series"
 
 ### 5.4.1 Improper Integrals
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xDj8Ne8ISHQ" frameborder="0" allowfullscreen></iframe>
+
 - If \\(f(x)\geq 0\\), the improper integral
   \\(\int_a^\infty f(x)\,dx=\lim_{b\to\infty}\int_a^b f(x)\,dx\\)
   represents the area under the curve \\(y=f(x)\\) from \\(x=a\\) out
@@ -405,11 +407,14 @@ title: "Part 5: Sequences and Series"
 - **Example** Does \\(\int_4^\infty\frac{1}{2\sqrt y}\,dy\\)
   converge or diverge?
   If it converges, what is its value?
-- When an integrand is undefined at an endpoint, then it is also called
-  improper and is evaluated with as a limit.
+- When an integrand is undefined at a bound of integration,
+  then the integral is also called
+  improper and is evaluated with a limit.
 - **Example** Find the value of \\(\int_0^8 z^{-1/3}\,dz\\).
 
 ### 5.4.2 The Integral Test
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hbdj83xTMq4" frameborder="0" allowfullscreen></iframe>
 
 - If \\(a_n=f(n)\\) where \\(f(x)\\) is a continuous, positive, decreasing
   function for sufficiently large values of \\(x\\), then
@@ -425,6 +430,8 @@ title: "Part 5: Sequences and Series"
   \\(\sum_{n=1}^\infty\frac{1}{n^3}\not=\int_1^\infty\frac{1}{x^3}\,dx\\).
 
 ### 5.4.3 The \\(p\\)-Series Test
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ceteDtCMKIg" frameborder="0" allowfullscreen></iframe>
 
 - The \\(p\\)-Series Test states that the series
   \\(\sum_{n=1}^\infty\frac{1}{n^p}\\) converges when \\(p>1\\),
