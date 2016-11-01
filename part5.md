@@ -539,11 +539,40 @@ title: "Part 5: Sequences and Series"
 - University Calculus: Early Transcendentals (3rd Ed)
     - 9.5, 9.6
 
-### 5.5.1 Absolute Convergence
+### 5.6.1 Absolute and Conditional Convergence
 
-### 5.5.2 Conditional Convergence
+- A series \\(\sum_{n=N}^\infty a_n\\) absolutely converges whenever
+  its absolute value series \\(\sum_{n=N}^\infty \|a_n\|\\) converges.
+  All absolutely convergent series converge normally.
+- **Example** Show that \\(\sum_{n=3}^\infty\frac{1}{n^2}\\) absolutely
+  converges.
+- **Example** Show that \\(\sum_{m=1}^\infty\frac{3^m}{(-4)^{m+1}}\\)
+  absolutely converges.
+- A convergent series which is not absolutely convergent is called
+  conditionally convergent.
+- Conditionally convergent series are named as such
+  because the value of a conditionally
+  convergent series depends on the order of its terms.
 
-### 5.5.3 Alternating Series Test
+### 5.6.2 Alternating Series Test
+
+- The Alternating Series Test: let \\(\sum_{n=N}^\infty(-1)^n a_n\\)
+  be a series such that \\(\\<a_n\\>\_{n=N}^\infty\\) has positive
+  nonincreasing terms. Then \\(\sum_{n=N}^\infty(-1)^n a_n\\)
+  converges when \\(\lim_{n\to\infty} a_n = 0\\), and diverges otherwise.
+- **Example** Show that the alternating harmonic series
+  \\(\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}\\) is conditionally convergent.
+- **Example** Is the series
+  \\(\sum_{k=3}^\infty\frac{\sin k}{k^2}\\) absolutely convergent,
+  conditionally convergent, or divergent?
+- **Example** Is the series
+  \\(\sum_{n=0}^\infty\frac{(-e)^n}{n+1}\\) absolutely convergent,
+  conditionally convergent, or divergent?
+- **Example** Is the series
+  \\(\sum_{m=2}^\infty(-1)^m\frac{m}{m^{3/2} +3}\\) absolutely convergent,
+  conditionally convergent, or divergent?
+
+### Exercises for 5.6
 
 
 ---
