@@ -469,6 +469,9 @@ title: "Part 5: Sequences and Series"
     or diverge? (Hint: \\(\int\frac{1}{1+u^2}\,du=\tan^\leftarrow u+C\\)
     and \\(\lim_{u\to\infty}\tan^\leftarrow u=\frac{\pi}{2}\\).)
 
+
+[Solutions 1-6]({{site.baseurl}}public/solutions/5.4a.pdf)
+
 ---
 
 ## 5.5 Comparison Tests
