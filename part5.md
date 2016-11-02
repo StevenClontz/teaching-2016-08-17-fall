@@ -382,7 +382,7 @@ title: "Part 5: Sequences and Series"
 
 [Solutions 1-7]({{site.baseurl}}public/solutions/5.3a.pdf)
 
-[Solutions 8-16]({{site.baseurl}}public/solutions/5.3a.pdf)
+[Solutions 8-16]({{site.baseurl}}public/solutions/5.3b.pdf)
 
 
 
