@@ -514,7 +514,6 @@ title: "Part 5: Sequences and Series"
     - \\(n^p\\) where \\(p>0\\) (such as \\(\sqrt{n},n,n^4\\)...)
     - \\(\log_b n\\) where \\(b>1\\)
       (such as \\(\log_{10}(n),\ln(n),\log_2(n)\\)...)
-    - \\(\sqrt[n]{n}\\)
     - any positive constant
 - **Example**
   Does \\(\sum_{n=1}^\infty\frac{2}{n^{1/3}+5}\\) converge or diverge?
