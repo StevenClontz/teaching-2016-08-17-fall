@@ -481,7 +481,7 @@ title: "Part 5: Sequences and Series"
 
 ### 5.5.1 Direct Comparison Test
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5DYYL4GlBuw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5DYYL4GlBuw" frameborder="0" allowfullscreen></iframe><!-- TODO rerecord -->
 
 - Suppose \\(\sum_{n=N}^\infty a_n\\) is a series with non-negative terms.
     - If there exists a convergent series \\(\sum_{n=M}^\infty b_n\\)
@@ -497,13 +497,12 @@ title: "Part 5: Sequences and Series"
   smaller (for sufficiently large \\(n\\)).
     - \\(n^n\\)
     - \\(n!\\)
-    - \\(b^n\\) where \\(b>1\\)
-    - \\(n^p\\) where \\(p>0\\)
+    - \\(b^n\\) where \\(b>1\\) (such as \\(2^n,e^n,10^n\\)...)
+    - \\(n^p\\) where \\(p>0\\) (such as \\(\sqrt{n},n,n^4\\)...)
+    - \\(\log_b n\\) where \\(b>1\\)
+      (such as \\(\log_{10}(n),\ln(n),\log_2(n)\\)...)
+    - \\(\sqrt[n]{n}\\)
     - any positive constant
-    - \\(n^p\\) where \\(p<0\\), or \\(\frac{1}{n^p}\\) where \\(p>0\\)
-    - \\(b^n\\) where \\(0<b<1\\), or \\(\frac{1}{b^n}\\) where \\(b>1\\)
-    - \\(\frac{1}{n!}\\)
-    - \\(\frac{1}{n^n}\\)
 - **Example**
   Does \\(\sum_{n=1}^\infty\frac{2}{n^{1/3}+5}\\) converge or diverge?
 - **Example**
