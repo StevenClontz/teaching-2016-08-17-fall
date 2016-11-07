@@ -538,22 +538,33 @@ title: "Part 5: Sequences and Series"
     diverge? (Use Direct Comparison.)
 1.  Does \\(\sum_{n=3}^\infty\frac{4}{n^{0.8}-1}\\) converge or
     diverge? (Use Direct Comparison.)
-1.  Does \\(\sum_{j=2}^\infty\frac{e^n}{e^{2n}+1}\\) converge or diverge?
+1.  Does \\(\sum_{j=2}^\infty\frac{e^j}{e^{2j}+1}\\) converge or diverge?
     (Use Direct Comparison.)
 1.  Does \\(\sum_{k=10}^\infty\frac{\sin^2(k)}{k^3}\\) converge or diverge?
     (Use Direct Comparison.)
 1.  Does \\(\sum_{m=4}^\infty\frac{1}{\ln m}\\) converge or diverge?
+    (Use Direct Comparison.)
+1.  Does \\(\sum_{n=4}^\infty\frac{5}{2n+3}\\) converge or diverge?
     (Use Direct Comparison.)
 1.  Does \\(\sum_{n=0}^\infty\sqrt{\frac{n}{n^4+7}}\\) converge or
     diverge? (Use Limit Comparison.)
 1.  Does \\(\sum_{n=3}^\infty\frac{4}{n^{0.8}-1}\\) converge or
     diverge? (Use Limit Comparison.)
-1.  Does \\(\sum_{j=2}^\infty\frac{e^n}{e^{2n}+1}\\) converge or diverge?
+1.  Does \\(\sum_{j=2}^\infty\frac{e^j}{e^{2j}+1}\\) converge or diverge?
     (Use Limit Comparison.)
 1.  Does \\(\sum_{k=10}^\infty\frac{\sin^2(k)}{k^3}\\) converge or diverge?
     (Use Limit Comparison.)
 1.  Does \\(\sum_{m=4}^\infty\frac{1}{\ln m}\\) converge or diverge?
     (Use Limit Comparison.)
+1.  Does \\(\sum_{n=4}^\infty\frac{5}{2n+3}\\) converge or diverge?
+    (Use Limit Comparison.)
+1.  (OPTIONAL)
+    Does \\(\sum_{m=1}^\infty\frac{1}{1+2+\dots+(m-1)+m}\\) converge or diverge?
+    (Hint: show that \\(
+      \frac{1}{1+2+\dots+(m-1)+m}
+        =
+      \frac{2}{(1+m)+(2+m-1)+\dots+(m-1+2)+(m+1)}
+    \\).)
 
 
 ---
