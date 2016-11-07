@@ -534,6 +534,27 @@ title: "Part 5: Sequences and Series"
 
 ### Exercises for 5.5
 
+1.  Does \\(\sum_{n=0}^\infty\sqrt{\frac{n}{n^4+7}}\\) converge or
+    diverge? (Use Direct Comparison.)
+1.  Does \\(\sum_{n=3}^\infty\frac{4}{n^{0.8}-1}\\) converge or
+    diverge? (Use Direct Comparison.)
+1.  Does \\(\sum_{j=2}^\infty\frac{e^n}{e^{2n}+1}\\) converge or diverge?
+    (Use Direct Comparison.)
+1.  Does \\(\sum_{k=10}^\infty\frac{\sin^2(k)}{k^3}\\) converge or diverge?
+    (Use Direct Comparison.)
+1.  Does \\(\sum_{m=4}^\infty\frac{1}{\ln m}\\) converge or diverge?
+    (Use Direct Comparison.)
+1.  Does \\(\sum_{n=0}^\infty\sqrt{\frac{n}{n^4+7}}\\) converge or
+    diverge? (Use Limit Comparison.)
+1.  Does \\(\sum_{n=3}^\infty\frac{4}{n^{0.8}-1}\\) converge or
+    diverge? (Use Limit Comparison.)
+1.  Does \\(\sum_{j=2}^\infty\frac{e^n}{e^{2n}+1}\\) converge or diverge?
+    (Use Limit Comparison.)
+1.  Does \\(\sum_{k=10}^\infty\frac{\sin^2(k)}{k^3}\\) converge or diverge?
+    (Use Limit Comparison.)
+1.  Does \\(\sum_{m=4}^\infty\frac{1}{\ln m}\\) converge or diverge?
+    (Use Limit Comparison.)
+
 
 ---
 
