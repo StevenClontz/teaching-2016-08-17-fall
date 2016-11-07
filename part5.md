@@ -578,6 +578,8 @@ title: "Part 5: Sequences and Series"
       \frac{2}{(1+m)+(2+m-1)+\dots+(m-1+2)+(m+1)}
     \\).)
 
+[Solutions 1-8]({{site.baseurl}}public/solutions/5.4a.pdf)
+
 
 ---
 
