@@ -468,9 +468,22 @@ title: "Part 5: Sequences and Series"
 1.  (OPTIONAL) Does \\(\sum_{n=-1}^\infty\frac{e^n}{1+e^{2n}}\\) converge
     or diverge? (Hint: \\(\int\frac{1}{1+u^2}\,du=\tan^\leftarrow u+C\\)
     and \\(\lim_{u\to\infty}\tan^\leftarrow u=\frac{\pi}{2}\\).)
-
+1.  (QUIZ)
+    Does \\(\sum_{m=0}^\infty\frac{2m}{(m^2+1)^2}\\) converge or
+    diverge?
+    - It converges.
+    - It diverges.
+    - It both converges and diverges.
+1.  (QUIZ)
+    Does \\(\sum_{n=2}^\infty\frac{1}{\sqrt{n-1}}\\) converge or
+    diverge?
+    - It converges.
+    - It diverges.
+    - It neither converges nor diverges.
 
 [Solutions 1-6]({{site.baseurl}}public/solutions/5.4a.pdf)
+
+[Solutions 7-13]({{site.baseurl}}public/solutions/5.4b.pdf)
 
 ---
 
