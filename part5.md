@@ -577,7 +577,9 @@ title: "Part 5: Sequences and Series"
       \frac{2}{(1+m)+(2+m-1)+\dots+(m-1+2)+(m+1)}
     \\).)
 
-[Solutions 1-8]({{site.baseurl}}public/solutions/5.4a.pdf)
+[Solutions 1-8]({{site.baseurl}}public/solutions/5.5a.pdf)
+
+[Solutions 9-15]({{site.baseurl}}public/solutions/5.5b.pdf)
 
 
 ---
@@ -589,10 +591,13 @@ title: "Part 5: Sequences and Series"
 
 ### 5.6.1 Absolute and Conditional Convergence
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SAmrF-Ac8o4" frameborder="0" allowfullscreen></iframe>
+
+
 - A series \\(\sum_{n=N}^\infty a_n\\) absolutely converges whenever
   its absolute value series \\(\sum_{n=N}^\infty \|a_n\|\\) converges.
   All absolutely convergent series converge normally.
-- **Example** Show that \\(\sum_{n=3}^\infty\frac{1}{n^2}\\) absolutely
+- **Example** Show that \\(\sum_{n=3}^\infty\frac{\cos n}{n^2}\\) absolutely
   converges.
 - **Example** Show that \\(\sum_{m=1}^\infty\frac{3^m}{(-4)^{m+1}}\\)
   absolutely converges.
@@ -603,6 +608,9 @@ title: "Part 5: Sequences and Series"
   convergent series depends on the order of its terms.
 
 ### 5.6.2 Alternating Series Test
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qHhyQK0rPQ4" frameborder="0" allowfullscreen></iframe>
+
 
 - The Alternating Series Test: let \\(\sum_{n=N}^\infty(-1)^n a_n\\)
   be a series such that \\(\\<a_n\\>\_{n=N}^\infty\\) has positive
