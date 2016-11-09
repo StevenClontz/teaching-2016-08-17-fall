@@ -598,7 +598,7 @@ title: "Part 5: Sequences and Series"
   its absolute value series \\(\sum_{n=N}^\infty \|a_n\|\\) converges.
   All absolutely convergent series converge normally.
 - **Example** Show that \\(\sum_{n=3}^\infty\frac{\cos n}{n^2}\\) absolutely
-  converges.
+  converges.<!-- remove cos n -->
 - **Example** Show that \\(\sum_{m=1}^\infty\frac{3^m}{(-4)^{m+1}}\\)
   absolutely converges.
 - A convergent series which is not absolutely convergent is called
@@ -609,12 +609,12 @@ title: "Part 5: Sequences and Series"
 
 ### 5.6.2 Alternating Series Test
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qHhyQK0rPQ4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qHhyQK0rPQ4" frameborder="0" allowfullscreen></iframe><!-- TODO rerecord -->
 
 
 - The Alternating Series Test: let \\(\sum_{n=N}^\infty(-1)^n a_n\\)
   be a series such that \\(\\<a_n\\>\_{n=N}^\infty\\) has positive
-  nonincreasing terms. Then \\(\sum_{n=N}^\infty(-1)^n a_n\\)
+  monotonic terms. Then \\(\sum_{n=N}^\infty(-1)^n a_n\\)
   converges when \\(\lim_{n\to\infty} a_n = 0\\), and diverges otherwise.
 - **Example** Show that the alternating harmonic series
   \\(\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}\\) is conditionally convergent.
@@ -629,6 +629,25 @@ title: "Part 5: Sequences and Series"
   conditionally convergent, or divergent?
 
 ### Exercises for 5.6
+
+1.  Is the series
+    \\(\sum_{m=2}^\infty\frac{3}{1-m}\\) absolutely convergent,
+    conditionally convergent, or divergent?
+1.  Is the series
+    \\(\sum_{k=1}^\infty\frac{\cos^5 k}{k^4}\\) absolutely convergent,
+    conditionally convergent, or divergent?
+1.  Is the series
+    \\(\sum_{n=0}^\infty(-1)^{n+1}\frac{4}{n^2+3}\\) absolutely convergent,
+    conditionally convergent, or divergent?
+1.  Is the series
+    \\(\sum_{m=2}^\infty(-1)^m\frac{m}{\sqrt{m^3-7}}\\) absolutely convergent,
+    conditionally convergent, or divergent?
+1.  Is the series
+    \\(\sum_{m=2}^\infty(-\frac{3}{5})^m\\) absolutely convergent,
+    conditionally convergent, or divergent?
+1.  Is the series
+    \\(\sum_{m=2}^\infty(-\frac{5}{3})^m\\) absolutely convergent,
+    conditionally convergent, or divergent?
 
 
 ---
