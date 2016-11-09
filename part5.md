@@ -525,16 +525,17 @@ title: "Part 5: Sequences and Series"
 
 ### 5.5.2 Limit Comparison Test
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ug9mAWcbwp0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ug9mAWcbwp0" frameborder="0" allowfullscreen></iframe><!-- TODO rerecord, consider just 0<lim<infty -->
 
 - Suppose \\(\sum_{n=N}^\infty a_n\\) is a series with non-negative terms.
     - If there exists a convergent series \\(\sum_{n=M}^\infty b_n\\)
       with non-negative terms where
-      \\(\lim_{n\to\infty}\frac{a_n}{b_n}\\) converges,
+      \\(\lim_{n\to\infty}\frac{a_n}{b_n}<\infty\\),
       then \\(\sum_{n=N}^\infty a_n\\) converges as well.
     - If there exists a divergent series \\(\sum_{n=M}^\infty b_n\\)
       with non-negative terms where
-      \\(\lim_{n\to\infty}\frac{a_n}{b_n}>0\\) or diverges,
+      \\(\lim_{n\to\infty}\frac{a_n}{b_n}>0\\) (including divergence
+      to infinity),
       then \\(\sum_{n=N}^\infty a_n\\) diverges as well.
 - **Example**
   Does \\(\sum_{n=1}^\infty\frac{2}{n^{1/3}+5}\\) converge or diverge?
@@ -576,6 +577,18 @@ title: "Part 5: Sequences and Series"
         =
       \frac{2}{(1+m)+(2+m-1)+\dots+(m-1+2)+(m+1)}
     \\).)
+1.  (QUIZ)
+    Does \\(\sum_{m=0}^\infty\frac{2m}{(m^2+1)^2}\\) converge or
+    diverge?
+    - It converges.
+    - It diverges.
+    - It both converges and diverges.
+1.  (QUIZ) <!-- TODO add as actual exercise -->
+    Does \\(\sum_{n=1}^\infty\sqrt{\frac{n+1}{n^2+3}}\\) converge or
+    diverge?
+    - It converges.
+    - It diverges.
+    - It neither converges nor diverges.
 
 [Solutions 1-8]({{site.baseurl}}public/solutions/5.5a.pdf)
 
