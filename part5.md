@@ -653,7 +653,7 @@ title: "Part 5: Sequences and Series"
     \\(\sum_{n=0}^\infty(-1)^{n+1}\frac{4}{n^2+3}\\) absolutely convergent,
     conditionally convergent, or divergent?
 1.  Is the series
-    \\(\sum_{m=2}^\infty(-1)^m\frac{m}{\sqrt{m^3-7}}\\) absolutely convergent,
+    \\(\sum_{i=6}^\infty(-1)^i\frac{i}{\sqrt{i^3-7}}\\) absolutely convergent,
     conditionally convergent, or divergent?
 1.  Is the series
     \\(\sum_{m=2}^\infty(-\frac{3}{5})^m\\) absolutely convergent,
@@ -668,8 +668,51 @@ title: "Part 5: Sequences and Series"
 ## 5.7 Ratio and Root Tests
 
 - University Calculus: Early Transcendentals (3rd Ed)
-    - 9.5
+    - 9.5 <!-- TODO consider putting before 5.6 -->
 
 ### 5.7.1 Ratio Test
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gYkp0LuVi5g" frameborder="0" allowfullscreen></iframe>
+
+- The Ratio Test states that the series \\(\sum_{n=N}^\infty a_n\\)
+  absolutely converges when \\(\lim_{n\to\infty}\|\frac{a_{n+1}}{a_n}\|<1\\)
+  and diverges when \\(\lim_{n\to\infty}\|\frac{a_{n+1}}{a_n}\|>1\\).
+- **Example**
+  Show that \\(\sum_{n=0}^\infty\frac{3^n+1}{4^n}\\) absolutely converges
+  using the Ratio Test. Then give its value.
+- **Example**
+  Does \\(\sum_{k=3}^\infty\frac{(2k)!}{3(k!)^2}\\) converge or diverge?
+- Another test must be used when
+  \\(\lim_{n\to\infty}\|\frac{a_{n+1}}{a_n}\|=1\\).
+- **Example**
+  Show that the divergent series
+  \\(\sum_{n=1}^\infty\frac{1}{n}\\) and the absolutely convergent series
+  \\(\sum_{n=1}^\infty\frac{1}{n^2}\\) both satisfy
+  \\(\lim_{n\to\infty}\|\frac{a_{n+1}}{a_n}\|=1\\).
+
 ### 5.7.2 Root Test
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gMnZOesL3wY" frameborder="0" allowfullscreen></iframe>
+
+- The Root Test states that the series \\(\sum_{n=N}^\infty a_n\\)
+  absolutely converges when \\(\lim_{n\to\infty}\sqrt[n]{\|a_n\|}<1\\)
+  and diverges when \\(\lim_{n\to\infty}\sqrt[n]{\|a_n\|}>1\\).
+- **Example**
+  Show that \\(\sum_{n=0}^\infty\frac{5^n}{2^{3n}}\\) absolutely converges
+  using the Root Test. Then give its value.
+- **Example**
+  Does \\(\sum_{m=3}^\infty\frac{m^{10}}{(-3)^m}\\) converge or diverge?
+- Another test must be used when
+  \\(\lim_{n\to\infty}\sqrt[n]{\|a_n\|}=1\\).
+
+### Exercises for 5.7
+
+1.  Does \\(\sum_{k=1}^\infty\frac{k^2+4}{(k+2)!}\\) converge or diverge?
+1.  Does \\(\sum_{n=0}^\infty\frac{(2n)!}{n+3}\\) converge or diverge?
+1.  Does \\(\sum_{m=2}^\infty\frac{5^m}{m!}\\) converge or diverge?
+1.  Does \\(\sum_{n=0}^\infty(-1)^n\frac{n!}{2^n(n+2)!}\\) converge or diverge?
+1.  Does \\(\sum_{p=0}^\infty\frac{3^p}{(p+7)^p}\\) converge or diverge?
+1.  Does \\(\sum_{n=9}^\infty(1+\frac{2}{n})^{n^2}\\) converge or diverge?
+1.  Does \\(\sum_{j=3}^\infty(-3)^n\frac{1}{n4^n}\\) converge or diverge?
+1.  Does \\(\sum_{n=1}^\infty\left(\frac{1-2n^2}{(n+1)(3n+1)}\right)^{n+3}\\)
+    converge or diverge?
