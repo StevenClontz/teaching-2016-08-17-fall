@@ -604,7 +604,7 @@ title: "Part 5: Sequences and Series"
 
 ### 5.6.1 Absolute and Conditional Convergence
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SAmrF-Ac8o4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SAmrF-Ac8o4" frameborder="0" allowfullscreen></iframe><!-- TODO rerecord -->
 
 
 - A series \\(\sum_{n=N}^\infty a_n\\) absolutely converges whenever
@@ -628,12 +628,15 @@ title: "Part 5: Sequences and Series"
 - The Alternating Series Test: let \\(\sum_{n=N}^\infty(-1)^n a_n\\)
   be a series such that \\(\\<a_n\\>\_{n=N}^\infty\\) has positive
   monotonic terms. Then \\(\sum_{n=N}^\infty(-1)^n a_n\\)
-  converges when \\(\lim_{n\to\infty} a_n = 0\\), and diverges otherwise.
+  converges when \\(\lim_{n\to\infty} a_n = 0\\).
 - **Example** Show that the alternating harmonic series
   \\(\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}\\) is conditionally convergent.
 - **Example** Is the series
   \\(\sum_{k=3}^\infty\frac{\sin k}{k^2}\\) absolutely convergent,
   conditionally convergent, or divergent?
+- Let \\(a_n\geq0\\). Then the sequence
+  \\(\\<(-1)^na_n\\>\_{n=N}^\infty\\) converges if and only if
+  \\(\\<a_n\\>\_{n=N}^\infty\\) converges to zero.
 - **Example** Is the series
   \\(\sum_{n=0}^\infty\frac{(-e)^n}{n+1}\\) absolutely convergent,
   conditionally convergent, or divergent?
@@ -644,7 +647,7 @@ title: "Part 5: Sequences and Series"
 ### Exercises for 5.6
 
 1.  Is the series
-    \\(\sum_{m=2}^\infty\frac{3}{1-m}\\) absolutely convergent,
+    \\(\sum_{m=2}^\infty\frac{3}{1-m^2}\\) absolutely convergent,
     conditionally convergent, or divergent?
 1.  Is the series
     \\(\sum_{k=1}^\infty\frac{\cos^5 k}{k^4}\\) absolutely convergent,
@@ -660,6 +663,9 @@ title: "Part 5: Sequences and Series"
     conditionally convergent, or divergent?
 1.  Is the series
     \\(\sum_{m=2}^\infty(-\frac{5}{3})^m\\) absolutely convergent,
+    conditionally convergent, or divergent?
+1.  Is the series
+    \\(\sum_{n=1}^\infty(-1)^n\frac{1}{n\ln n}\\) absolutely convergent,
     conditionally convergent, or divergent?
 
 
@@ -713,6 +719,7 @@ title: "Part 5: Sequences and Series"
 1.  Does \\(\sum_{n=0}^\infty(-1)^n\frac{n!}{2^n(n+2)!}\\) converge or diverge?
 1.  Does \\(\sum_{p=0}^\infty\frac{3^p}{(p+7)^p}\\) converge or diverge?
 1.  Does \\(\sum_{n=9}^\infty(1+\frac{2}{n})^{n^2}\\) converge or diverge?
+    (Hint: \\(e^x=\lim_{n\to\infty}(1+\frac{x}{n})^n\\).)
 1.  Does \\(\sum_{j=3}^\infty(-3)^n\frac{1}{n4^n}\\) converge or diverge?
 1.  Does \\(\sum_{n=1}^\infty\left(\frac{1-2n^2}{(n+1)(3n+1)}\right)^{n+3}\\)
     converge or diverge?
