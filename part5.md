@@ -665,7 +665,7 @@ title: "Part 5: Sequences and Series"
     \\(\sum_{m=2}^\infty(-\frac{5}{3})^m\\) absolutely convergent,
     conditionally convergent, or divergent?
 1.  Is the series
-    \\(\sum_{n=1}^\infty(-1)^n\frac{1}{n\ln n}\\) absolutely convergent,
+    \\(\sum_{n=13}^\infty(-1)^n\frac{1}{n\ln n}\\) absolutely convergent,
     conditionally convergent, or divergent?
 
 
