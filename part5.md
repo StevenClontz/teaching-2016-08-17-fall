@@ -627,7 +627,7 @@ title: "Part 5: Sequences and Series"
 
 - The Alternating Series Test: let \\(\sum_{n=N}^\infty(-1)^n a_n\\)
   be a series such that \\(\\<a_n\\>\_{n=N}^\infty\\) has positive
-  monotonic terms. Then \\(\sum_{n=N}^\infty(-1)^n a_n\\)
+  nonincreasing terms. Then \\(\sum_{n=N}^\infty(-1)^n a_n\\)
   converges when \\(\lim_{n\to\infty} a_n = 0\\).
 - **Example** Show that the alternating harmonic series
   \\(\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}\\) is conditionally convergent.
