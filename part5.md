@@ -629,6 +629,7 @@ title: "Part 5: Sequences and Series"
   be a series such that \\(\\<a_n\\>\_{n=N}^\infty\\) has positive
   nonincreasing terms. Then \\(\sum_{n=N}^\infty(-1)^n a_n\\)
   converges when \\(\lim_{n\to\infty} a_n = 0\\).
+- Also holds for \\(\sum_{n=N}^\infty(-1)^{n\pm k} a_n\\)
 - **Example** Show that the alternating harmonic series
   \\(\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}\\) is conditionally convergent.
 - **Example** Is the series
@@ -666,7 +667,7 @@ title: "Part 5: Sequences and Series"
     conditionally convergent, or divergent?
 1.  Is the series
     \\(\sum_{n=13}^\infty(-1)^n\frac{1}{n\ln n}\\) absolutely convergent,
-    conditionally convergent, or divergent?
+    conditionally convergent, or divergent?<!-- TODO make (-1)^{n+1} -->
 
 [Solutions]({{site.baseurl}}public/solutions/5.6.pdf)
 
@@ -722,6 +723,9 @@ title: "Part 5: Sequences and Series"
 1.  Does \\(\sum_{p=0}^\infty\frac{3^p}{(p+7)^p}\\) converge or diverge?
 1.  Does \\(\sum_{n=9}^\infty(1+\frac{2}{n})^{n^2}\\) converge or diverge?
     (Hint: \\(e^x=\lim_{n\to\infty}(1+\frac{x}{n})^n\\).)
-1.  Does \\(\sum_{j=3}^\infty(-3)^n\frac{1}{n4^n}\\) converge or diverge?
+1.  Does \\(\sum_{j=3}^\infty(-3)^j\frac{1}{j4^j}\\) converge or diverge?
 1.  Does \\(\sum_{n=1}^\infty\left(\frac{1-2n^2}{(n+1)(3n+1)}\right)^{n+3}\\)
+    converge or diverge?
+1.  (OPTIONAL)
+    Does \\(\sum_{m=4}^\infty(-1)^{n+1}\frac{me^{-m}}{(2m+1)\ln(m+1)}\\)
     converge or diverge?
