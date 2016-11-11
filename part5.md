@@ -724,7 +724,7 @@ title: "Part 5: Sequences and Series"
 1.  Does \\(\sum_{n=9}^\infty(1+\frac{2}{n})^{n^2}\\) converge or diverge?
     (Hint: \\(e^x=\lim_{n\to\infty}(1+\frac{x}{n})^n\\).)
 1.  Does \\(\sum_{j=3}^\infty(-3)^j\frac{1}{j4^j}\\) converge or diverge?
-1.  Does \\(\sum_{n=1}^\infty\left(\frac{1-2n^2}{(n+1)(3n+1)}\right)^{n+3}\\)
+1.  Does \\(\sum_{n=1}^\infty\left(\frac{1-4n^2}{(n+1)(3n+1)}\right)^{n+3}\\)
     converge or diverge?
 1.  (OPTIONAL)
     Does \\(\sum_{m=4}^\infty(-1)^{n+1}\frac{me^{-m}}{(2m+1)\ln(m+1)}\\)
