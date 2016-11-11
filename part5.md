@@ -668,6 +668,8 @@ title: "Part 5: Sequences and Series"
     \\(\sum_{n=13}^\infty(-1)^n\frac{1}{n\ln n}\\) absolutely convergent,
     conditionally convergent, or divergent?
 
+[Solutions]({{site.baseurl}}public/solutions/5.6.pdf)
+
 
 ---
 
