@@ -62,6 +62,37 @@ title: "Part 6: Power Series"
   \frac{9x^2}{2\ln2}+\frac{27x^3}{3\ln3}+\frac{81x^4}{4\ln4}+\dots\\).
 
 
+### Exercises for 6.1
+
+
+1.  Expand the first four terms of the power series
+    \\(\sum_{m=0}^\infty 3^{m+1}x^m\\).
+1.  Expand the first four terms of the power series
+    \\(\sum_{k=1}^\infty \frac{(-x)^k}{k+1}\\).
+1.  Expand the first four terms of the power series
+    \\(\sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}\\).
+1.  Simplify
+    \\(q(x)=\sum_{n=1}^\infty (1-x)^n=(1-x)+(1-x)^2+(1-x)^3+\dots\\)
+    with domain \\(|1-x|<1\\).
+1.  Simplify
+    \\(g(x)=\sum_{j=0}^\infty (2x)^{2j+1}=
+    2x+8x^3+32x^5+128x^7+\dots\\)
+    with domain \\(|x|<\frac{1}{2}\\).
+1.  Find the domain of
+    \\(z(x)=\sum_{n=2}^\infty(-1)^n\frac{x^n}{2n}=
+    \frac{x^2}{4}-\frac{x^3}{6}+\frac{x^4}{8}-\frac{x^5}{10}+\dots\\).
+1.  Find the domain of
+    \\(f(x)=\sum_{i=0}^\infty\frac{(3x)^i}{(2i)!}=
+    1+\frac{3}{2}x+\frac{9}{24}x^2+\dots\\).
+1.  Find the domain of
+    \\(h(x)=\sum_{k=0}^\infty\frac{(x-2)^k}{k^2+1}=
+    1+\frac{x-2}{2}+\frac{(x-2)^2}{5}+\frac{(x-2)^3}{10}+\dots\\).
+1.  (OPTIONAL)
+    Find the domain of
+    \\(g(x)=\sum_{m=3}^\infty(\frac{1}{m}-\frac{1}{m+1})x^m\\).
+
+
+
 ---
 
 ## 6.2 Taylor and Maclaurin Series

@@ -727,5 +727,25 @@ title: "Part 5: Sequences and Series"
 1.  Does \\(\sum_{n=1}^\infty\left(\frac{1-4n^2}{(n+1)(3n+1)}\right)^{n+3}\\)
     converge or diverge?
 1.  (OPTIONAL)
-    Does \\(\sum_{m=4}^\infty(-1)^{n+1}\frac{me^{-m}}{(2m+1)\ln(m+1)}\\)
+    Does \\(\sum_{m=4}^\infty(-1)^{m+1}\frac{me^{-m}}{(2m+1)\ln(m+1)}\\)
     converge or diverge?
+1.  (QUIZ)
+    Does \\(\sum_{n=1}^\infty\frac{(n-1)!}{10^n}\\) converge or
+    diverge?
+    - It converges.
+    - It diverges.
+    - It explodes.
+1.  (QUIZ)
+    Does \\(\sum_{k=3}^\infty(1-\frac{1}{k})^{k^2}\\) converge or
+    diverge?
+    - It converges.
+    - It diverges.
+    - It converges some of the time, and diverges the rest of the time.
+1.  (QUIZ)
+    Does \\(\sum_{m=2}^\infty\frac{1}{m^2}\\) converge or
+    diverge?
+    - It converges.
+    - It diverges.
+    - It is impossible to determine.
+
+[Solutions]({{site.baseurl}}public/solutions/5.7.pdf)
