@@ -90,7 +90,27 @@ title: "Part 6: Power Series"
 1.  (OPTIONAL)
     Find the domain of
     \\(g(x)=\sum_{m=3}^\infty(\frac{1}{m}-\frac{1}{m+1})x^m\\).
+1.  (QUIZ)
+    Expand the first four terms of the power series
+    \\(\sum_{k=0}^\infty \frac{(-x)^{2k+1}}{(2k)!}\\).
+    - \\(1+x^2+\frac{x^3}{8}+\frac{x^5}{15}+\dots\\)
+    - \\(-x-\frac{x^3}{2}-\frac{x^5}{24}-\frac{x^7}{720}-\dots\\)
+    - \\(x-\frac{x^3}{3}+\frac{x^6}{18}-\frac{x^{10}}{27}+\dots\\)
+1.  (QUIZ)
+    Simplify
+    \\(f(x)=\sum_{n=1}^\infty (-x)^{n-1}=1-x+x^2-x^3+\dots\\) with domain \\(|x|<1\\).
+    - \\(f(x)=\frac{1}{1+x}\\)
+    - \\(f(x)=\frac{2x}{1-x}\\)
+    - \\(f(x)=\frac{1}{x}+2\\)
+1.  (QUIZ)
+    Find the domain of
+    \\(f(x)=\sum_{m=2}^\infty\frac{(-2x)^m}{m}=
+    \frac{4x^2}{2}-\frac{8x^3}{3}+\frac{16x^4}{4}-\frac{32x^5}{5}+\dots\\).
+    - \\(-\frac{1}{2}<x\leq\frac{1}{2}\\)
+    - \\(-1<x<1\\)
+    - \\(0\leq x<2\\)
 
+[Solutions]({{site.baseurl}}public/solutions/6.1.pdf)
 
 
 ---

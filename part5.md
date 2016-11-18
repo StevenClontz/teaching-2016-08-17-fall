@@ -191,8 +191,8 @@ title: "Part 5: Sequences and Series"
     - \\(\lim_{n\to\infty} x = x\\)
     - \\(\lim_{n\to\infty} \frac{1}{n} = 0\\)
     - \\(\lim_{n\to\infty} \frac{\ln n}{n} = 0\\)
-    - \\(\lim_{n\to\infty} \sqrt[n]{n} = 1\\)
-    - \\(\lim_{n\to\infty} \sqrt[n]{x} = 1\\), \\(x>0\\)
+    - \\(\lim_{n\to\infty} \sqrt[n]{p(n)} = 1\\) where \\(p(n)\\)
+      is a polynomial
     - \\(\lim_{n\to\infty} x^n = 0\\), \\(\|x\|<1\\)
     - \\(\lim_{n\to\infty} (1+\frac{x}{n})^n=e^x\\)
     - \\(\lim_{n\to\infty} \frac{x^n}{n!}=0\\)
