@@ -30,7 +30,7 @@ title: Week 14-16 Material
 - Tuesday Nov 29
     - Continue [Section 6.3]({{site.baseurl}}part6/#convergence-of-taylor-series)
 - Wednesday Nov 30
-    - [Section 6.4]({{site.baseurl}}part6/#manipulating-power-series)
+    - Continue [Section 6.3]({{site.baseurl}}part6/#convergence-of-taylor-series)
 - Friday Dec 2
     - Q&A before Final Exam
 
