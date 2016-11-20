@@ -169,6 +169,9 @@ title: "Part 6: Power Series"
 - Power series may be differentiated and integrated term-by-term.
 - **Example** Find a power series converging to \\(\frac{1}{x^2-2x+1}\\)
   for \\(-1<x<1\\).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BwoikeDgrOQ" frameborder="0" allowfullscreen></iframe>
+
 - **Example** Find a power series converging to \\(\tan^{\leftarrow}(x)\\)
   for \\(-1<x<1\\).
 
