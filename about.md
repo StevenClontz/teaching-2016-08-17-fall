@@ -136,6 +136,7 @@ Each exam covers the following material:
 - **Final Exam**: All Sections, focusing mainly on
     - questions covered on the Midterm from Parts 1 to 3, and
     - all topics from Parts 4 to 6
+    - Study Guide: [[link]](final/)
 
 ### Using notes during exams
 
