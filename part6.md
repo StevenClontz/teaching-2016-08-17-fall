@@ -197,6 +197,8 @@ title: "Part 6: Power Series"
     for \\(0<x<2\\). (Hint: begin with the power series for
     \\(\frac{1}{1+x}\\) and then integrate term-by-term.)
 
+[Solutions 1-4]({{site.baseurl}}public/solutions/6.2a.pdf)
+
 
 ---
 
