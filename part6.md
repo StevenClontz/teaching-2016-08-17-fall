@@ -209,6 +209,14 @@ title: "Part 6: Power Series"
 
 ### 6.3.1 Taylor's Formula
 
+- Taylor's Formula guarantees that if \\(f\\) has derivatives of all orders
+  on an open interval containing \\(a\\), then for every nonnegative integer
+  \\(n\\) and \\(x\\) in that same inteveral,
+  \\(f(x)=\left(\sum_{k=0}^n\frac{f^{(k)}(a)}{k!}(x-a)^k\right)+R_n(x)\\)
+  where the error term is given by
+  \\(R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}\\) for some number
+  \\(c\\) between \\(a\\) and \\(x\\).
+
 ### 6.3.2 Error Estimation Theorem
 
 ### 6.3.3 Convergence of Maclaurin Series for \\(e^x\\), \\(\\sin x\\), \\(\\cos x\\)
