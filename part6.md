@@ -227,7 +227,7 @@ title: "Part 6: Power Series"
 
 - Taylor's Formula guarantees that if \\(f\\) has derivatives of all orders
   on an open interval containing \\(a\\), then for every nonnegative integer
-  \\(n\\) and \\(x\\) in that same inteveral,
+  \\(n\\) and \\(x\\) in that same interval,
   \\(f(x)=\left(\sum_{k=0}^n\frac{f^{(k)}(a)}{k!}(x-a)^k\right)+R_n(x)\\)
   where the error term is given by
   \\(R_n(x)=\frac{f^{(n+1)}(x_n)}{(n+1)!}(x-a)^{n+1}\\) for some number
@@ -247,3 +247,18 @@ title: "Part 6: Power Series"
 - **Example** Prove that \\(e^x=\sum_{k=0}^\infty\frac{x^k}{k!}\\).
 - **Example** Prove that
   \\(\cos(x)=\sum_{k=0}^\infty(-1)^k\frac{x^{2k}}{(2k)!}\\).
+
+
+### Exercises for 6.3
+
+1.  Use Taylor's Formula to estimate the value of \\(e\\) with an error
+    no greater than \\(0.001\\).
+1.  Use Taylor's Formula to estimate the value of \\(\cos(0.1)\\) with an error
+    no greater than \\(0.0001\\).
+1.  Use Taylor's Formula to estimate the value of \\(\sin(1)\\) with an error
+    no greater than \\(0.01\\).
+1.  Prove that \\(\sin(x)=\sum_{k=0}^\infty(-1)^k\frac{x^{2k+1}}{(2k+1)!}\\).
+1.  Prove that \\(\cosh(x)=\sum_{k=0}^\infty\frac{x^{2k}}{(2k)!}\\).
+1.  Reprove \\(\cosh(x)=\sum_{k=0}^\infty\frac{x^{2k}}{(2k)!}\\) by using
+    its definition \\(\cosh(x)=\frac{1}{2}(e^x+e^{-x})\\) along with
+    the Maclaurin series for \\(e^x\\).
