@@ -168,6 +168,8 @@ title: "Part 6: Power Series"
   of continuous functions.
 - **Example** Find a power series converging to \\(x\cos(-x^2)\\).
 - Power series may be differentiated and integrated term-by-term.
+  <!-- TODO note that doing these operations to
+  Taylor series results in a Taylor series -->
 - **Example** Find a power series converging to \\(\frac{1}{x^2-2x+1}\\)
   for \\(-1<x<1\\).
 
@@ -196,6 +198,18 @@ title: "Part 6: Power Series"
 1.  Find a power series converging to \\(\ln|x|\\)
     for \\(0<x<2\\). (Hint: begin with the power series for
     \\(\frac{1}{1+x}\\) and then integrate term-by-term.)
+1.  (QUIZ) Generate the Maclaurin Series for \\(\cosh x\\).
+    - \\(\sum_{k=0}^\infty(-1)^k\frac{x^{2k+1}}{(2k+1)!}\\)
+    - \\(\sum_{k=0}^\infty\frac{x^{2k}}{(2k)!}\\)
+    - \\(\sum_{k=0}^\infty\frac{x^k}{(k+1)!}\\)
+1.  (QUIZ) Find a power series converging to \\(x\cos x\\).
+    - \\(\sum_{k=0}^\infty(-1)^k\frac{x^{2k+1}}{(2k)!}\\)
+    - \\(\sum_{k=0}^\infty(-1)^k\frac{x^{2k}}{(2k+2)!}\\)
+    - \\(\sum_{k=0}^\infty\frac{x^{2k+2}}{(2k+1)!}\\)
+1.  (QUIZ) Find a power series converging to \\(\frac{d}{dx}[\sin(x^2)]\\).
+    - \\(\sum_{k=0}^\infty\frac{(-x^2)^{4k+3}}{(4k+2)(2k)!}\\)
+    - \\(\sum_{k=0}^\infty\frac{(2k+1)x^{2k+2}}{(2k+1)!}\\)
+    - \\(\sum_{k=0}^\infty(-1)^k\frac{(4k+2)x^{4k+1}}{(2k+1)!}\\)
 
 [Solutions 1-4]({{site.baseurl}}public/solutions/6.2a.pdf)
 
@@ -209,14 +223,27 @@ title: "Part 6: Power Series"
 
 ### 6.3.1 Taylor's Formula
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qmnRH1TgNZc" frameborder="0" allowfullscreen></iframe>
+
 - Taylor's Formula guarantees that if \\(f\\) has derivatives of all orders
   on an open interval containing \\(a\\), then for every nonnegative integer
   \\(n\\) and \\(x\\) in that same inteveral,
   \\(f(x)=\left(\sum_{k=0}^n\frac{f^{(k)}(a)}{k!}(x-a)^k\right)+R_n(x)\\)
   where the error term is given by
-  \\(R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}\\) for some number
-  \\(c\\) between \\(a\\) and \\(x\\).
+  \\(R_n(x)=\frac{f^{(n+1)}(x_n)}{(n+1)!}(x-a)^{n+1}\\) for some number
+  \\(x_n\\) between \\(a\\) and \\(x\\).
+- **Example** Use Taylor's Formula to estimate
+  the value of \\(\sqrt{e}\\) with an error no greater than \\(0.01\\).
+- **Example** Use Taylor's Formula to estimate
+  the value of \\(\sin(0.1)\\) with an error no greater than \\(0.0001\\).
 
-### 6.3.2 Error Estimation Theorem
 
-### 6.3.3 Convergence of Maclaurin Series for \\(e^x\\), \\(\\sin x\\), \\(\\cos x\\)
+### 6.3.2 Convergence of Taylor and Maclaurin Series
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9iBMea-InTQ" frameborder="0" allowfullscreen></iframe>
+
+- A Taylor series converges to its generating function when
+  \\(\lim_{n\to\infty}\|R_n(x)\|=0\\).
+- **Example** Prove that \\(e^x=\sum_{k=0}^\infty\frac{x^k}{k!}\\).
+- **Example** Prove that
+  \\(\cos(x)=\sum_{k=0}^\infty(-1)^k\frac{x^{2k}}{(2k)!}\\).
