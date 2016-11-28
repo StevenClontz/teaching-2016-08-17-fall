@@ -269,3 +269,5 @@ title: "Part 6: Power Series"
     the Maclaurin series for \\(e^x\\).
 1.  (OPTIONAL) Prove that \\(\|\sinh(x_n)\|\leq\|\cosh(x_n)\|\leq\cosh(x)\\)
     for any \\(x_n\\) between \\(0\\) and \\(x\\).
+
+[Solutions]({{site.baseurl}}public/solutions/6.3.pdf)
