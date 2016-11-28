@@ -38,30 +38,34 @@ MA 126 | Fall 2016 | Prof. Clontz | Quiz
 
 \textbf{Choose D for ``None of these''}
 
-\begin{questions}\setcounter{question}{44}
+\begin{questions}\setcounter{question}{47}
 
 \question
-Generate the Maclaurin Series for \(\cosh x\).
+Which of these Maclaurin Series is most appropriate for approximating
+\(e^{-1/2}=\frac{1}{\sqrt e}\)?
 \begin{choices}
 \item \(\sum_{k=0}^\infty(-1)^k\frac{x^{2k+1}}{(2k+1)!}\)
-\item \(\sum_{k=0}^\infty\frac{x^{2k}}{(2k)!}\)
-\item \(\sum_{k=0}^\infty\frac{x^k}{(k+1)!}\)
+\item \(\sum_{k=0}^\infty(-1)^k\frac{x^{2k}}{(2k)!}\)
+\item \(\sum_{k=0}^\infty\frac{x^k}{k!}\)
 \end{choices}
 
 \question
-Find a power series converging to \(x\cos x\).
+Find the error term \(R_n(x)\) from the Taylor Formula for \(e^x\),
+where \(x_n\) is between \(0\) and \(x\).
 \begin{choices}
-\item \(\sum_{k=0}^\infty(-1)^k\frac{x^{2k+1}}{(2k)!}\)
-\item \(\sum_{k=0}^\infty(-1)^k\frac{x^{2k}}{(2k+2)!}\)
-\item \(\sum_{k=0}^\infty\frac{x^{2k+2}}{(2k+1)!}\)
+\item \(R_n(x)=\frac{x^{n+1}}{n!}\)
+\item \(R_n(x)=\frac{e^{x_n}}{(n+1)!}x^{n+1}\)
+\item \(R_n(x)=\frac{1}{e^{x_n/2}(n+1)!}x^n\)
 \end{choices}
 
 \question
-Find a power series converging to \(\frac{d}{dx}[\sin(x^2)]\).
+Use Taylor's Formula to
+approximate \(e^{-1/2}=\frac{1}{\sqrt e}\) with an error no greater than
+\(\frac{1}{1000}=0.001\). (Hint: \(-1/2\leq x_n\leq 0\).)
 \begin{choices}
-\item \(\sum_{k=0}^\infty\frac{(-x^2)^{4k+3}}{(4k+2)(2k)!}\)
-\item \(\sum_{k=0}^\infty\frac{(2k+1)x^{2k+2}}{(2k+1)!}\)
-\item \(\sum_{k=0}^\infty(-1)^k\frac{(4k+2)x^{4k+1}}{(2k+1)!}\)
+\item \(\frac{1}{\sqrt e}\approx 0.604\)
+\item \(\frac{1}{\sqrt e}\approx 0.607\)
+\item \(\frac{1}{\sqrt e}\approx 0.609\)
 \end{choices}
 
 \end{questions}
