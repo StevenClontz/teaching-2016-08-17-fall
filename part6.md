@@ -213,6 +213,8 @@ title: "Part 6: Power Series"
 
 [Solutions 1-4]({{site.baseurl}}public/solutions/6.2a.pdf)
 
+[Solutions 5-10]({{site.baseurl}}public/solutions/6.2b.pdf)
+
 
 ---
 
