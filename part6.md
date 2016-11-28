@@ -234,7 +234,7 @@ title: "Part 6: Power Series"
   where the error term is given by
   \\(R_n(x)=\frac{f^{(n+1)}(x_n)}{(n+1)!}(x-a)^{n+1}\\) for some number
   \\(x_n\\) between \\(a\\) and \\(x\\).
-- **Example** Use Taylor's Formula to estimate
+- **Example** Use the fact that \\(e<4\\) and Taylor's Formula to estimate
   the value of \\(\sqrt{e}\\) with an error no greater than \\(0.01\\).
 - **Example** Use Taylor's Formula to estimate
   the value of \\(\sin(0.1)\\) with an error no greater than \\(0.0001\\).
@@ -253,14 +253,19 @@ title: "Part 6: Power Series"
 
 ### Exercises for 6.3
 
-1.  Use Taylor's Formula to estimate the value of \\(e\\) with an error
+1.  Use the fact that \\(e<3\\) and
+    Taylor's Formula to estimate the value of \\(e\\) with an error
     no greater than \\(0.001\\).
 1.  Use Taylor's Formula to estimate the value of \\(\cos(0.1)\\) with an error
     no greater than \\(0.0001\\).
 1.  Use Taylor's Formula to estimate the value of \\(\sin(1)\\) with an error
     no greater than \\(0.01\\).
 1.  Prove that \\(\sin(x)=\sum_{k=0}^\infty(-1)^k\frac{x^{2k+1}}{(2k+1)!}\\).
-1.  Prove that \\(\cosh(x)=\sum_{k=0}^\infty\frac{x^{2k}}{(2k)!}\\).
+1.  Use the fact that \\(\|\sinh(x_n)\|\leq\|\cosh(x_n)\|\leq\cosh(x)\\)
+    for any \\(x_n\\) between \\(0\\) and \\(x\\) to
+    prove that \\(\cosh(x)=\sum_{k=0}^\infty\frac{x^{2k}}{(2k)!}\\).
 1.  Reprove \\(\cosh(x)=\sum_{k=0}^\infty\frac{x^{2k}}{(2k)!}\\) by using
     its definition \\(\cosh(x)=\frac{1}{2}(e^x+e^{-x})\\) along with
     the Maclaurin series for \\(e^x\\).
+1.  (OPTIONAL) Prove that \\(\|\sinh(x_n)\|\leq\|\cosh(x_n)\|\leq\cosh(x)\\)
+    for any \\(x_n\\) between \\(0\\) and \\(x\\).

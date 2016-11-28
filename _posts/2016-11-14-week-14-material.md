@@ -30,9 +30,9 @@ title: Week 14-16 Material
 - Tuesday Nov 29
     - Continue [Section 6.3]({{site.baseurl}}part6/#convergence-of-taylor-series)
 - Wednesday Nov 30
-    - Midterm Review Day
+    - Review Midterm Exam: [PDF]({{site.baseurl}}public/solutions/midterm.pdf)
 - Friday Dec 2
-    - Q&A before Final Exam
+    - Review for Final Exam
 
 ## Final Exams
 

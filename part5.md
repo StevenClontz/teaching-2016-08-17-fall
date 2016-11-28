@@ -254,8 +254,32 @@ title: "Part 5: Sequences and Series"
     the natural log of both sides of the equality. Use L'Hopital
     to solve this limit, showing that \\(\ln L=x\\) and therefore
     \\(L=e^x\\).
+1.  (QUIZ)
+    Find \\(\lim_{n\to\infty}\frac{n!\cos n}{(n+1)!}\\).
+    - \\(1\\)
+    - \\(0\\)
+    - \\(\pi/2\\)
+1.  (QUIZ)
+    Find \\(\lim_{n\to\infty}\frac{(3+n)^n}{n^n}\\).
+    - \\(1\\)
+    - \\(0\\)
+    - \\(e^3\\)
+1.  (QUIZ)
+    Which of these statements seems most appropriate for describing the
+    sequence whose initial terms are
+    \\(\\<\frac{1}{4},-\frac{1}{6},\frac{1}{8},-\frac{1}{10},
+    \frac{1}{12},\dots\\>\\)?
+    - The sequence is bounded and monotonic, so it converges by
+      the Monotonic Sequence Theorem.
+    - The sequence is not monotonic and not bounded, so it diverges by
+      the Monotonic Sequence Theorem.
+    - The sequence is bounded, but not monotonic, so the Monotonic Sequence
+      Theorem doesn't apply. However, it does
+      appear to converge to \\(0\\) anyway.
 
 [Solutions 1-13]({{site.baseurl}}public/solutions/5.2a.pdf)
+
+[Solutions 14-16]({{site.baseurl}}public/solutions/5.2b.pdf)
 
 
 ---
