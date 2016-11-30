@@ -269,5 +269,26 @@ title: "Part 6: Power Series"
     the Maclaurin series for \\(e^x\\).
 1.  (OPTIONAL) Prove that \\(\|\sinh(x_n)\|\leq\|\cosh(x_n)\|\leq\cosh(x)\\)
     for any \\(x_n\\) between \\(0\\) and \\(x\\).
+1.  (QUIZ)
+    Which of these Maclaurin Series is most appropriate for approximating
+    \\(e^{-1/2}=\frac{1}{\sqrt e}\\)?
+    - \\(\sum_{k=0}^\infty(-1)^k\frac{x^{2k+1}}{(2k+1)!}\\)
+    - \\(\sum_{k=0}^\infty(-1)^k\frac{x^{2k}}{(2k)!}\\)
+    - \\(\sum_{k=0}^\infty\frac{x^k}{k!}\\)
+1.  (QUIZ)
+    Find the error term \\(R_n(x)\\) from the Taylor Formula for \\(e^x\\),
+    where \\(x_n\\) is between \\(0\\) and \\(x\\).
+    - \\(R_n(x)=\frac{x^{n+1}}{n!}\\)
+    - \\(R_n(x)=\frac{e^{x_n}}{(n+1)!}x^{n+1}\\)
+    - \\(R_n(x)=\frac{1}{e^{x_n/2}(n+1)!}x^n\\)
+1.  (QUIZ)
+    Use Taylor's Formula to
+    approximate \\(e^{-1/2}=\frac{1}{\sqrt e}\\) with an error no greater than
+    \\(\frac{1}{1000}=0.001\\). (Hint: \\(-1/2\leq x_n\leq 0\\).)
+    - \\(\frac{1}{\sqrt e}\approx 0.604\\)
+    - \\(\frac{1}{\sqrt e}\approx 0.607\\)
+    - \\(\frac{1}{\sqrt e}\approx 0.609\\)
 
-[Solutions]({{site.baseurl}}public/solutions/6.3.pdf)
+[Solutions 1-7]({{site.baseurl}}public/solutions/6.3a.pdf)
+
+[Solutions 8-10]({{site.baseurl}}public/solutions/6.3b.pdf)
