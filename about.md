@@ -146,6 +146,7 @@ during each exam, with the following limits:
 - **Practice Test**: two 8.5x11in pages, front-and-back
 - **Midterm**: three 8.5x11in pages, front-and-back
 - **Final Exam**: five 8.5x11in pages, front-and-back
+    - These notes must be turned in with the final exam.
 
 ## Absences and Makeup Policy
 
