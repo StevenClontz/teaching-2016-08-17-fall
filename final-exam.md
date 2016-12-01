@@ -33,3 +33,6 @@ Here are some details on your final exam:
     - Generating a Maclaurin or Taylor series (section 6.2)
     - Approximating the value of a function with
       a Taylor polynomial (section 6.3)
+    - [Non-exhaustive list of examples of these][exercises]
+
+[exercises]: {{site.baseurl}}/public/selected-exercises.pdf
