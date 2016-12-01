@@ -1,0 +1,88 @@
+\documentclass[12pt]{exam}
+
+\newcommand{\ds}{\ensuremath{\displaystyle}}
+
+\usepackage{amsmath,amsfonts, amsthm}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{harpoon}
+\renewcommand{\arraystretch}{1.5}
+
+\newcommand{\harpvec}[1]{\overrightharp{\ensuremath{\mathbf{#1}}}}
+\newcommand{\vect}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+\newcommand{\p}{\partial}
+
+% ref: http://pgfplots.sourceforge.net/gallery.html
+% ref: http://tex.stackexchange.com/a/74575/79754
+\usepackage{pgfplots}% This uses tikz
+\pgfplotsset{compat=newest}% use newest version
+\tikzset{LineStyle/.style={smooth, ultra thick, samples=400}}
+
+% \printanswers
+
+\begin{document}
+
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\centering
+MA 126 | Fall 2016 | Prof. Clontz | Selected Questions
+}}}
+\end{center}
+\vspace{0.1in}
+\makebox[\textwidth]{
+  Name:\enspace\hrulefill\hrulefill\hrulefill
+}
+
+\vspace{12pt}
+
+\begin{questions}
+
+\question
+Prove that \(\int_1^3\sqrt{4t^2-12t+10}\,dt\) is the arclength of the curve
+\(y=x^2-3x+4\) between \((1,2)\) and \((3,4)\).
+
+\question
+Use the polar arclength formula to show that the circumference of the
+circle \(r=4\sin\theta\) is \(4\pi\).
+
+\question
+Find \(\displaystyle\lim_{n\to\infty}\frac{\sin n + 3n^2}{n^2+1}\).
+
+\question
+Does \(\displaystyle\sum_{n=3}^\infty\left(\frac{6}{n}-\frac{6}{n+1}\right)\)
+converge or diverge? If it converges, what is its value?
+
+\question
+Does \(\displaystyle\sum_{n=1}^\infty\frac{1}{4^n}\) converge or
+diverge? If it converges, what is its value?
+
+\question
+Does \(\displaystyle\sum_{j=2}^\infty\frac{e^j}{e^{2j}+1}\) converge or diverge?
+
+\question
+Find the domain of
+\(\displaystyle f(x)=\sum_{m=2}^\infty\frac{(-2x)^m}{m}=
+\frac{4x^2}{2}-\frac{8x^3}{3}+\frac{16x^4}{4}-\frac{32x^5}{5}+\dots\).
+
+\question
+Generate the Maclaurin Series for \(\cosh x\).
+
+\question
+Use Taylor's Formula to
+approximate \(e^{-1/2}=\frac{1}{\sqrt e}\) with an error no greater than
+\(\frac{1}{1000}=0.001\).
+
+\end{questions}
+
+\vspace{3em}
+
+Reminder:
+These are examples of questions I may put on the final, so this is a good
+place to start studying, but this list
+is not exhaustive. You are responsible for understanding
+all material from Parts 4-6 of
+the course website, and for the types of problems which were asked on the
+Midterm.
+
+\end{document}
